@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "multiply",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Multiplier.sol": "Multiplier"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Multiplier.sol": {
+			"keccak256": "0x3eaff7d44a8061014221ad86d0cc18021a8b9bc9a2b91fb2de34c0ccf6185159",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a99a9e273b9399e4529f62c8c3d1e27938b39bd120e1072d0ad5442b8b9f1867",
+				"dweb:/ipfs/QmXyCpSNQMT8MuCTLiwRSijerwApUwoQy8Sj2k1mMUzaZH"
+			]
+		}
+	},
+	"version": 1
+}

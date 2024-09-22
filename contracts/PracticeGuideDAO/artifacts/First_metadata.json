@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "sendMoney",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Solidity/my-hardhat-project/contracts/СontractsSeveral.sol": "First"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Solidity/my-hardhat-project/contracts/СontractsSeveral.sol": {
+			"keccak256": "0xab28d4b5ac25b6df2e646b86936f094134a3b310759500d84f8bea3d631af567",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://a9451eb0ec79f801b04e9314b9a019af0c44288cc79560df3d8d55fa4c865b4a",
+				"dweb:/ipfs/QmT7ZU2tCrFW1fSAok4pNCXWfkSFQLKLfUJeuK7X3a3rmF"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_delay",
+						"type": "uint256"
+					}
+				],
+				"name": "createVoting",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Solidity/my-hardhat-project/contracts/Factory.sol": "Factory"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Solidity/my-hardhat-project/contracts/Factory.sol": {
+			"keccak256": "0x7ca97d3f686fe3d90a1e8f32855634ae78c8a3cacadcdb5087aee18a97957876",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6c8ceb529bab40dedbeead4572752d19ecda9c1a6f5e4839b339543bcca4dd8e",
+				"dweb:/ipfs/QmXerXbDL1rcPb9U3sVwjWKnmWfJVM59bvnnTDtA8d4Wbp"
+			]
+		},
+		"Solidity/my-hardhat-project/contracts/Voting.sol": {
+			"keccak256": "0x03345c683a2c64f7980cf9736a2ae279f0c209e73c8348a078305a2f9709dddb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2f0de75deaf54c9fd19ec76c40391c6cfcb1b236f8272bf5ba42f34223615870",
+				"dweb:/ipfs/QmTx5Acf5QfvTCsU5d3Xo7BzcLYJrZW4WsqCgqTSUpM6wR"
+			]
+		}
+	},
+	"version": 1
+}

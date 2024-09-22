@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					}
+				],
+				"name": "divide",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Divider.sol": "Divider"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Divider.sol": {
+			"keccak256": "0xf2acd4352f726b2d1625b575d79d41713875abe22fcb8ea500d89cd655893b6b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://701756146e49062e25d33b95e90e593ae1b5fb0da747c0763219f907e4f2361a",
+				"dweb:/ipfs/QmYGXebDoprKjBvDM9FsGpKQyE9GYQkSAGvJKtQTif1fW6"
+			]
+		}
+	},
+	"version": 1
+}

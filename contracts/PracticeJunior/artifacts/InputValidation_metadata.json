@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "validation",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"InputValidation.sol": "InputValidation"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"InputValidation.sol": {
+			"keccak256": "0xb3f9f7b8b0c5ad75b5dd2db3983b3827e9aa96eec7e14d1570cc0e1bc856eabd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://952f371424a379a412681924a58cb032eccff57228d40a6c457b16af570c3870",
+				"dweb:/ipfs/QmTvzqihDU45i7gAurK5mMhAMSD2F2K469mKhFRYq6hkzk"
+			]
+		}
+	},
+	"version": 1
+}

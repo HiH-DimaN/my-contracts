@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "a",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "c",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Solidity/my-hardhat-project/contracts/DemoNew.sol": "DemoNew"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Solidity/my-hardhat-project/contracts/DemoNew.sol": {
+			"keccak256": "0xc0c584a7cef6e9b200f156b65a220ae4415aa4cb6fc7264cbaa145e2ecaee003",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3b4dbdbbbe66a07fc70347db86debaf1185e92933484f0937e4d98b55478279a",
+				"dweb:/ipfs/QmW3vadDhR4SwNAoJ1ubKvjMfeuPSyA8FruxNZpQJN6HWU"
+			]
+		}
+	},
+	"version": 1
+}

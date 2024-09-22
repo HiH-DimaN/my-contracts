@@ -1,0 +1,100 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address[100]",
+						"name": "_array",
+						"type": "address[100]"
+					}
+				],
+				"name": "checkBalance",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "myAddr",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "newRecipient",
+						"type": "address"
+					}
+				],
+				"name": "setRecipient",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Solidity/my-hardhat-project/contracts/Destroy.sol": "Destroy"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Solidity/my-hardhat-project/contracts/Destroy.sol": {
+			"keccak256": "0x5eeec97c48a9e4068405fc29eef00c76d6b6bd865d72bfd950fd29a030e15333",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://a20b462f5415c7400816ceb10bd638747f9d8ccf5e41380e374b197687ba5aec",
+				"dweb:/ipfs/QmR4KbXDENzRpRtiP1rNRu14h4yFh7F9JYoFrFwNDZrvuC"
+			]
+		}
+	},
+	"version": 1
+}

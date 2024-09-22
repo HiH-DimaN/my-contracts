@@ -1,0 +1,168 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "uint256",
+						"name": "timeOfCreation",
+						"type": "uint256"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "recordAddress",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "recordType",
+						"type": "string"
+					}
+				],
+				"name": "RecordAdded",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "record",
+						"type": "address"
+					}
+				],
+				"name": "createAddressRecord",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "record",
+						"type": "string"
+					}
+				],
+				"name": "createStringRecord",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "getRecordAtIndex",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "timeOfCreation",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "recordAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "recordType",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getRecordsCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "records",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "timeOfCreation",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "recordAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "recordType",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Solidity/Hardhat/my-hardhat-project/contracts/RecordFactory.sol": "RecordFactory"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Solidity/Hardhat/my-hardhat-project/contracts/RecordFactory.sol": {
+			"keccak256": "0xfade75474aba2e040abef9ea275cdd5041d0f8916c8480fc7ab51fdefef1ed80",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cc04a4604be31fcfb12878156cfe4452deb932d606075daa095fa3a89bfa8bf4",
+				"dweb:/ipfs/QmaWu5vPH4QsKWKFrooEX9zK5nXpLc3PfyVJhsykHYK9xy"
+			]
+		}
+	},
+	"version": 1
+}

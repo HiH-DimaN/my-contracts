@@ -1,0 +1,148 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_initialValue",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_initialText",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getText",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getValue",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_newText",
+						"type": "string"
+					}
+				],
+				"name": "setText",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_newValue",
+						"type": "uint256"
+					}
+				],
+				"name": "setValue",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "text",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "value",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"InheritedContract.sol": "InheritedContract"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"BaseContract.sol": {
+			"keccak256": "0x3d783b2b83c0f52774fb5f441cd2e39a3f46f2c9ad195c2e206b1a0a1df452c4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b06e6da8dddcf8677bd3a3370274f3170b19621226fdb7f5d27cdd878699b94d",
+				"dweb:/ipfs/QmR71bf6UDb4CjoBXKySgNnWZtGez2hHYqsR43AufkmmuW"
+			]
+		},
+		"InheritedContract.sol": {
+			"keccak256": "0x35f78ad97968723af6cd3fa8571579eca7937abe0a4f140b32edf6c713ac9ad6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://001a3a52941bb47518e8c639d1dd9bcc9f11da7a9861f2a45e68afa957de0cdd",
+				"dweb:/ipfs/QmdnCMw4bxAsYyuwzfkSNmmkfqzC3YketgHshvTk21bskr"
+			]
+		}
+	},
+	"version": 1
+}
