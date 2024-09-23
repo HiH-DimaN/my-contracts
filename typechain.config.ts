@@ -5,4 +5,3 @@ const config: TypeChainUserConfig = {
   target: "ethers-v6",
 };
 
-export default config;
