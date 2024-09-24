@@ -119,6 +119,18 @@ abstract contract MyERC20 is IERC20, Ownable {
     }
 
     /**
+     * @dev Увеличивает разрешение `spender` тратить токены от имени `owner` на `addedValue`.
+     *
+     * Эмиттирует событие {Approval}.
+     */
+    function increaseAllowance(address spender, uint256 addedValue) public virtual returns (bool) {
+        address owner = _msgSender();
+        uint256 newAllowance = allowance(owner, spender) + addedValue;
+        _approve(owner, spender, allowance(owner, spender) + addedValue); // Вызов _approve для эмиттирования Approval
+        return true;
+    }
+
+    /**
      * @dev Переводит `amount` токенов от `sender` к `recipient`, используя разрешение.
      *
      * Эмиттирует событие {Transfer}.
