@@ -1,0 +1,38 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "FallbackExample",
+  "sourceName": "contracts/PracticeMiddle/FallbackExample.sol",
+  "abi": [
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "sender",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "ReceivedEther",
+      "type": "event"
+    },
+    {
+      "stateMutability": "payable",
+      "type": "fallback"
+    },
+    {
+      "stateMutability": "payable",
+      "type": "receive"
+    }
+  ],
+  "bytecode": "0x6080604052348015600e575f80fd5b5060ad80601a5f395ff3fe608060405236604357604080513381523460208201527fa419615bc8fda4c87663805ee2a3597a6d71c1d476911d9892f340d965bc7bf191015b60405180910390a1005b604080513381523460208201527fa419615bc8fda4c87663805ee2a3597a6d71c1d476911d9892f340d965bc7bf19101603956fea264697066735822122021baa31c4629a28cd79eae542e98ebc2982630312187d3178aec7fde0d9fb81e64736f6c634300081a0033",
+  "deployedBytecode": "0x608060405236604357604080513381523460208201527fa419615bc8fda4c87663805ee2a3597a6d71c1d476911d9892f340d965bc7bf191015b60405180910390a1005b604080513381523460208201527fa419615bc8fda4c87663805ee2a3597a6d71c1d476911d9892f340d965bc7bf19101603956fea264697066735822122021baa31c4629a28cd79eae542e98ebc2982630312187d3178aec7fde0d9fb81e64736f6c634300081a0033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
