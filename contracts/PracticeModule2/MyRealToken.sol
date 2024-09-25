@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
 /**
  * @title MyRealToken
  * @dev Контракт вашего реального токена, наследующийся от MyERC20 и Ownable.
