@@ -1,0 +1,24 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "Factory",
+  "sourceName": "contracts/PracticeGuideDAO/Factory.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_delay",
+          "type": "uint256"
+        }
+      ],
+      "name": "createVoting",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b50608b8061001e6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80633655c87d14602d575b600080fd5b603b6038366004603d565b50565b005b600060208284031215604e57600080fd5b503591905056fea264697066735822122076585af3bd01439c0a668980ff63dd06ebfc318b854cf61925cc4baa37a3858164736f6c63430008140033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c80633655c87d14602d575b600080fd5b603b6038366004603d565b50565b005b600060208284031215604e57600080fd5b503591905056fea264697066735822122076585af3bd01439c0a668980ff63dd06ebfc318b854cf61925cc4baa37a3858164736f6c63430008140033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

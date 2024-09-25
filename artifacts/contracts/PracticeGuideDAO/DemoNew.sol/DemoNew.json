@@ -1,0 +1,122 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "DemoNew",
+  "sourceName": "contracts/PracticeGuideDAO/DemoNew.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "balance",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "contractAddr",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "demo",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "limit",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "number",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "price",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "sender",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "sum",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "timestamp",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b50610239806100206000396000f3fe6080604052600436106100965760003560e01c8063853255cc11610069578063a4d66daf1161004e578063a4d66daf146101c1578063b69ef8a8146101d7578063b80777ea146101ed57600080fd5b8063853255cc14610195578063a035b1fe146101ab57600080fd5b806301725a0b1461009b57806315a5d9d8146100ed57806367e404ce146101445780638381f58a14610171575b600080fd5b3460005560018054337fffffffffffffffffffffffff0000000000000000000000000000000000000000918216179091554260025543600355456004553a600555600680543092168217905531600755005b3480156100f957600080fd5b5060065461011a9073ffffffffffffffffffffffffffffffffffffffff1681565b60405173ffffffffffffffffffffffffffffffffffffffff90911681526020015b60405180910390f35b34801561015057600080fd5b5060015461011a9073ffffffffffffffffffffffffffffffffffffffff1681565b34801561017d57600080fd5b5061018760035481565b60405190815260200161013b565b3480156101a157600080fd5b5061018760005481565b3480156101b757600080fd5b5061018760055481565b3480156101cd57600080fd5b5061018760045481565b3480156101e357600080fd5b5061018760075481565b3480156101f957600080fd5b506101876002548156fea2646970667358221220234c45ee97d5c85a84facbc6d7c6e68dc170e3ff18a9096582efe09692797ef664736f6c63430008140033",
+  "deployedBytecode": "0x6080604052600436106100965760003560e01c8063853255cc11610069578063a4d66daf1161004e578063a4d66daf146101c1578063b69ef8a8146101d7578063b80777ea146101ed57600080fd5b8063853255cc14610195578063a035b1fe146101ab57600080fd5b806301725a0b1461009b57806315a5d9d8146100ed57806367e404ce146101445780638381f58a14610171575b600080fd5b3460005560018054337fffffffffffffffffffffffff0000000000000000000000000000000000000000918216179091554260025543600355456004553a600555600680543092168217905531600755005b3480156100f957600080fd5b5060065461011a9073ffffffffffffffffffffffffffffffffffffffff1681565b60405173ffffffffffffffffffffffffffffffffffffffff90911681526020015b60405180910390f35b34801561015057600080fd5b5060015461011a9073ffffffffffffffffffffffffffffffffffffffff1681565b34801561017d57600080fd5b5061018760035481565b60405190815260200161013b565b3480156101a157600080fd5b5061018760005481565b3480156101b757600080fd5b5061018760055481565b3480156101cd57600080fd5b5061018760045481565b3480156101e357600080fd5b5061018760075481565b3480156101f957600080fd5b506101876002548156fea2646970667358221220234c45ee97d5c85a84facbc6d7c6e68dc170e3ff18a9096582efe09692797ef664736f6c63430008140033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
