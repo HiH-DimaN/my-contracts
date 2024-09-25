@@ -4148,6 +4148,84 @@
       "artifacts": [
         "OwnerContract"
       ]
+    },
+    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule2\\MyToken.sol": {
+      "lastModificationDate": 1727296323400,
+      "contentHash": "b1eaa5b60b932ff078ac2c0167e21809",
+      "sourceName": "contracts/PracticeModule2/MyToken.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+        "@openzeppelin/contracts/access/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "MyToken"
+      ]
+    },
+    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule2\\MyOZToken.sol": {
+      "lastModificationDate": 1727295664593,
+      "contentHash": "ada24ad67c2218324f4ac22e50804ae4",
+      "sourceName": "contracts/PracticeModule2/MyOZToken.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+        "@openzeppelin/contracts/access/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "MyOZToken"
+      ]
     }
   }
 }

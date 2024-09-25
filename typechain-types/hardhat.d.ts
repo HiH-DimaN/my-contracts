@@ -538,6 +538,14 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.MyERC20__factory>;
     getContractFactory(
+      name: "MyOZToken",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.MyOZToken__factory>;
+    getContractFactory(
+      name: "MyToken",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.MyToken__factory>;
+    getContractFactory(
       name: "OwnerContract",
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.OwnerContract__factory>;
@@ -1198,6 +1206,16 @@ declare module "hardhat/types/runtime" {
       signer?: ethers.Signer
     ): Promise<Contracts.MyERC20>;
     getContractAt(
+      name: "MyOZToken",
+      address: string | ethers.Addressable,
+      signer?: ethers.Signer
+    ): Promise<Contracts.MyOZToken>;
+    getContractAt(
+      name: "MyToken",
+      address: string | ethers.Addressable,
+      signer?: ethers.Signer
+    ): Promise<Contracts.MyToken>;
+    getContractAt(
       name: "OwnerContract",
       address: string | ethers.Addressable,
       signer?: ethers.Signer
@@ -1728,6 +1746,14 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | DeployContractOptions
     ): Promise<Contracts.MyERC20>;
     deployContract(
+      name: "MyOZToken",
+      signerOrOptions?: ethers.Signer | DeployContractOptions
+    ): Promise<Contracts.MyOZToken>;
+    deployContract(
+      name: "MyToken",
+      signerOrOptions?: ethers.Signer | DeployContractOptions
+    ): Promise<Contracts.MyToken>;
+    deployContract(
       name: "OwnerContract",
       signerOrOptions?: ethers.Signer | DeployContractOptions
     ): Promise<Contracts.OwnerContract>;
@@ -2387,6 +2413,16 @@ declare module "hardhat/types/runtime" {
       args: any[],
       signerOrOptions?: ethers.Signer | DeployContractOptions
     ): Promise<Contracts.MyERC20>;
+    deployContract(
+      name: "MyOZToken",
+      args: any[],
+      signerOrOptions?: ethers.Signer | DeployContractOptions
+    ): Promise<Contracts.MyOZToken>;
+    deployContract(
+      name: "MyToken",
+      args: any[],
+      signerOrOptions?: ethers.Signer | DeployContractOptions
+    ): Promise<Contracts.MyToken>;
     deployContract(
       name: "OwnerContract",
       args: any[],

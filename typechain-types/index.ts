@@ -246,3 +246,5 @@ export type { Module2PracticumIntensive6 } from "./contracts/PracticeModule2/Mod
 export { Module2PracticumIntensive6__factory } from "./factories/contracts/PracticeModule2/Module2PracticumIntensive6__factory";
 export type { MyERC20 } from "./contracts/PracticeModule2/MyERC20";
 export { MyERC20__factory } from "./factories/contracts/PracticeModule2/MyERC20__factory";
+export type { MyOZToken } from "./contracts/PracticeModule2/MyOZToken";
+export { MyOZToken__factory } from "./factories/contracts/PracticeModule2/MyOZToken__factory";

@@ -9,4 +9,6 @@ export { DataTypes__factory } from "./DataTypes__factory";
 export { DerivedContract__factory } from "./DerivedContract__factory";
 export { Module2PracticumIntensive6__factory } from "./Module2PracticumIntensive6__factory";
 export { MyERC20__factory } from "./MyERC20__factory";
+export { MyOZToken__factory } from "./MyOZToken__factory";
+export { MyToken__factory } from "./MyToken__factory";
 export { OwnerContract__factory } from "./OwnerContract__factory";
