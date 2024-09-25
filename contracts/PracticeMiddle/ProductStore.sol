@@ -35,11 +35,11 @@ pragma solidity ^0.8.0;
      * @param _price Price of the item
      * @param _quantity Quantity Quantity in stock
      */
-    function addProduct(string memory _name, uint256 _price, uint256 _quantity) {
+    function addProduct(string memory _name, uint256 _price, uint256 _quantity) public {
         products[nextProductID] = Product(_name, _price, _quantity);
 
         // Emit the event after adding a product
-        emit ProductAdded(nextproductID, _name);
+        emit ProductAdded(nextProductID, _name);
 
         nextProductID++;
  
@@ -53,7 +53,7 @@ pragma solidity ^0.8.0;
      */
     function getProductInfo(uint256 _productID) public view returns(string memory name, uint256 price, uint256 quantity) {
         Product memory product = products[_productID];
-        return (product.name, product.name, product.quantity);
+        return (product.name, product.price, product.quantity);
     }
 
 

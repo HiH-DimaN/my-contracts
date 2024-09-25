@@ -1,7 +1,7 @@
 // Structure Mapping Contract.
 // Write a contract that uses structure mapping to store data.
 
-/ SPDX-License-Identifier: MIT
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
 /* @title Контракт для хранения данных о книгах в библиотеке
