@@ -1,19 +1,23 @@
-import { HardhatUserConfig } from "hardhat/types";
-import "@nomicfoundation/hardhat-toolbox";
 import "dotenv/config";
-import "@typechain/hardhat";
+import type { HardhatUserConfig } from "hardhat/config";
+import "@nomicfoundation/hardhat-toolbox";
 
 const config: HardhatUserConfig = {
-  solidity: "0.8.13",
-  typechain: {
-    outDir: "typechain-types",
-    target: "ethers-v5",
-  },
-  paths: {
-    sources: "./contracts",
-    tests: "./test",
-    cache: "./cache",
-    artifacts: "./artifacts"
+	solidity: {
+		version: "0.8.26",
+		settings: {
+			evmVersion: "cancun",
+			optimizer: {
+				enabled: true,
+				runs: 2000,
+			},
+		},
+	},
+	networks: {
+		hardhat: {
+			chainId: 1337,
+			initialBaseFeePerGas: 0,
+		},
   }
 };
 
