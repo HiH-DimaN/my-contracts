@@ -56,6 +56,8 @@ export type { MappingDemo } from "./contracts/PracticeGuideDAO/MappingDemo";
 export { MappingDemo__factory } from "./factories/contracts/PracticeGuideDAO/MappingDemo__factory";
 export type { MyContract } from "./contracts/PracticeGuideDAO/MyContract";
 export { MyContract__factory } from "./factories/contracts/PracticeGuideDAO/MyContract__factory";
+export type { MyGuideDAOToken } from "./contracts/PracticeGuideDAO/MyGuideDAOToken";
+export { MyGuideDAOToken__factory } from "./factories/contracts/PracticeGuideDAO/MyGuideDAOToken__factory";
 export type { MyShop } from "./contracts/PracticeGuideDAO/MyShop";
 export { MyShop__factory } from "./factories/contracts/PracticeGuideDAO/MyShop__factory";
 export type { MyToken } from "./contracts/PracticeGuideDAO/MyToken";

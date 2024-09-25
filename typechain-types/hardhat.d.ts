@@ -114,6 +114,10 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.MyContract__factory>;
     getContractFactory(
+      name: "MyGuideDAOToken",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.MyGuideDAOToken__factory>;
+    getContractFactory(
       name: "MyShop",
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.MyShop__factory>;
@@ -676,6 +680,11 @@ declare module "hardhat/types/runtime" {
       signer?: ethers.Signer
     ): Promise<Contracts.MyContract>;
     getContractAt(
+      name: "MyGuideDAOToken",
+      address: string | ethers.Addressable,
+      signer?: ethers.Signer
+    ): Promise<Contracts.MyGuideDAOToken>;
+    getContractAt(
       name: "MyShop",
       address: string | ethers.Addressable,
       signer?: ethers.Signer
@@ -1322,6 +1331,10 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | DeployContractOptions
     ): Promise<Contracts.MyContract>;
     deployContract(
+      name: "MyGuideDAOToken",
+      signerOrOptions?: ethers.Signer | DeployContractOptions
+    ): Promise<Contracts.MyGuideDAOToken>;
+    deployContract(
       name: "MyShop",
       signerOrOptions?: ethers.Signer | DeployContractOptions
     ): Promise<Contracts.MyShop>;
@@ -1883,6 +1896,11 @@ declare module "hardhat/types/runtime" {
       args: any[],
       signerOrOptions?: ethers.Signer | DeployContractOptions
     ): Promise<Contracts.MyContract>;
+    deployContract(
+      name: "MyGuideDAOToken",
+      args: any[],
+      signerOrOptions?: ethers.Signer | DeployContractOptions
+    ): Promise<Contracts.MyGuideDAOToken>;
     deployContract(
       name: "MyShop",
       args: any[],

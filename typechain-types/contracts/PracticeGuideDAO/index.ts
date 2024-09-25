@@ -21,6 +21,7 @@ export type { Factory } from "./Factory";
 export type { FundsDemo } from "./FundsDemo";
 export type { MappingDemo } from "./MappingDemo";
 export type { MyContract } from "./MyContract";
+export type { MyGuideDAOToken } from "./MyGuideDAOToken";
 export type { MyShop } from "./MyShop";
 export type { MyToken } from "./MyToken";
 export type { Overflow } from "./Overflow";
