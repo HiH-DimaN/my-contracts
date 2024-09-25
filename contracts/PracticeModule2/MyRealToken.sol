@@ -4,7 +4,7 @@
  * Этот контракт добавляет функции для выпуска (mint) и сжигания (burn) токенов, 
  * которые доступны только владельцу контракта.
  */
-contract MyRealToken is MyERC20_0 {
+contract MyRealToken is MyERC20 {
     /**
      * @dev Конструктор для инициализации токена MyRealToken.
      * @param name_ Название токена.
