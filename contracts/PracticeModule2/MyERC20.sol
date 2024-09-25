@@ -23,22 +23,6 @@ abstract contract MyERC20 is IERC20, Ownable {
     mapping(address => mapping(address => uint256)) private _allowances;
 
     /**
-     * @dev Событие, возникающее при переводе токенов.
-     * @param from Адрес отправителя.
-     * @param to Адрес получателя.
-     * @param value Количество переведенных токенов.
-     */
-    event Transfer(address indexed from, address indexed to, uint256 value);
-
-    /**
-     * @dev Событие, возникающее при установлении разрешения на перевод.
-     * @param owner Адрес владельца токенов.
-     * @param spender Адрес, которому разрешен перевод.
-     * @param value Количество токенов, на которые разрешен перевод.
-     */
-    event Approval(address indexed owner, address indexed spender, uint256 value);
-
-    /**
      * @dev Конструктор.
      * @param name_ Название токена.
      * @param symbol_ Символ токена.
@@ -53,21 +37,21 @@ abstract contract MyERC20 is IERC20, Ownable {
     /**
      * @dev Возвращает имя токена.
      */
-    function name() public view virtual override returns (string memory) {
+    function name() public view virtual returns (string memory) {
         return _name;
     }
 
     /**
      * @dev Возвращает символ токена.
      */
-    function symbol() public view virtual override returns (string memory) {
+    function symbol() public view virtual returns (string memory) {
         return _symbol;
     }
 
     /**
      * @dev Возвращает количество десятичных знаков.
      */
-    function decimals() public view virtual override returns (uint8) {
+    function decimals() public view virtual returns (uint8) {
         return _decimals;
     }
 
@@ -288,7 +272,7 @@ abstract contract MyERC20 is IERC20, Ownable {
         address from,
         address to,
         uint256 amount
-    ) internal virtual override {
+    ) internal virtual {
         // Выполнить проверки или действия, например:
         // - Проверить, не находится ли `from` в черном списке
         // - Обновить данные, связанные с балансами
@@ -310,7 +294,7 @@ abstract contract MyERC20 is IERC20, Ownable {
         address from,
         address to,
         uint256 amount
-    ) internal virtual override {
+    ) internal virtual {
         // Выполнить какие-то действия, например:
         // - Обновить данные, связанные с балансами
         // - Эмиттировать дополнительные события
