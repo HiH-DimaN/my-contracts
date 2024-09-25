@@ -458,6 +458,44 @@
         "MyOZToken"
       ]
     },
+    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeGuideDAO\\MyGuideDAOToken.sol": {
+      "lastModificationDate": 1727297218526,
+      "contentHash": "5236e51202d1a129f84760f52e1d75df",
+      "sourceName": "contracts/PracticeGuideDAO/MyGuideDAOToken.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/ERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.19"
+      ],
+      "artifacts": [
+        "MyGuideDAOToken"
+      ]
+    },
     "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\node_modules\\@openzeppelin\\contracts\\access\\AccessControl.sol": {
       "lastModificationDate": 1727287099468,
       "contentHash": "4c80b7fdf559a9a348e832a57d072a0b",
@@ -4187,44 +4225,6 @@
       ],
       "artifacts": [
         "OwnerContract"
-      ]
-    },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeGuideDAO\\MyGuideDAOToken.sol": {
-      "lastModificationDate": 1727297218526,
-      "contentHash": "5236e51202d1a129f84760f52e1d75df",
-      "sourceName": "contracts/PracticeGuideDAO/MyGuideDAOToken.sol",
-      "solcConfig": {
-        "version": "0.8.26",
-        "settings": {
-          "evmVersion": "cancun",
-          "optimizer": {
-            "enabled": true,
-            "runs": 2000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "@openzeppelin/contracts/token/ERC20/ERC20.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.19"
-      ],
-      "artifacts": [
-        "MyGuideDAOToken"
       ]
     }
   }

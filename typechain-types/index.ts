@@ -60,8 +60,6 @@ export type { MyGuideDAOToken } from "./contracts/PracticeGuideDAO/MyGuideDAOTok
 export { MyGuideDAOToken__factory } from "./factories/contracts/PracticeGuideDAO/MyGuideDAOToken__factory";
 export type { MyShop } from "./contracts/PracticeGuideDAO/MyShop";
 export { MyShop__factory } from "./factories/contracts/PracticeGuideDAO/MyShop__factory";
-export type { MyToken } from "./contracts/PracticeGuideDAO/MyToken";
-export { MyToken__factory } from "./factories/contracts/PracticeGuideDAO/MyToken__factory";
 export type { Overflow } from "./contracts/PracticeGuideDAO/Overflow";
 export { Overflow__factory } from "./factories/contracts/PracticeGuideDAO/Overflow__factory";
 export type { AddressRecord } from "./contracts/PracticeGuideDAO/RecordFactory.sol/AddressRecord";
@@ -250,3 +248,5 @@ export type { MyERC20 } from "./contracts/PracticeModule2/MyERC20";
 export { MyERC20__factory } from "./factories/contracts/PracticeModule2/MyERC20__factory";
 export type { MyOZToken } from "./contracts/PracticeModule2/MyOZToken";
 export { MyOZToken__factory } from "./factories/contracts/PracticeModule2/MyOZToken__factory";
+export type { MyToken } from "./contracts/PracticeModule2/MyToken";
+export { MyToken__factory } from "./factories/contracts/PracticeModule2/MyToken__factory";

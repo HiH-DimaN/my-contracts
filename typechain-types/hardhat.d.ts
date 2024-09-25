@@ -122,10 +122,6 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.MyShop__factory>;
     getContractFactory(
-      name: "MyToken",
-      signerOrOptions?: ethers.Signer | FactoryOptions
-    ): Promise<Contracts.MyToken__factory>;
-    getContractFactory(
       name: "Overflow",
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.Overflow__factory>;
@@ -690,11 +686,6 @@ declare module "hardhat/types/runtime" {
       signer?: ethers.Signer
     ): Promise<Contracts.MyShop>;
     getContractAt(
-      name: "MyToken",
-      address: string | ethers.Addressable,
-      signer?: ethers.Signer
-    ): Promise<Contracts.MyToken>;
-    getContractAt(
       name: "Overflow",
       address: string | ethers.Addressable,
       signer?: ethers.Signer
@@ -1339,10 +1330,6 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | DeployContractOptions
     ): Promise<Contracts.MyShop>;
     deployContract(
-      name: "MyToken",
-      signerOrOptions?: ethers.Signer | DeployContractOptions
-    ): Promise<Contracts.MyToken>;
-    deployContract(
       name: "Overflow",
       signerOrOptions?: ethers.Signer | DeployContractOptions
     ): Promise<Contracts.Overflow>;
@@ -1906,11 +1893,6 @@ declare module "hardhat/types/runtime" {
       args: any[],
       signerOrOptions?: ethers.Signer | DeployContractOptions
     ): Promise<Contracts.MyShop>;
-    deployContract(
-      name: "MyToken",
-      args: any[],
-      signerOrOptions?: ethers.Signer | DeployContractOptions
-    ): Promise<Contracts.MyToken>;
     deployContract(
       name: "Overflow",
       args: any[],

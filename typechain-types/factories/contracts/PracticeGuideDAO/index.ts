@@ -18,7 +18,6 @@ export { MappingDemo__factory } from "./MappingDemo__factory";
 export { MyContract__factory } from "./MyContract__factory";
 export { MyGuideDAOToken__factory } from "./MyGuideDAOToken__factory";
 export { MyShop__factory } from "./MyShop__factory";
-export { MyToken__factory } from "./MyToken__factory";
 export { Overflow__factory } from "./Overflow__factory";
 export { SharedWallet__factory } from "./SharedWallet__factory";
 export { Voting__factory } from "./Voting__factory";

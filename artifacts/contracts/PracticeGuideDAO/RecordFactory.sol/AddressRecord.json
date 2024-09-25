@@ -1,0 +1,79 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "AddressRecord",
+  "sourceName": "contracts/PracticeGuideDAO/RecordFactory.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_timeOfCreation",
+          "type": "uint256"
+        },
+        {
+          "internalType": "address",
+          "name": "_record",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "getRecordType",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "record",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "newRecord",
+          "type": "address"
+        }
+      ],
+      "name": "setRecord",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "timeOfCreation",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6080604052348015600e575f80fd5b506040516102a33803806102a3833981016040819052602b916053565b5f91909155600180546001600160a01b0319166001600160a01b03909216919091179055608b565b5f80604083850312156063575f80fd5b825160208401519092506001600160a01b03811681146080575f80fd5b809150509250929050565b61020b806100985f395ff3fe608060405234801561000f575f80fd5b506004361061004a575f3560e01c80630781f5c91461004e5780631dcd69ec14610096578063266cf109146100ac578063c37787d9146100f1575b5f80fd5b604080518082018252600781527f61646472657373000000000000000000000000000000000000000000000000006020820152905161008d9190610148565b60405180910390f35b61009e5f5481565b60405190815260200161008d565b6001546100cc9073ffffffffffffffffffffffffffffffffffffffff1681565b60405173ffffffffffffffffffffffffffffffffffffffff909116815260200161008d565b6101466100ff36600461019b565b600180547fffffffffffffffffffffffff00000000000000000000000000000000000000001673ffffffffffffffffffffffffffffffffffffffff92909216919091179055565b005b602081525f82518060208401528060208501604085015e5f6040828501015260407fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe0601f83011684010191505092915050565b5f602082840312156101ab575f80fd5b813573ffffffffffffffffffffffffffffffffffffffff811681146101ce575f80fd5b939250505056fea2646970667358221220bd3581fcf5500d2b3bc41089e94a00853053a9c8944a27efafc46cf618b56cb464736f6c634300081a0033",
+  "deployedBytecode": "0x608060405234801561000f575f80fd5b506004361061004a575f3560e01c80630781f5c91461004e5780631dcd69ec14610096578063266cf109146100ac578063c37787d9146100f1575b5f80fd5b604080518082018252600781527f61646472657373000000000000000000000000000000000000000000000000006020820152905161008d9190610148565b60405180910390f35b61009e5f5481565b60405190815260200161008d565b6001546100cc9073ffffffffffffffffffffffffffffffffffffffff1681565b60405173ffffffffffffffffffffffffffffffffffffffff909116815260200161008d565b6101466100ff36600461019b565b600180547fffffffffffffffffffffffff00000000000000000000000000000000000000001673ffffffffffffffffffffffffffffffffffffffff92909216919091179055565b005b602081525f82518060208401528060208501604085015e5f6040828501015260407fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe0601f83011684010191505092915050565b5f602082840312156101ab575f80fd5b813573ffffffffffffffffffffffffffffffffffffffff811681146101ce575f80fd5b939250505056fea2646970667358221220bd3581fcf5500d2b3bc41089e94a00853053a9c8944a27efafc46cf618b56cb464736f6c634300081a0033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

@@ -23,7 +23,6 @@ export type { MappingDemo } from "./MappingDemo";
 export type { MyContract } from "./MyContract";
 export type { MyGuideDAOToken } from "./MyGuideDAOToken";
 export type { MyShop } from "./MyShop";
-export type { MyToken } from "./MyToken";
 export type { Overflow } from "./Overflow";
 export type { SharedWallet } from "./SharedWallet";
 export type { Voting } from "./Voting";
