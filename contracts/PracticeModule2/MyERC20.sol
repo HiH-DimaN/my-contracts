@@ -10,8 +10,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 
 
 /**
- * @title MyERC20
- * @dev Базовая реализация стандарта ERC20.
+ * @title MyERC20 * @dev Базовая реализация стандарта ERC20.
  */
 abstract contract MyERC20 is IERC20, Ownable {
     string private _name;

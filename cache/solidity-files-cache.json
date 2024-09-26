@@ -342,8 +342,8 @@
       ]
     },
     "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule2\\MyERC20.sol": {
-      "lastModificationDate": 1727289119364,
-      "contentHash": "d56227f4dabbb1f0b49ebc44949d005e",
+      "lastModificationDate": 1727364908837,
+      "contentHash": "4fbaba8fef5bc8a69adb630a4a5927ba",
       "sourceName": "contracts/PracticeModule2/MyERC20.sol",
       "solcConfig": {
         "version": "0.8.26",
