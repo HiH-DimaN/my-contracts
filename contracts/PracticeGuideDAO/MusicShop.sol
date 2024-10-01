@@ -61,7 +61,7 @@ contract MusicShop {
     function buy(uint256 _index) external payable {
         Album storage albumToBuy = albums[_index];
 
-        require(msg.sender == albumToBuy.price, "invalid price");
+        require(msg.value == albumToBuy.price, "invalid price");
         require(albumToBuy.quantity > 0, "out of stock");
 
         albumToBuy.quantity--;
