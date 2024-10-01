@@ -20,6 +20,7 @@ export type { ENSRegistrar } from "./ENSRegistrar";
 export type { Factory } from "./Factory";
 export type { FundsDemo } from "./FundsDemo";
 export type { MappingDemo } from "./MappingDemo";
+export type { MusicShop } from "./MusicShop";
 export type { MyContract } from "./MyContract";
 export type { MyGuideDAOToken } from "./MyGuideDAOToken";
 export type { MyShop } from "./MyShop";

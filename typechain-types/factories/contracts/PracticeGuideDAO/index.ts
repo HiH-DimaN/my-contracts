@@ -15,6 +15,7 @@ export { ENSRegistrar__factory } from "./ENSRegistrar__factory";
 export { Factory__factory } from "./Factory__factory";
 export { FundsDemo__factory } from "./FundsDemo__factory";
 export { MappingDemo__factory } from "./MappingDemo__factory";
+export { MusicShop__factory } from "./MusicShop__factory";
 export { MyContract__factory } from "./MyContract__factory";
 export { MyGuideDAOToken__factory } from "./MyGuideDAOToken__factory";
 export { MyShop__factory } from "./MyShop__factory";

@@ -110,6 +110,10 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.MappingDemo__factory>;
     getContractFactory(
+      name: "MusicShop",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.MusicShop__factory>;
+    getContractFactory(
       name: "MyContract",
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.MyContract__factory>;
@@ -342,6 +346,10 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.EmployeeData__factory>;
     getContractFactory(
+      name: "Facrtorial",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.Facrtorial__factory>;
+    getContractFactory(
       name: "FallbackExample",
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.FallbackExample__factory>;
@@ -358,6 +366,10 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.NestedMappings__factory>;
     getContractFactory(
+      name: "Power",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.Power__factory>;
+    getContractFactory(
       name: "PowerCalculator",
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.PowerCalculator__factory>;
@@ -369,6 +381,10 @@ declare module "hardhat/types/runtime" {
       name: "Receive",
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.Receive__factory>;
+    getContractFactory(
+      name: "UserRegistry",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.UserRegistry__factory>;
     getContractFactory(
       name: "IMathContract",
       signerOrOptions?: ethers.Signer | FactoryOptions
@@ -671,6 +687,11 @@ declare module "hardhat/types/runtime" {
       signer?: ethers.Signer
     ): Promise<Contracts.MappingDemo>;
     getContractAt(
+      name: "MusicShop",
+      address: string | ethers.Addressable,
+      signer?: ethers.Signer
+    ): Promise<Contracts.MusicShop>;
+    getContractAt(
       name: "MyContract",
       address: string | ethers.Addressable,
       signer?: ethers.Signer
@@ -961,6 +982,11 @@ declare module "hardhat/types/runtime" {
       signer?: ethers.Signer
     ): Promise<Contracts.EmployeeData>;
     getContractAt(
+      name: "Facrtorial",
+      address: string | ethers.Addressable,
+      signer?: ethers.Signer
+    ): Promise<Contracts.Facrtorial>;
+    getContractAt(
       name: "FallbackExample",
       address: string | ethers.Addressable,
       signer?: ethers.Signer
@@ -981,6 +1007,11 @@ declare module "hardhat/types/runtime" {
       signer?: ethers.Signer
     ): Promise<Contracts.NestedMappings>;
     getContractAt(
+      name: "Power",
+      address: string | ethers.Addressable,
+      signer?: ethers.Signer
+    ): Promise<Contracts.Power>;
+    getContractAt(
       name: "PowerCalculator",
       address: string | ethers.Addressable,
       signer?: ethers.Signer
@@ -995,6 +1026,11 @@ declare module "hardhat/types/runtime" {
       address: string | ethers.Addressable,
       signer?: ethers.Signer
     ): Promise<Contracts.Receive>;
+    getContractAt(
+      name: "UserRegistry",
+      address: string | ethers.Addressable,
+      signer?: ethers.Signer
+    ): Promise<Contracts.UserRegistry>;
     getContractAt(
       name: "IMathContract",
       address: string | ethers.Addressable,
@@ -1318,6 +1354,10 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | DeployContractOptions
     ): Promise<Contracts.MappingDemo>;
     deployContract(
+      name: "MusicShop",
+      signerOrOptions?: ethers.Signer | DeployContractOptions
+    ): Promise<Contracts.MusicShop>;
+    deployContract(
       name: "MyContract",
       signerOrOptions?: ethers.Signer | DeployContractOptions
     ): Promise<Contracts.MyContract>;
@@ -1550,6 +1590,10 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | DeployContractOptions
     ): Promise<Contracts.EmployeeData>;
     deployContract(
+      name: "Facrtorial",
+      signerOrOptions?: ethers.Signer | DeployContractOptions
+    ): Promise<Contracts.Facrtorial>;
+    deployContract(
       name: "FallbackExample",
       signerOrOptions?: ethers.Signer | DeployContractOptions
     ): Promise<Contracts.FallbackExample>;
@@ -1566,6 +1610,10 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | DeployContractOptions
     ): Promise<Contracts.NestedMappings>;
     deployContract(
+      name: "Power",
+      signerOrOptions?: ethers.Signer | DeployContractOptions
+    ): Promise<Contracts.Power>;
+    deployContract(
       name: "PowerCalculator",
       signerOrOptions?: ethers.Signer | DeployContractOptions
     ): Promise<Contracts.PowerCalculator>;
@@ -1577,6 +1625,10 @@ declare module "hardhat/types/runtime" {
       name: "Receive",
       signerOrOptions?: ethers.Signer | DeployContractOptions
     ): Promise<Contracts.Receive>;
+    deployContract(
+      name: "UserRegistry",
+      signerOrOptions?: ethers.Signer | DeployContractOptions
+    ): Promise<Contracts.UserRegistry>;
     deployContract(
       name: "IMathContract",
       signerOrOptions?: ethers.Signer | DeployContractOptions
@@ -1879,6 +1931,11 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | DeployContractOptions
     ): Promise<Contracts.MappingDemo>;
     deployContract(
+      name: "MusicShop",
+      args: any[],
+      signerOrOptions?: ethers.Signer | DeployContractOptions
+    ): Promise<Contracts.MusicShop>;
+    deployContract(
       name: "MyContract",
       args: any[],
       signerOrOptions?: ethers.Signer | DeployContractOptions
@@ -2169,6 +2226,11 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | DeployContractOptions
     ): Promise<Contracts.EmployeeData>;
     deployContract(
+      name: "Facrtorial",
+      args: any[],
+      signerOrOptions?: ethers.Signer | DeployContractOptions
+    ): Promise<Contracts.Facrtorial>;
+    deployContract(
       name: "FallbackExample",
       args: any[],
       signerOrOptions?: ethers.Signer | DeployContractOptions
@@ -2189,6 +2251,11 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | DeployContractOptions
     ): Promise<Contracts.NestedMappings>;
     deployContract(
+      name: "Power",
+      args: any[],
+      signerOrOptions?: ethers.Signer | DeployContractOptions
+    ): Promise<Contracts.Power>;
+    deployContract(
       name: "PowerCalculator",
       args: any[],
       signerOrOptions?: ethers.Signer | DeployContractOptions
@@ -2203,6 +2270,11 @@ declare module "hardhat/types/runtime" {
       args: any[],
       signerOrOptions?: ethers.Signer | DeployContractOptions
     ): Promise<Contracts.Receive>;
+    deployContract(
+      name: "UserRegistry",
+      args: any[],
+      signerOrOptions?: ethers.Signer | DeployContractOptions
+    ): Promise<Contracts.UserRegistry>;
     deployContract(
       name: "IMathContract",
       args: any[],
