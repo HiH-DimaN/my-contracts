@@ -223,7 +223,7 @@ export interface MusicShop extends BaseContract {
     [arg0: BigNumberish],
     [
       [bigint, string, string, bigint, bigint] & {
-        orderID: bigint;
+        orderId: bigint;
         albumUid: string;
         customer: string;
         orderedAt: bigint;
@@ -287,7 +287,7 @@ export interface MusicShop extends BaseContract {
     [arg0: BigNumberish],
     [
       [bigint, string, string, bigint, bigint] & {
-        orderID: bigint;
+        orderId: bigint;
         albumUid: string;
         customer: string;
         orderedAt: bigint;

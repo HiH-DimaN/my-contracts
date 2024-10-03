@@ -342,8 +342,8 @@
       ]
     },
     "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule2\\MyERC20.sol": {
-      "lastModificationDate": 1727364908837,
-      "contentHash": "4fbaba8fef5bc8a69adb630a4a5927ba",
+      "lastModificationDate": 1727872140124,
+      "contentHash": "013e1152b73803e7da78bd92d77686e1",
       "sourceName": "contracts/PracticeModule2/MyERC20.sol",
       "solcConfig": {
         "version": "0.8.26",
@@ -4192,8 +4192,8 @@
       ]
     },
     "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeGuideDAO\\MusicShop.sol": {
-      "lastModificationDate": 1727800707297,
-      "contentHash": "0a3f0af35d415e662e41c97b26b57591",
+      "lastModificationDate": 1727957885786,
+      "contentHash": "a1c406aaafe7a141e238492c83c51d10",
       "sourceName": "contracts/PracticeGuideDAO/MusicShop.sol",
       "solcConfig": {
         "version": "0.8.26",
@@ -4333,6 +4333,81 @@
       ],
       "artifacts": [
         "UserRegistry"
+      ]
+    },
+    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule2\\MyERS.sol": {
+      "lastModificationDate": 1727866434618,
+      "contentHash": "46746cfdf836a9419956b29567b334c4",
+      "sourceName": "contracts/PracticeModule2/MyERS.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@openzeppelin/contracts/access/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "MyERC20"
+      ]
+    },
+    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeMiddle\\VotingWithDelegation.sol": {
+      "lastModificationDate": 1727887604755,
+      "contentHash": "551777e80d5f34f19b85a590986b735b",
+      "sourceName": "contracts/PracticeMiddle/VotingWithDelegation.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "VotingWithDelegation"
       ]
     }
   }

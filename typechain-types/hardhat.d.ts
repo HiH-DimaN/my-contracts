@@ -370,10 +370,6 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.Power__factory>;
     getContractFactory(
-      name: "PowerCalculator",
-      signerOrOptions?: ethers.Signer | FactoryOptions
-    ): Promise<Contracts.PowerCalculator__factory>;
-    getContractFactory(
       name: "ProductStore",
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.ProductStore__factory>;
@@ -385,6 +381,10 @@ declare module "hardhat/types/runtime" {
       name: "UserRegistry",
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.UserRegistry__factory>;
+    getContractFactory(
+      name: "VotingWithDelegation",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.VotingWithDelegation__factory>;
     getContractFactory(
       name: "IMathContract",
       signerOrOptions?: ethers.Signer | FactoryOptions
@@ -549,6 +549,10 @@ declare module "hardhat/types/runtime" {
       name: "Module2PracticumIntensive6",
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.Module2PracticumIntensive6__factory>;
+    getContractFactory(
+      name: "MyERC20",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.MyERC20__factory>;
     getContractFactory(
       name: "MyERC20",
       signerOrOptions?: ethers.Signer | FactoryOptions
@@ -1012,11 +1016,6 @@ declare module "hardhat/types/runtime" {
       signer?: ethers.Signer
     ): Promise<Contracts.Power>;
     getContractAt(
-      name: "PowerCalculator",
-      address: string | ethers.Addressable,
-      signer?: ethers.Signer
-    ): Promise<Contracts.PowerCalculator>;
-    getContractAt(
       name: "ProductStore",
       address: string | ethers.Addressable,
       signer?: ethers.Signer
@@ -1031,6 +1030,11 @@ declare module "hardhat/types/runtime" {
       address: string | ethers.Addressable,
       signer?: ethers.Signer
     ): Promise<Contracts.UserRegistry>;
+    getContractAt(
+      name: "VotingWithDelegation",
+      address: string | ethers.Addressable,
+      signer?: ethers.Signer
+    ): Promise<Contracts.VotingWithDelegation>;
     getContractAt(
       name: "IMathContract",
       address: string | ethers.Addressable,
@@ -1236,6 +1240,11 @@ declare module "hardhat/types/runtime" {
       address: string | ethers.Addressable,
       signer?: ethers.Signer
     ): Promise<Contracts.Module2PracticumIntensive6>;
+    getContractAt(
+      name: "MyERC20",
+      address: string | ethers.Addressable,
+      signer?: ethers.Signer
+    ): Promise<Contracts.MyERC20>;
     getContractAt(
       name: "MyERC20",
       address: string | ethers.Addressable,
@@ -1614,10 +1623,6 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | DeployContractOptions
     ): Promise<Contracts.Power>;
     deployContract(
-      name: "PowerCalculator",
-      signerOrOptions?: ethers.Signer | DeployContractOptions
-    ): Promise<Contracts.PowerCalculator>;
-    deployContract(
       name: "ProductStore",
       signerOrOptions?: ethers.Signer | DeployContractOptions
     ): Promise<Contracts.ProductStore>;
@@ -1629,6 +1634,10 @@ declare module "hardhat/types/runtime" {
       name: "UserRegistry",
       signerOrOptions?: ethers.Signer | DeployContractOptions
     ): Promise<Contracts.UserRegistry>;
+    deployContract(
+      name: "VotingWithDelegation",
+      signerOrOptions?: ethers.Signer | DeployContractOptions
+    ): Promise<Contracts.VotingWithDelegation>;
     deployContract(
       name: "IMathContract",
       signerOrOptions?: ethers.Signer | DeployContractOptions
@@ -1793,6 +1802,10 @@ declare module "hardhat/types/runtime" {
       name: "Module2PracticumIntensive6",
       signerOrOptions?: ethers.Signer | DeployContractOptions
     ): Promise<Contracts.Module2PracticumIntensive6>;
+    deployContract(
+      name: "MyERC20",
+      signerOrOptions?: ethers.Signer | DeployContractOptions
+    ): Promise<Contracts.MyERC20>;
     deployContract(
       name: "MyERC20",
       signerOrOptions?: ethers.Signer | DeployContractOptions
@@ -2256,11 +2269,6 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | DeployContractOptions
     ): Promise<Contracts.Power>;
     deployContract(
-      name: "PowerCalculator",
-      args: any[],
-      signerOrOptions?: ethers.Signer | DeployContractOptions
-    ): Promise<Contracts.PowerCalculator>;
-    deployContract(
       name: "ProductStore",
       args: any[],
       signerOrOptions?: ethers.Signer | DeployContractOptions
@@ -2275,6 +2283,11 @@ declare module "hardhat/types/runtime" {
       args: any[],
       signerOrOptions?: ethers.Signer | DeployContractOptions
     ): Promise<Contracts.UserRegistry>;
+    deployContract(
+      name: "VotingWithDelegation",
+      args: any[],
+      signerOrOptions?: ethers.Signer | DeployContractOptions
+    ): Promise<Contracts.VotingWithDelegation>;
     deployContract(
       name: "IMathContract",
       args: any[],
@@ -2480,6 +2493,11 @@ declare module "hardhat/types/runtime" {
       args: any[],
       signerOrOptions?: ethers.Signer | DeployContractOptions
     ): Promise<Contracts.Module2PracticumIntensive6>;
+    deployContract(
+      name: "MyERC20",
+      args: any[],
+      signerOrOptions?: ethers.Signer | DeployContractOptions
+    ): Promise<Contracts.MyERC20>;
     deployContract(
       name: "MyERC20",
       args: any[],

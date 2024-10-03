@@ -14,6 +14,6 @@ export type { InheritedContract } from "./InheritedContract";
 export type { Library } from "./Library";
 export type { NestedMappings } from "./NestedMappings";
 export type { Power } from "./Power";
-export type { PowerCalculator } from "./PowerCalculator";
 export type { ProductStore } from "./ProductStore";
 export type { UserRegistry } from "./UserRegistry";
+export type { VotingWithDelegation } from "./VotingWithDelegation";

@@ -7,6 +7,8 @@ import type * as module2PracticumIntensive1Sol from "./Module2PracticumIntensive
 export type { module2PracticumIntensive1Sol };
 import type * as module2PracticumIntensive2Sol from "./Module2PracticumIntensive2.sol";
 export type { module2PracticumIntensive2Sol };
+import type * as myErsSol from "./MyERS.sol";
+export type { myErsSol };
 export type { BaseContract } from "./BaseContract";
 export type { DataTypes } from "./DataTypes";
 export type { DerivedContract } from "./DerivedContract";

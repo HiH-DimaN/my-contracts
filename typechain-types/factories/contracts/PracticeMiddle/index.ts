@@ -12,6 +12,6 @@ export { InheritedContract__factory } from "./InheritedContract__factory";
 export { Library__factory } from "./Library__factory";
 export { NestedMappings__factory } from "./NestedMappings__factory";
 export { Power__factory } from "./Power__factory";
-export { PowerCalculator__factory } from "./PowerCalculator__factory";
 export { ProductStore__factory } from "./ProductStore__factory";
 export { UserRegistry__factory } from "./UserRegistry__factory";
+export { VotingWithDelegation__factory } from "./VotingWithDelegation__factory";

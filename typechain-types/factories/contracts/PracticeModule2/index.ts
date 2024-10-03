@@ -4,6 +4,7 @@
 export * as dataTypes2Sol from "./DataTypes-2.sol";
 export * as module2PracticumIntensive1Sol from "./Module2PracticumIntensive1.sol";
 export * as module2PracticumIntensive2Sol from "./Module2PracticumIntensive2.sol";
+export * as myErsSol from "./MyERS.sol";
 export { BaseContract__factory } from "./BaseContract__factory";
 export { DataTypes__factory } from "./DataTypes__factory";
 export { DerivedContract__factory } from "./DerivedContract__factory";

@@ -16,7 +16,7 @@ contract MusicShop {
     }
 
     struct Order {
-        uint256 orderID;
+        uint256 orderId;
         bytes32 albumUid;
         address customer;
         uint256 orderedAt;
@@ -68,7 +68,7 @@ contract MusicShop {
 
         orders.push(
             Order({
-                orderID: currentOrderId, 
+                orderId: currentOrderId, 
                 albumUid: albumToBuy.uid,
                 customer: msg.sender,
                 orderedAt: block.timestamp,
