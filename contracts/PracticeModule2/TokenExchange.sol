@@ -31,18 +31,46 @@ contract TokenExchange {
      * @param amount Количество токенов A для обмена.
      */
     function swapAToB(uint256 amount) public {
+        // Проверяем, что у пользователя достаточно токенов A для обмена.
         require(tokenA.balanceOf(msg.sender) >= amount, "Not enough Token A");
+
+        // Вычисляем количество токенов B, которые получит пользователь.
         uint256 amountB = amount * exchangeRate;
 
+        // Переносим токены A от пользователя на контракт.
         tokenA.safeTransferFrom(msg.sender, address(this), amount);
+
+        // Отправляем пользователю соответствующее количество токенов B.
         tokenB.safeTransfer(msg.sender, amountB);
+    }
+
+    /*
+     * @notice Обмен токенов B на токены A.
+     * @param amount Количество токенов B для обмена.
+     */
+    function swapBToA(uint256 amount) public {
+        // Проверяем, что у пользователя достаточно токенов B для обмена.
+        require(tokenB.balanceOf(msg.sender) >= amount, "Not enough Token B");
+
+        // Вычисляем количество токенов A, которые получит пользователь.
+        // При обратном обмене делаем деление, а не умножение.
+        uint256 amountA = amount / exchangeRate;
+
+        // Переносим токены B от пользователя на контракт.
+        tokenB.safeTransferFrom(msg.sender, address(this), amount);
+
+        // Отправляем пользователю соответствующее количество токенов A.
+        tokenA.safeTransfer(msg.sender, amountA);
     }
 
     /*
      * @notice Покупка токенов A за ETH.
      */
     function buyTokenA() public payable {
-        uint256 amount = msg.value * exchangeRate; // Расчет количества токенов A за ETH
+        // Рассчитываем количество токенов A, которое пользователь получит за отправленный ETH.
+        uint256 amount = msg.value * exchangeRate;
+
+        // Переводим пользователю соответствующее количество токенов A.
         tokenA.safeTransfer(msg.sender, amount);
     }
 }
