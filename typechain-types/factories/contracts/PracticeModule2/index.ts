@@ -12,4 +12,7 @@ export { Module2PracticumIntensive6__factory } from "./Module2PracticumIntensive
 export { MyERC20__factory } from "./MyERC20__factory";
 export { MyOZToken__factory } from "./MyOZToken__factory";
 export { MyToken__factory } from "./MyToken__factory";
+export { MyTokenA__factory } from "./MyTokenA__factory";
+export { MyTokenB__factory } from "./MyTokenB__factory";
 export { OwnerContract__factory } from "./OwnerContract__factory";
+export { TokenExchange__factory } from "./TokenExchange__factory";

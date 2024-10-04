@@ -16,4 +16,7 @@ export type { Module2PracticumIntensive6 } from "./Module2PracticumIntensive6";
 export type { MyERC20 } from "./MyERC20";
 export type { MyOZToken } from "./MyOZToken";
 export type { MyToken } from "./MyToken";
+export type { MyTokenA } from "./MyTokenA";
+export type { MyTokenB } from "./MyTokenB";
 export type { OwnerContract } from "./OwnerContract";
+export type { TokenExchange } from "./TokenExchange";

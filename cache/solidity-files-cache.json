@@ -342,8 +342,8 @@
       ]
     },
     "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule2\\MyERC20.sol": {
-      "lastModificationDate": 1727872140124,
-      "contentHash": "013e1152b73803e7da78bd92d77686e1",
+      "lastModificationDate": 1728062870585,
+      "contentHash": "7c49ea5ed4af7dbd5d1626b8484e506b",
       "sourceName": "contracts/PracticeModule2/MyERC20.sol",
       "solcConfig": {
         "version": "0.8.26",
@@ -371,10 +371,11 @@
       },
       "imports": [
         "@openzeppelin/contracts/token/ERC20/IERC20.sol",
-        "@openzeppelin/contracts/access/Ownable.sol"
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol"
       ],
       "versionPragmas": [
-        "^0.8.20"
+        "^0.8.9"
       ],
       "artifacts": [
         "MyERC20"
@@ -4335,48 +4336,9 @@
         "UserRegistry"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule2\\MyERS.sol": {
-      "lastModificationDate": 1727866434618,
-      "contentHash": "46746cfdf836a9419956b29567b334c4",
-      "sourceName": "contracts/PracticeModule2/MyERS.sol",
-      "solcConfig": {
-        "version": "0.8.26",
-        "settings": {
-          "evmVersion": "cancun",
-          "optimizer": {
-            "enabled": true,
-            "runs": 2000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
-        "@openzeppelin/contracts/access/Ownable.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.20"
-      ],
-      "artifacts": [
-        "MyERC20"
-      ]
-    },
     "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeMiddle\\VotingWithDelegation.sol": {
-      "lastModificationDate": 1727887604755,
-      "contentHash": "551777e80d5f34f19b85a590986b735b",
+      "lastModificationDate": 1727971571891,
+      "contentHash": "9ffec0ecd6c247b3576d002790445655",
       "sourceName": "contracts/PracticeMiddle/VotingWithDelegation.sol",
       "solcConfig": {
         "version": "0.8.26",
@@ -4408,6 +4370,233 @@
       ],
       "artifacts": [
         "VotingWithDelegation"
+      ]
+    },
+    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\utils\\SafeERC20.sol": {
+      "lastModificationDate": 1727287100630,
+      "contentHash": "697fd27924863e77c17dace2179018b2",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IERC20.sol",
+        "../extensions/IERC20Permit.sol",
+        "../../../utils/Address.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "SafeERC20"
+      ]
+    },
+    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\node_modules\\@openzeppelin\\contracts\\utils\\Address.sol": {
+      "lastModificationDate": 1727287099551,
+      "contentHash": "79c699f80eb8a9b168cb34e37816f894",
+      "sourceName": "@openzeppelin/contracts/utils/Address.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\IERC20Permit.sol": {
+      "lastModificationDate": 1727287100385,
+      "contentHash": "da291753fa4641f2c5837bfc4aa4c01b",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/IERC20Permit.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "IERC20Permit"
+      ]
+    },
+    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule2\\TokenExchange.sol": {
+      "lastModificationDate": 1728060807728,
+      "contentHash": "11a11a40a23b5953efa1711ed3c3f9a6",
+      "sourceName": "contracts/PracticeModule2/TokenExchange.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "TokenExchange"
+      ]
+    },
+    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule2\\MyTokenB.sol": {
+      "lastModificationDate": 1728062469264,
+      "contentHash": "30a7c98f7fe30fb5071604fe4df2d7a4",
+      "sourceName": "contracts/PracticeModule2/MyTokenB.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./MyERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "MyTokenB"
+      ]
+    },
+    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule2\\MyTokenA.sol": {
+      "lastModificationDate": 1728062457690,
+      "contentHash": "2e1a693fd79719d75314ec08a47187af",
+      "sourceName": "contracts/PracticeModule2/MyTokenA.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./MyERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "MyTokenA"
       ]
     }
   }

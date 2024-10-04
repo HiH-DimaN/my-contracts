@@ -8,6 +8,7 @@ import type {
   FunctionFragment,
   Result,
   Interface,
+  EventFragment,
   AddressLike,
   ContractRunner,
   ContractMethod,
@@ -17,21 +18,80 @@ import type {
   TypedContractEvent,
   TypedDeferredTopicFilter,
   TypedEventLog,
+  TypedLogDescription,
   TypedListener,
   TypedContractMethod,
 } from "../../common";
 
 export interface VotingWithDelegationInterface extends Interface {
-  getFunction(nameOrSignature: "proposals" | "voters"): FunctionFragment;
+  getFunction(
+    nameOrSignature: "delegate" | "proposals" | "registerVoter" | "voters"
+  ): FunctionFragment;
 
+  getEvent(
+    nameOrSignatureOrTopic: "ProposalCreated" | "VoteDelegated" | "VoterCast"
+  ): EventFragment;
+
+  encodeFunctionData(
+    functionFragment: "delegate",
+    values: [AddressLike]
+  ): string;
   encodeFunctionData(
     functionFragment: "proposals",
     values: [BigNumberish]
   ): string;
+  encodeFunctionData(
+    functionFragment: "registerVoter",
+    values: [AddressLike, BigNumberish]
+  ): string;
   encodeFunctionData(functionFragment: "voters", values: [AddressLike]): string;
 
+  decodeFunctionResult(functionFragment: "delegate", data: BytesLike): Result;
   decodeFunctionResult(functionFragment: "proposals", data: BytesLike): Result;
+  decodeFunctionResult(
+    functionFragment: "registerVoter",
+    data: BytesLike
+  ): Result;
   decodeFunctionResult(functionFragment: "voters", data: BytesLike): Result;
+}
+
+export namespace ProposalCreatedEvent {
+  export type InputTuple = [proposalIndex: BigNumberish, description: string];
+  export type OutputTuple = [proposalIndex: bigint, description: string];
+  export interface OutputObject {
+    proposalIndex: bigint;
+    description: string;
+  }
+  export type Event = TypedContractEvent<InputTuple, OutputTuple, OutputObject>;
+  export type Filter = TypedDeferredTopicFilter<Event>;
+  export type Log = TypedEventLog<Event>;
+  export type LogDescription = TypedLogDescription<Event>;
+}
+
+export namespace VoteDelegatedEvent {
+  export type InputTuple = [delegator: AddressLike, delegate: AddressLike];
+  export type OutputTuple = [delegator: string, delegate: string];
+  export interface OutputObject {
+    delegator: string;
+    delegate: string;
+  }
+  export type Event = TypedContractEvent<InputTuple, OutputTuple, OutputObject>;
+  export type Filter = TypedDeferredTopicFilter<Event>;
+  export type Log = TypedEventLog<Event>;
+  export type LogDescription = TypedLogDescription<Event>;
+}
+
+export namespace VoterCastEvent {
+  export type InputTuple = [voter: AddressLike, proposalIndex: BigNumberish];
+  export type OutputTuple = [voter: string, proposalIndex: bigint];
+  export interface OutputObject {
+    voter: string;
+    proposalIndex: bigint;
+  }
+  export type Event = TypedContractEvent<InputTuple, OutputTuple, OutputObject>;
+  export type Filter = TypedDeferredTopicFilter<Event>;
+  export type Log = TypedEventLog<Event>;
+  export type LogDescription = TypedLogDescription<Event>;
 }
 
 export interface VotingWithDelegation extends BaseContract {
@@ -77,10 +137,18 @@ export interface VotingWithDelegation extends BaseContract {
     event?: TCEvent
   ): Promise<this>;
 
+  delegate: TypedContractMethod<[_to: AddressLike], [void], "nonpayable">;
+
   proposals: TypedContractMethod<
     [arg0: BigNumberish],
     [[string, bigint] & { description: string; voteCount: bigint }],
     "view"
+  >;
+
+  registerVoter: TypedContractMethod<
+    [_voterAddress: AddressLike, _initialWeight: BigNumberish],
+    [void],
+    "nonpayable"
   >;
 
   voters: TypedContractMethod<
@@ -101,11 +169,21 @@ export interface VotingWithDelegation extends BaseContract {
   ): T;
 
   getFunction(
+    nameOrSignature: "delegate"
+  ): TypedContractMethod<[_to: AddressLike], [void], "nonpayable">;
+  getFunction(
     nameOrSignature: "proposals"
   ): TypedContractMethod<
     [arg0: BigNumberish],
     [[string, bigint] & { description: string; voteCount: bigint }],
     "view"
+  >;
+  getFunction(
+    nameOrSignature: "registerVoter"
+  ): TypedContractMethod<
+    [_voterAddress: AddressLike, _initialWeight: BigNumberish],
+    [void],
+    "nonpayable"
   >;
   getFunction(
     nameOrSignature: "voters"
@@ -122,5 +200,60 @@ export interface VotingWithDelegation extends BaseContract {
     "view"
   >;
 
-  filters: {};
+  getEvent(
+    key: "ProposalCreated"
+  ): TypedContractEvent<
+    ProposalCreatedEvent.InputTuple,
+    ProposalCreatedEvent.OutputTuple,
+    ProposalCreatedEvent.OutputObject
+  >;
+  getEvent(
+    key: "VoteDelegated"
+  ): TypedContractEvent<
+    VoteDelegatedEvent.InputTuple,
+    VoteDelegatedEvent.OutputTuple,
+    VoteDelegatedEvent.OutputObject
+  >;
+  getEvent(
+    key: "VoterCast"
+  ): TypedContractEvent<
+    VoterCastEvent.InputTuple,
+    VoterCastEvent.OutputTuple,
+    VoterCastEvent.OutputObject
+  >;
+
+  filters: {
+    "ProposalCreated(uint256,string)": TypedContractEvent<
+      ProposalCreatedEvent.InputTuple,
+      ProposalCreatedEvent.OutputTuple,
+      ProposalCreatedEvent.OutputObject
+    >;
+    ProposalCreated: TypedContractEvent<
+      ProposalCreatedEvent.InputTuple,
+      ProposalCreatedEvent.OutputTuple,
+      ProposalCreatedEvent.OutputObject
+    >;
+
+    "VoteDelegated(address,address)": TypedContractEvent<
+      VoteDelegatedEvent.InputTuple,
+      VoteDelegatedEvent.OutputTuple,
+      VoteDelegatedEvent.OutputObject
+    >;
+    VoteDelegated: TypedContractEvent<
+      VoteDelegatedEvent.InputTuple,
+      VoteDelegatedEvent.OutputTuple,
+      VoteDelegatedEvent.OutputObject
+    >;
+
+    "VoterCast(address,uint256)": TypedContractEvent<
+      VoterCastEvent.InputTuple,
+      VoterCastEvent.OutputTuple,
+      VoterCastEvent.OutputObject
+    >;
+    VoterCast: TypedContractEvent<
+      VoterCastEvent.InputTuple,
+      VoterCastEvent.OutputTuple,
+      VoterCastEvent.OutputObject
+    >;
+  };
 }
