@@ -8,7 +8,7 @@ import "./MyERC20.sol";
  * @dev Контракт токена A на основе MyERC20.
  */
 contract MyTokenA is MyERC20 {
-    constructor() MyERC20("MyTokenA", "MTA", 18) Ownable(msg.sender) {
+    constructor() MyERC20("MyTokenA", "MTA", 18) {
         _mint(msg.sender, 1_000_000 * 10 ** decimals());
     }
 }
