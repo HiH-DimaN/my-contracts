@@ -1,7 +1,7 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeGuideDAO\\AddressDemo.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeGuideDAO\\AddressDemo.sol": {
       "lastModificationDate": 1723227903892,
       "contentHash": "c2069ff6a3407b3140cfd71f7039036c",
       "sourceName": "contracts/PracticeGuideDAO/AddressDemo.sol",
@@ -37,7 +37,7 @@
         "AddresDemo"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeGuideDAO\\Album.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeGuideDAO\\Album.sol": {
       "lastModificationDate": 1725457297204,
       "contentHash": "b54a9e5761e27dff2aeba8185b6d21d7",
       "sourceName": "contracts/PracticeGuideDAO/Album.sol",
@@ -75,7 +75,7 @@
         "Album"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeGuideDAO\\AlbumTracker.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeGuideDAO\\AlbumTracker.sol": {
       "lastModificationDate": 1725051701542,
       "contentHash": "62592134680c9f3b6c73f75b0ed8a756",
       "sourceName": "contracts/PracticeGuideDAO/AlbumTracker.sol",
@@ -114,7 +114,7 @@
         "AlbumTracker"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\node_modules\\@openzeppelin\\contracts\\access\\Ownable.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\node_modules\\@openzeppelin\\contracts\\access\\Ownable.sol": {
       "lastModificationDate": 1727287100586,
       "contentHash": "d3c790edc9ccf808a17c5a6cd13614fd",
       "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
@@ -152,7 +152,7 @@
         "Ownable"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\node_modules\\@openzeppelin\\contracts\\utils\\Context.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\node_modules\\@openzeppelin\\contracts\\utils\\Context.sol": {
       "lastModificationDate": 1727287099705,
       "contentHash": "67bfbc07588eb8683b3fd8f6f909563e",
       "sourceName": "@openzeppelin/contracts/utils/Context.sol",
@@ -188,7 +188,7 @@
         "Context"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol": {
       "lastModificationDate": 1727287099907,
       "contentHash": "c6375ef25e84c90b3d15f9ec4eef218f",
       "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
@@ -229,7 +229,7 @@
         "ERC20"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\IERC20.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\IERC20.sol": {
       "lastModificationDate": 1727287100363,
       "contentHash": "5517c8678c18eb1a8ba58810e7ca39ca",
       "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
@@ -265,7 +265,7 @@
         "IERC20"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\node_modules\\@openzeppelin\\contracts\\interfaces\\draft-IERC6093.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\node_modules\\@openzeppelin\\contracts\\interfaces\\draft-IERC6093.sol": {
       "lastModificationDate": 1727287099755,
       "contentHash": "4aefc698f77ecbace7f401257dfe182d",
       "sourceName": "@openzeppelin/contracts/interfaces/draft-IERC6093.sol",
@@ -303,7 +303,7 @@
         "IERC721Errors"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\IERC20Metadata.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\IERC20Metadata.sol": {
       "lastModificationDate": 1727287100375,
       "contentHash": "4c02fa6f7ae7b6c289cef80424f0c875",
       "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol",
@@ -341,7 +341,158 @@
         "IERC20Metadata"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule2\\MyERC20.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\utils\\SafeERC20.sol": {
+      "lastModificationDate": 1727287100630,
+      "contentHash": "697fd27924863e77c17dace2179018b2",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IERC20.sol",
+        "../extensions/IERC20Permit.sol",
+        "../../../utils/Address.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "SafeERC20"
+      ]
+    },
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\node_modules\\@openzeppelin\\contracts\\utils\\Address.sol": {
+      "lastModificationDate": 1727287099551,
+      "contentHash": "79c699f80eb8a9b168cb34e37816f894",
+      "sourceName": "@openzeppelin/contracts/utils/Address.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\IERC20Permit.sol": {
+      "lastModificationDate": 1727287100385,
+      "contentHash": "da291753fa4641f2c5837bfc4aa4c01b",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/IERC20Permit.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "IERC20Permit"
+      ]
+    },
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeModule2\\TokenExchange.sol": {
+      "lastModificationDate": 1728060807728,
+      "contentHash": "11a11a40a23b5953efa1711ed3c3f9a6",
+      "sourceName": "contracts/PracticeModule2/TokenExchange.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "TokenExchange"
+      ]
+    },
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeModule2\\MyERC20.sol": {
       "lastModificationDate": 1728062870585,
       "contentHash": "7c49ea5ed4af7dbd5d1626b8484e506b",
       "sourceName": "contracts/PracticeModule2/MyERC20.sol",
@@ -381,7 +532,83 @@
         "MyERC20"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule2\\MyToken.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeModule2\\MyTokenB.sol": {
+      "lastModificationDate": 1728062469264,
+      "contentHash": "30a7c98f7fe30fb5071604fe4df2d7a4",
+      "sourceName": "contracts/PracticeModule2/MyTokenB.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./MyERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "MyTokenB"
+      ]
+    },
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeModule2\\MyTokenA.sol": {
+      "lastModificationDate": 1728062457690,
+      "contentHash": "2e1a693fd79719d75314ec08a47187af",
+      "sourceName": "contracts/PracticeModule2/MyTokenA.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./MyERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "MyTokenA"
+      ]
+    },
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeModule2\\MyToken.sol": {
       "lastModificationDate": 1727296323400,
       "contentHash": "b1eaa5b60b932ff078ac2c0167e21809",
       "sourceName": "contracts/PracticeModule2/MyToken.sol",
@@ -420,7 +647,7 @@
         "MyToken"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule2\\MyOZToken.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeModule2\\MyOZToken.sol": {
       "lastModificationDate": 1727295664593,
       "contentHash": "ada24ad67c2218324f4ac22e50804ae4",
       "sourceName": "contracts/PracticeModule2/MyOZToken.sol",
@@ -459,7 +686,7 @@
         "MyOZToken"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeGuideDAO\\MyGuideDAOToken.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeGuideDAO\\MyGuideDAOToken.sol": {
       "lastModificationDate": 1727297218526,
       "contentHash": "5236e51202d1a129f84760f52e1d75df",
       "sourceName": "contracts/PracticeGuideDAO/MyGuideDAOToken.sol",
@@ -497,7 +724,7 @@
         "MyGuideDAOToken"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\node_modules\\@openzeppelin\\contracts\\access\\AccessControl.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\node_modules\\@openzeppelin\\contracts\\access\\AccessControl.sol": {
       "lastModificationDate": 1727287099468,
       "contentHash": "4c80b7fdf559a9a348e832a57d072a0b",
       "sourceName": "@openzeppelin/contracts/access/AccessControl.sol",
@@ -537,7 +764,7 @@
         "AccessControl"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\node_modules\\@openzeppelin\\contracts\\access\\IAccessControl.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\node_modules\\@openzeppelin\\contracts\\access\\IAccessControl.sol": {
       "lastModificationDate": 1727287100218,
       "contentHash": "e3a14b0714caaaa82d58fa0bc3756079",
       "sourceName": "@openzeppelin/contracts/access/IAccessControl.sol",
@@ -573,7 +800,7 @@
         "IAccessControl"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\ERC165.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\ERC165.sol": {
       "lastModificationDate": 1727287099866,
       "contentHash": "6a55c353946e471d9792965d06208295",
       "sourceName": "@openzeppelin/contracts/utils/introspection/ERC165.sol",
@@ -611,7 +838,7 @@
         "ERC165"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\IERC165.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\IERC165.sol": {
       "lastModificationDate": 1727287100333,
       "contentHash": "de0163561b417b800d01749cbbe2147e",
       "sourceName": "@openzeppelin/contracts/utils/introspection/IERC165.sol",
@@ -647,7 +874,7 @@
         "IERC165"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeJunior\\RoleBasedAccessControl.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeJunior\\RoleBasedAccessControl.sol": {
       "lastModificationDate": 1723055572488,
       "contentHash": "c2541bcb2b8f2e493577b5a3c094aac4",
       "sourceName": "contracts/PracticeJunior/RoleBasedAccessControl.sol",
@@ -685,7 +912,7 @@
         "RoleBasedAccessControl"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule1\\LessonOpenZeppelin.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeModule1\\LessonOpenZeppelin.sol": {
       "lastModificationDate": 1721993513017,
       "contentHash": "abc4f0a5ba7fdfc1620fde5fb92675c6",
       "sourceName": "contracts/PracticeModule1/LessonOpenZeppelin.sol",
@@ -723,7 +950,7 @@
         "UserOwnable"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule1\\LessonDelegateCall.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeModule1\\LessonDelegateCall.sol": {
       "lastModificationDate": 1722455356215,
       "contentHash": "bae899951a91c1dd2c47f453f3bbedb8",
       "sourceName": "contracts/PracticeModule1/LessonDelegateCall.sol",
@@ -763,7 +990,7 @@
         "Sender"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule1\\LessonCall.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeModule1\\LessonCall.sol": {
       "lastModificationDate": 1722176581665,
       "contentHash": "013ef836238784864e1a5fba2c536435",
       "sourceName": "contracts/PracticeModule1/LessonCall.sol",
@@ -802,7 +1029,7 @@
         "Sender"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeGuideDAO\\SharedWallet.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeGuideDAO\\SharedWallet.sol": {
       "lastModificationDate": 1723227856151,
       "contentHash": "ffe29db97c4fd1257bd765ab485a3849",
       "sourceName": "contracts/PracticeGuideDAO/SharedWallet.sol",
@@ -840,7 +1067,7 @@
         "SharedWallet"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeGuideDAO\\Wallet.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeGuideDAO\\Wallet.sol": {
       "lastModificationDate": 1723227892543,
       "contentHash": "fb58671234c87ae027c5673bb264c333",
       "sourceName": "contracts/PracticeGuideDAO/Wallet.sol",
@@ -878,7 +1105,7 @@
         "Wallet"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeGuideDAO\\RecordFactoryENS.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeGuideDAO\\RecordFactoryENS.sol": {
       "lastModificationDate": 1723227800511,
       "contentHash": "5cfa895c200868589a58e845b25514d2",
       "sourceName": "contracts/PracticeGuideDAO/RecordFactoryENS.sol",
@@ -926,7 +1153,7 @@
         "StringRecordFactory"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeGuideDAO\\Demo.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeGuideDAO\\Demo.sol": {
       "lastModificationDate": 1723227902434,
       "contentHash": "965af8672b74a1f814d5b82f93fb6a48",
       "sourceName": "contracts/PracticeGuideDAO/Demo.sol",
@@ -962,7 +1189,7 @@
         "Demo"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeGuideDAO\\DemoNew.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeGuideDAO\\DemoNew.sol": {
       "lastModificationDate": 1723555248203,
       "contentHash": "c6125d44659849ffe99e71bab538d2fb",
       "sourceName": "contracts/PracticeGuideDAO/DemoNew.sol",
@@ -998,7 +1225,7 @@
         "DemoNew"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeGuideDAO\\Destroy.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeGuideDAO\\Destroy.sol": {
       "lastModificationDate": 1723227899491,
       "contentHash": "f13d54d2951168c0934314c4d1246b71",
       "sourceName": "contracts/PracticeGuideDAO/Destroy.sol",
@@ -1034,7 +1261,7 @@
         "Destroy"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeGuideDAO\\ENSRegistrar.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeGuideDAO\\ENSRegistrar.sol": {
       "lastModificationDate": 1723227898289,
       "contentHash": "4c40f053d38f5305b0f49735aa985bd1",
       "sourceName": "contracts/PracticeGuideDAO/ENSRegistrar.sol",
@@ -1070,7 +1297,7 @@
         "ENSRegistrar"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeGuideDAO\\Factory.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeGuideDAO\\Factory.sol": {
       "lastModificationDate": 1723227720807,
       "contentHash": "7639bf06ce29cf540eb43ff5c838e374",
       "sourceName": "contracts/PracticeGuideDAO/Factory.sol",
@@ -1108,7 +1335,7 @@
         "Factory"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeGuideDAO\\Voting.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeGuideDAO\\Voting.sol": {
       "lastModificationDate": 1723227864655,
       "contentHash": "b4b09457907d5b72ea371518b342ec90",
       "sourceName": "contracts/PracticeGuideDAO/Voting.sol",
@@ -1144,7 +1371,7 @@
         "Voting"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeGuideDAO\\FundsDemo.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeGuideDAO\\FundsDemo.sol": {
       "lastModificationDate": 1723227897190,
       "contentHash": "488c5d0daf5c7003951f057f48277f87",
       "sourceName": "contracts/PracticeGuideDAO/FundsDemo.sol",
@@ -1180,7 +1407,7 @@
         "FundsDemo"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeGuideDAO\\LibStringDemo.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeGuideDAO\\LibStringDemo.sol": {
       "lastModificationDate": 1723227895821,
       "contentHash": "5a6d0b63195ecb8d1081bff19aef7416",
       "sourceName": "contracts/PracticeGuideDAO/LibStringDemo.sol",
@@ -1218,7 +1445,7 @@
         "LibStringsDemo"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\node_modules\\@openzeppelin\\contracts\\utils\\Strings.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\node_modules\\@openzeppelin\\contracts\\utils\\Strings.sol": {
       "lastModificationDate": 1727287100649,
       "contentHash": "ba57ff4ddf1d9cae9d2009792795b7f6",
       "sourceName": "@openzeppelin/contracts/utils/Strings.sol",
@@ -1257,43 +1484,7 @@
         "Strings"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\node_modules\\@openzeppelin\\contracts\\utils\\math\\Math.sol": {
-      "lastModificationDate": 1727287100557,
-      "contentHash": "718fa8ba0ff269c92e364c1429d9de57",
-      "sourceName": "@openzeppelin/contracts/utils/math/Math.sol",
-      "solcConfig": {
-        "version": "0.8.26",
-        "settings": {
-          "evmVersion": "cancun",
-          "optimizer": {
-            "enabled": true,
-            "runs": 2000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.20"
-      ],
-      "artifacts": [
-        "Math"
-      ]
-    },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\node_modules\\@openzeppelin\\contracts\\utils\\math\\SignedMath.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\node_modules\\@openzeppelin\\contracts\\utils\\math\\SignedMath.sol": {
       "lastModificationDate": 1727287100641,
       "contentHash": "b6c6bdc7aaca4fe5b680760a72e09d3e",
       "sourceName": "@openzeppelin/contracts/utils/math/SignedMath.sol",
@@ -1329,7 +1520,43 @@
         "SignedMath"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeGuideDAO\\MappingDemo.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\node_modules\\@openzeppelin\\contracts\\utils\\math\\Math.sol": {
+      "lastModificationDate": 1727287100557,
+      "contentHash": "718fa8ba0ff269c92e364c1429d9de57",
+      "sourceName": "@openzeppelin/contracts/utils/math/Math.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "Math"
+      ]
+    },
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeGuideDAO\\MappingDemo.sol": {
       "lastModificationDate": 1723227894817,
       "contentHash": "dbccacb02e6b41bfd6336182bdc182e2",
       "sourceName": "contracts/PracticeGuideDAO/MappingDemo.sol",
@@ -1365,7 +1592,43 @@
         "MappingDemo"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeGuideDAO\\MyContract.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeGuideDAO\\MusicShop.sol": {
+      "lastModificationDate": 1727957885786,
+      "contentHash": "a1c406aaafe7a141e238492c83c51d10",
+      "sourceName": "contracts/PracticeGuideDAO/MusicShop.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "MusicShop"
+      ]
+    },
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeGuideDAO\\MyContract.sol": {
       "lastModificationDate": 1723227893847,
       "contentHash": "4a2deffad93fee5501e7495bf5d5219d",
       "sourceName": "contracts/PracticeGuideDAO/MyContract.sol",
@@ -1401,7 +1664,7 @@
         "MyContract"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeGuideDAO\\MyShop.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeGuideDAO\\MyShop.sol": {
       "lastModificationDate": 1723227742201,
       "contentHash": "e9284320958c5aa76e50d22547184ca4",
       "sourceName": "contracts/PracticeGuideDAO/MyShop.sol",
@@ -1437,7 +1700,7 @@
         "MyShop"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeGuideDAO\\Overflow.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeGuideDAO\\Overflow.sol": {
       "lastModificationDate": 1723227756018,
       "contentHash": "1e788d3bc139bc141e0177eeefadee3e",
       "sourceName": "contracts/PracticeGuideDAO/Overflow.sol",
@@ -1473,7 +1736,7 @@
         "Overflow"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeGuideDAO\\RecordFactory.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeGuideDAO\\RecordFactory.sol": {
       "lastModificationDate": 1723227772363,
       "contentHash": "501db4eda1bbc9b98a21bbcf72d33d22",
       "sourceName": "contracts/PracticeGuideDAO/RecordFactory.sol",
@@ -1512,7 +1775,7 @@
         "StringRecord"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeGuideDAO\\СontractsSeveral.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeGuideDAO\\СontractsSeveral.sol": {
       "lastModificationDate": 1723227904999,
       "contentHash": "3e61b5d10b233b78731a1c86cf59145f",
       "sourceName": "contracts\\PracticeGuideDAO\\СontractsSeveral.sol",
@@ -1550,7 +1813,7 @@
         "Third"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeJunior\\Adder.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeJunior\\Adder.sol": {
       "lastModificationDate": 1720371225012,
       "contentHash": "c6f40b9675c97f15b6795969636c819f",
       "sourceName": "contracts/PracticeJunior/Adder.sol",
@@ -1586,7 +1849,7 @@
         "Adder"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeJunior\\AddressMap.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeJunior\\AddressMap.sol": {
       "lastModificationDate": 1720361880219,
       "contentHash": "94798cf37e7d60db56ee5d101681c4cf",
       "sourceName": "contracts/PracticeJunior/AddressMap.sol",
@@ -1622,7 +1885,7 @@
         "AddressMap"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeJunior\\ArrayContract.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeJunior\\ArrayContract.sol": {
       "lastModificationDate": 1721921735726,
       "contentHash": "4b590bec488ad63b0e0b48b17f574278",
       "sourceName": "contracts/PracticeJunior/ArrayContract.sol",
@@ -1658,7 +1921,7 @@
         "ArrayContract"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeJunior\\ArrayCount.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeJunior\\ArrayCount.sol": {
       "lastModificationDate": 1721140735708,
       "contentHash": "ffe28ff63279d2e2e42727821aa0e36b",
       "sourceName": "contracts/PracticeJunior/ArrayCount.sol",
@@ -1694,7 +1957,7 @@
         "ArrayCount"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeJunior\\ArrayDeletion.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeJunior\\ArrayDeletion.sol": {
       "lastModificationDate": 1721060730722,
       "contentHash": "a66daa001bd8dcb2dc3a86832e58222b",
       "sourceName": "contracts/PracticeJunior/ArrayDeletion.sol",
@@ -1730,7 +1993,7 @@
         "ArrayDeletion"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeJunior\\ArrayStorage.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeJunior\\ArrayStorage.sol": {
       "lastModificationDate": 1721831223710,
       "contentHash": "dbd94840e1d507e5e72d7983cfe935b1",
       "sourceName": "contracts/PracticeJunior/ArrayStorage.sol",
@@ -1766,7 +2029,7 @@
         "ArrayStorage"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeJunior\\ArraySum.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeJunior\\ArraySum.sol": {
       "lastModificationDate": 1721332351710,
       "contentHash": "1b0c2cd81e3f6d29b1dd35c7fbd863f3",
       "sourceName": "contracts/PracticeJunior/ArraySum.sol",
@@ -1802,7 +2065,7 @@
         "ArraySum"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeJunior\\BooleanStorage.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeJunior\\BooleanStorage.sol": {
       "lastModificationDate": 1720361517935,
       "contentHash": "0405a075344ae9e84e919cbcab1dd71f",
       "sourceName": "contracts/PracticeJunior/BooleanStorage.sol",
@@ -1838,7 +2101,7 @@
         "BooleanStorage"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeJunior\\CallLimiter.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeJunior\\CallLimiter.sol": {
       "lastModificationDate": 1722109935770,
       "contentHash": "de6b3579ce5dbe2a70ca547ce7075ca4",
       "sourceName": "contracts/PracticeJunior/CallLimiter.sol",
@@ -1874,7 +2137,7 @@
         "CallLimiter"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeJunior\\CircularBuffer.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeJunior\\CircularBuffer.sol": {
       "lastModificationDate": 1721334132761,
       "contentHash": "3015196f033681ef46aacbec6e47debb",
       "sourceName": "contracts/PracticeJunior/CircularBuffer.sol",
@@ -1910,7 +2173,7 @@
         "CircularBuffer"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeJunior\\ConditionChecker.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeJunior\\ConditionChecker.sol": {
       "lastModificationDate": 1720900944284,
       "contentHash": "021e55a87288441c754c3e19a3a13b63",
       "sourceName": "contracts/PracticeJunior/ConditionChecker.sol",
@@ -1946,7 +2209,7 @@
         "ConditionChecker"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeJunior\\DataStorage.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeJunior\\DataStorage.sol": {
       "lastModificationDate": 1721831209234,
       "contentHash": "1e11ac4a9e5033df33c3fb3d596333fb",
       "sourceName": "contracts/PracticeJunior/DataStorage.sol",
@@ -1982,7 +2245,7 @@
         "DataStorage"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeJunior\\Divider.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeJunior\\Divider.sol": {
       "lastModificationDate": 1720552309443,
       "contentHash": "3e1bfb9d8a1772526eb6ab59d55ed240",
       "sourceName": "contracts/PracticeJunior/Divider.sol",
@@ -2018,7 +2281,7 @@
         "Divider"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeJunior\\FeedbackContract.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeJunior\\FeedbackContract.sol": {
       "lastModificationDate": 1723219861689,
       "contentHash": "044491406dd1a9ed137078f6becfe861",
       "sourceName": "contracts/PracticeJunior/FeedbackContract.sol",
@@ -2054,7 +2317,7 @@
         "FeedbackContract"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeJunior\\IncrementWithThreshold.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeJunior\\IncrementWithThreshold.sol": {
       "lastModificationDate": 1720620929985,
       "contentHash": "c9a0ec60e543cdd43b3452f5c6c0970b",
       "sourceName": "contracts/PracticeJunior/IncrementWithThreshold.sol",
@@ -2090,7 +2353,7 @@
         "IncrementWithThreshold"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeJunior\\InputValidation.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeJunior\\InputValidation.sol": {
       "lastModificationDate": 1720901516020,
       "contentHash": "75595dea6b4a09843cfbd295a25694af",
       "sourceName": "contracts/PracticeJunior/InputValidation.sol",
@@ -2126,7 +2389,7 @@
         "InputValidation"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeJunior\\KeyExistence.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeJunior\\KeyExistence.sol": {
       "lastModificationDate": 1721296960886,
       "contentHash": "36afdd168ab0ce17cc8a7945e5b5163d",
       "sourceName": "contracts/PracticeJunior/KeyExistence.sol",
@@ -2162,7 +2425,7 @@
         "KeyExistence"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeJunior\\Multiplier.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeJunior\\Multiplier.sol": {
       "lastModificationDate": 1720785037596,
       "contentHash": "e486118d3c86cdc9b6c2353af847b55a",
       "sourceName": "contracts/PracticeJunior/Multiplier.sol",
@@ -2198,7 +2461,7 @@
         "Multiplier"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeJunior\\MultiReturnExample.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeJunior\\MultiReturnExample.sol": {
       "lastModificationDate": 1722877957550,
       "contentHash": "bdb2fa768d96095af277efb69fb3693d",
       "sourceName": "contracts/PracticeJunior/MultiReturnExample.sol",
@@ -2234,7 +2497,7 @@
         "MultiReturnExample"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeJunior\\OwnerContract.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeJunior\\OwnerContract.sol": {
       "lastModificationDate": 1720369436939,
       "contentHash": "f971d124ee67afc5f8143df07c37910f",
       "sourceName": "contracts/PracticeJunior/OwnerContract.sol",
@@ -2270,7 +2533,7 @@
         "OwnerContract"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeJunior\\RestrictedAccess.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeJunior\\RestrictedAccess.sol": {
       "lastModificationDate": 1720631066730,
       "contentHash": "3b1758d609fc7a511ef8edbc745521a9",
       "sourceName": "contracts/PracticeJunior/RestrictedAccess.sol",
@@ -2306,7 +2569,7 @@
         "RestrictedAccess"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeJunior\\SimpleStorage.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeJunior\\SimpleStorage.sol": {
       "lastModificationDate": 1720361610879,
       "contentHash": "093d73b9a574f7cabeeef657c284593d",
       "sourceName": "contracts/PracticeJunior/SimpleStorage.sol",
@@ -2342,7 +2605,7 @@
         "SimpleStorage"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeJunior\\StringStorage.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeJunior\\StringStorage.sol": {
       "lastModificationDate": 1720369434080,
       "contentHash": "a1ddf93033918fd5891404ddce7af73d",
       "sourceName": "contracts/PracticeJunior/StringStorage.sol",
@@ -2378,7 +2641,7 @@
         "StringStorage"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeJunior\\Subtracter.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeJunior\\Subtracter.sol": {
       "lastModificationDate": 1720370116251,
       "contentHash": "d42c455fe564010cde2da19b1440a884",
       "sourceName": "contracts/PracticeJunior/Subtracter.sol",
@@ -2414,7 +2677,7 @@
         "Subtracter"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeJunior\\TimedLock.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeJunior\\TimedLock.sol": {
       "lastModificationDate": 1720803602206,
       "contentHash": "d6e596882ae500befa27c240f91df1dd",
       "sourceName": "contracts/PracticeJunior/TimedLock.sol",
@@ -2450,7 +2713,7 @@
         "TimedLock"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeJunior\\TimestampRecorder.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeJunior\\TimestampRecorder.sol": {
       "lastModificationDate": 1722973056151,
       "contentHash": "dbec01a68c31b67447b3c0bf0657119c",
       "sourceName": "contracts/PracticeJunior/TimestampRecorder.sol",
@@ -2486,7 +2749,7 @@
         "TimestampRecorder"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeJunior\\UniqueArray.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeJunior\\UniqueArray.sol": {
       "lastModificationDate": 1723217898855,
       "contentHash": "3d9bfb83b2b6ca420c74a176704c714a",
       "sourceName": "contracts/PracticeJunior/UniqueArray.sol",
@@ -2522,7 +2785,7 @@
         "UniqueArray"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeJunior\\UniqueCount.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeJunior\\UniqueCount.sol": {
       "lastModificationDate": 1723219865144,
       "contentHash": "532edffc31eeaa071bb677f0f59128a0",
       "sourceName": "contracts/PracticeJunior/UniqueCount.sol",
@@ -2558,7 +2821,7 @@
         "UniqueCount"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeJunior\\Validator.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeJunior\\Validator.sol": {
       "lastModificationDate": 1722528896046,
       "contentHash": "4ebe31a23e513dc2ca64de6eb6c146b4",
       "sourceName": "contracts/PracticeJunior/Validator.sol",
@@ -2594,7 +2857,7 @@
         "Validator"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeMiddle\\BaseContract.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeMiddle\\BaseContract.sol": {
       "lastModificationDate": 1723919049892,
       "contentHash": "3a6fe3d19a66435ca04bfae4e789aea6",
       "sourceName": "contracts/PracticeMiddle/BaseContract.sol",
@@ -2630,7 +2893,7 @@
         "BaseContract"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeMiddle\\InheritedContract.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeMiddle\\InheritedContract.sol": {
       "lastModificationDate": 1723919133577,
       "contentHash": "271dc637b08d2201b7f91c94600ec856",
       "sourceName": "contracts/PracticeMiddle/InheritedContract.sol",
@@ -2668,7 +2931,7 @@
         "InheritedContract"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeMiddle\\DataConsumer.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeMiddle\\DataConsumer.sol": {
       "lastModificationDate": 1727288173030,
       "contentHash": "86d94f218e9d05de9a618215d32b88ef",
       "sourceName": "contracts/PracticeMiddle/DataConsumer.sol",
@@ -2704,7 +2967,7 @@
         "DataConsumer"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeMiddle\\DataProvider.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeMiddle\\DataProvider.sol": {
       "lastModificationDate": 1727288199935,
       "contentHash": "4c8a9da855359785b64af9c4fe05be18",
       "sourceName": "contracts/PracticeMiddle/DataProvider.sol",
@@ -2740,7 +3003,7 @@
         "DataProvider"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeMiddle\\EmployeeData.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeMiddle\\EmployeeData.sol": {
       "lastModificationDate": 1726660130909,
       "contentHash": "e6cfc3cb8d2689ce0569ddc1dcbdb988",
       "sourceName": "contracts/PracticeMiddle/EmployeeData.sol",
@@ -2776,7 +3039,43 @@
         "EmployeeData"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeMiddle\\FallbackExample.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeMiddle\\Factorial.sol": {
+      "lastModificationDate": 1727544883860,
+      "contentHash": "380ca0f35e3f3123c8c7c6172adbdeb7",
+      "sourceName": "contracts/PracticeMiddle/Factorial.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Facrtorial"
+      ]
+    },
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeMiddle\\FallbackExample.sol": {
       "lastModificationDate": 1724670231810,
       "contentHash": "08bcbe399aff63773f6f7731fdb80813",
       "sourceName": "contracts/PracticeMiddle/FallbackExample.sol",
@@ -2812,7 +3111,7 @@
         "FallbackExample"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeMiddle\\Library.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeMiddle\\Library.sol": {
       "lastModificationDate": 1727286392741,
       "contentHash": "b72182392485aed2274d1b3ab216a160",
       "sourceName": "contracts/PracticeMiddle/Library.sol",
@@ -2848,7 +3147,7 @@
         "Library"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeMiddle\\NestedMappings.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeMiddle\\NestedMappings.sol": {
       "lastModificationDate": 1724772904190,
       "contentHash": "9b11d287a0a44b592b925f40a97d2e7c",
       "sourceName": "contracts/PracticeMiddle/NestedMappings.sol",
@@ -2884,7 +3183,43 @@
         "NestedMappings"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeMiddle\\ProductStore.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeMiddle\\Power.sol": {
+      "lastModificationDate": 1727544887135,
+      "contentHash": "5c219f5d636db0112b7eb59ecc1dd032",
+      "sourceName": "contracts/PracticeMiddle/Power.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Power"
+      ]
+    },
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeMiddle\\ProductStore.sol": {
       "lastModificationDate": 1727286578195,
       "contentHash": "6c5daa494359c4059aee9c1216c04371",
       "sourceName": "contracts/PracticeMiddle/ProductStore.sol",
@@ -2920,7 +3255,7 @@
         "ProductStore"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeMiddle\\ReceiveEther.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeMiddle\\ReceiveEther.sol": {
       "lastModificationDate": 1724772905230,
       "contentHash": "eb0917a39bc958e7e2dd1e0c07557cf6",
       "sourceName": "contracts/PracticeMiddle/ReceiveEther.sol",
@@ -2956,7 +3291,79 @@
         "Receive"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule1\\IMathContract.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeMiddle\\UserRegistry.sol": {
+      "lastModificationDate": 1727548029521,
+      "contentHash": "e9d1c4b717bbb7e12ae6753ba1884f6d",
+      "sourceName": "contracts/PracticeMiddle/UserRegistry.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "UserRegistry"
+      ]
+    },
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeMiddle\\VotingWithDelegation.sol": {
+      "lastModificationDate": 1727971571891,
+      "contentHash": "9ffec0ecd6c247b3576d002790445655",
+      "sourceName": "contracts/PracticeMiddle/VotingWithDelegation.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "VotingWithDelegation"
+      ]
+    },
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeModule1\\IMathContract.sol": {
       "lastModificationDate": 1721821513861,
       "contentHash": "e464709c364d71a8c232fe480b10539e",
       "sourceName": "contracts/PracticeModule1/IMathContract.sol",
@@ -2992,7 +3399,7 @@
         "IMathContract"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule1\\InterfaceMathContract.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeModule1\\InterfaceMathContract.sol": {
       "lastModificationDate": 1721821471726,
       "contentHash": "d1625212b0fcaef97e58ccd12fe87e2a",
       "sourceName": "contracts/PracticeModule1/InterfaceMathContract.sol",
@@ -3030,7 +3437,7 @@
         "InterfacrMathContract"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule1\\InheritedMathContract.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeModule1\\InheritedMathContract.sol": {
       "lastModificationDate": 1721821530311,
       "contentHash": "a8c54cae1845b218cbe6da995d51051e",
       "sourceName": "contracts/PracticeModule1/InheritedMathContract.sol",
@@ -3068,7 +3475,7 @@
         "InheritedMathContract"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule1\\MathContract.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeModule1\\MathContract.sol": {
       "lastModificationDate": 1721821494959,
       "contentHash": "5e871520583b5e96d72766ba14f85985",
       "sourceName": "contracts/PracticeModule1/MathContract.sol",
@@ -3104,7 +3511,7 @@
         "MathContract"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule1\\Lesson.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeModule1\\Lesson.sol": {
       "lastModificationDate": 1721419418422,
       "contentHash": "b658666318d291c44d8800f25e5faad8",
       "sourceName": "contracts/PracticeModule1/Lesson.sol",
@@ -3140,7 +3547,7 @@
         "Lesson"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule1\\LessonArray.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeModule1\\LessonArray.sol": {
       "lastModificationDate": 1722945490776,
       "contentHash": "d4c75488fe2fc1e70c1af5a0eed1634f",
       "sourceName": "contracts/PracticeModule1/LessonArray.sol",
@@ -3176,7 +3583,7 @@
         "Array"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule1\\LessonBool.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeModule1\\LessonBool.sol": {
       "lastModificationDate": 1721744198604,
       "contentHash": "a7d232e4adfae8894f3ca57bb9c716e4",
       "sourceName": "contracts/PracticeModule1/LessonBool.sol",
@@ -3212,7 +3619,7 @@
         "LessonBool"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule1\\LessonCycles.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeModule1\\LessonCycles.sol": {
       "lastModificationDate": 1721419439255,
       "contentHash": "bcf8d49201faa5d6160eae56b29fb7ed",
       "sourceName": "contracts/PracticeModule1/LessonCycles.sol",
@@ -3248,7 +3655,7 @@
         "Cycles"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule1\\LessonDlegateCallAdditionally.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeModule1\\LessonDlegateCallAdditionally.sol": {
       "lastModificationDate": 1722182045622,
       "contentHash": "d9fb0bc8954cc5b80b500a39da4122f1",
       "sourceName": "contracts/PracticeModule1/LessonDlegateCallAdditionally.sol",
@@ -3286,7 +3693,7 @@
         "ContractTwo"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule1\\LessonEnum.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeModule1\\LessonEnum.sol": {
       "lastModificationDate": 1721419449893,
       "contentHash": "5db7735091acaba69373f9d0b6e679c8",
       "sourceName": "contracts/PracticeModule1/LessonEnum.sol",
@@ -3322,7 +3729,7 @@
         "Enum"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule1\\LessonError.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeModule1\\LessonError.sol": {
       "lastModificationDate": 1721419450607,
       "contentHash": "84d643ac7960a2cf23c66373bda639c2",
       "sourceName": "contracts/PracticeModule1/LessonError.sol",
@@ -3358,7 +3765,7 @@
         "Error"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule1\\LessonErrorsAndCondotions.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeModule1\\LessonErrorsAndCondotions.sol": {
       "lastModificationDate": 1723919368701,
       "contentHash": "6d4524efaf7b6cc68ccc183d653b0a96",
       "sourceName": "contracts/PracticeModule1/LessonErrorsAndCondotions.sol",
@@ -3394,7 +3801,7 @@
         "LessonErrorsAndConditions"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule1\\LessonEvent.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeModule1\\LessonEvent.sol": {
       "lastModificationDate": 1721419452424,
       "contentHash": "0e692b7a6ce11058895c9dde5b8c0b62",
       "sourceName": "contracts/PracticeModule1/LessonEvent.sol",
@@ -3430,7 +3837,7 @@
         "Event"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule1\\LessonExternalLibrary.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeModule1\\LessonExternalLibrary.sol": {
       "lastModificationDate": 1721829501975,
       "contentHash": "9d208aed757a5552806a5eec06ac299d",
       "sourceName": "contracts/PracticeModule1/LessonExternalLibrary.sol",
@@ -3466,7 +3873,7 @@
         "LessonExternalLibrary"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule1\\LessonLibrary.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeModule1\\LessonLibrary.sol": {
       "lastModificationDate": 1721829803396,
       "contentHash": "88cc762da538187e88712118e2ab6480",
       "sourceName": "contracts/PracticeModule1/LessonLibrary.sol",
@@ -3505,7 +3912,7 @@
         "UseLibraries"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule1\\LessonInternalLibrary.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeModule1\\LessonInternalLibrary.sol": {
       "lastModificationDate": 1721829804312,
       "contentHash": "a41062be4132de8b4ea73cdbf431d63b",
       "sourceName": "contracts/PracticeModule1/LessonInternalLibrary.sol",
@@ -3541,7 +3948,7 @@
         "LessonInternalLibrary"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule1\\LessonGlobalVariablesAndConstructor.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeModule1\\LessonGlobalVariablesAndConstructor.sol": {
       "lastModificationDate": 1723919372628,
       "contentHash": "5933a134b9d529d9eb035e5fa6939c2c",
       "sourceName": "contracts/PracticeModule1/LessonGlobalVariablesAndConstructor.sol",
@@ -3577,7 +3984,7 @@
         "LessonGlobalVariablesAndConstructor"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule1\\LessonMapping.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeModule1\\LessonMapping.sol": {
       "lastModificationDate": 1721419462841,
       "contentHash": "3cb65c6568e996037cad15e2401711d7",
       "sourceName": "contracts/PracticeModule1/LessonMapping.sol",
@@ -3614,7 +4021,7 @@
         "NestedMapping"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule1\\LessonModifier.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeModule1\\LessonModifier.sol": {
       "lastModificationDate": 1722455043052,
       "contentHash": "1a972ab87011d600a299559f2a89b26f",
       "sourceName": "contracts/PracticeModule1/LessonModifier.sol",
@@ -3650,7 +4057,7 @@
         "FunctionModifier"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule1\\LessonStruct.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeModule1\\LessonStruct.sol": {
       "lastModificationDate": 1721387279981,
       "contentHash": "92fc06b556f7ecae0f298cf4cd4997d8",
       "sourceName": "contracts/PracticeModule1/LessonStruct.sol",
@@ -3686,7 +4093,7 @@
         "Todos"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule1\\LessonUint.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeModule1\\LessonUint.sol": {
       "lastModificationDate": 1721312570041,
       "contentHash": "0599af4021cef840c02a23a9d41fb582",
       "sourceName": "contracts/PracticeModule1/LessonUint.sol",
@@ -3722,7 +4129,7 @@
         "LessonUint"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule1\\LessonUintPractice.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeModule1\\LessonUintPractice.sol": {
       "lastModificationDate": 1721312569104,
       "contentHash": "3abf0f35214573b233b68d9dae524cf7",
       "sourceName": "contracts/PracticeModule1/LessonUintPractice.sol",
@@ -3758,7 +4165,7 @@
         "LessonUintPractice"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule1\\Module1Lesson2-2.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeModule1\\Module1Lesson2-2.sol": {
       "lastModificationDate": 1720620889918,
       "contentHash": "737364be1b950a2748bf9a4f3de11881",
       "sourceName": "contracts/PracticeModule1/Module1Lesson2-2.sol",
@@ -3794,7 +4201,7 @@
         "Module1Lesson2"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule1\\Module1Lesson2.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeModule1\\Module1Lesson2.sol": {
       "lastModificationDate": 1721313297639,
       "contentHash": "3ebd46e39fc6a80f49c7cc43cb10ba7d",
       "sourceName": "contracts/PracticeModule1/Module1Lesson2.sol",
@@ -3830,7 +4237,7 @@
         "Module1Lesson2"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule1\\Module1Practicum1.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeModule1\\Module1Practicum1.sol": {
       "lastModificationDate": 1723645786858,
       "contentHash": "d3c4181c85fb1b7d280e5116ebdd5689",
       "sourceName": "contracts/PracticeModule1/Module1Practicum1.sol",
@@ -3866,7 +4273,7 @@
         "Practicum"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule1\\Module1Practicum2.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeModule1\\Module1Practicum2.sol": {
       "lastModificationDate": 1723645803877,
       "contentHash": "0649625a6b0659e46c9af8da8fae557f",
       "sourceName": "contracts/PracticeModule1/Module1Practicum2.sol",
@@ -3902,7 +4309,7 @@
         "Practicum"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule2\\BaseContract.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeModule2\\BaseContract.sol": {
       "lastModificationDate": 1723732048659,
       "contentHash": "5c8e622a322d651ca749a5493eed5b2a",
       "sourceName": "contracts/PracticeModule2/BaseContract.sol",
@@ -3938,7 +4345,7 @@
         "BaseContract"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule2\\DerivedContract.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeModule2\\DerivedContract.sol": {
       "lastModificationDate": 1723560140203,
       "contentHash": "4b8fc21fd1c1868c8c24e7e6b9a0b42b",
       "sourceName": "contracts/PracticeModule2/DerivedContract.sol",
@@ -3976,7 +4383,7 @@
         "DerivedContract"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule2\\DataTypes-2.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeModule2\\DataTypes-2.sol": {
       "lastModificationDate": 1723555360826,
       "contentHash": "c24a06a53213e33b5660bdf89612cd5c",
       "sourceName": "contracts/PracticeModule2/DataTypes-2.sol",
@@ -4012,7 +4419,7 @@
         "Todos"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule2\\DataTypes.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeModule2\\DataTypes.sol": {
       "lastModificationDate": 1721419417107,
       "contentHash": "ccb40eca00cef7bfdb25a84d940ed497",
       "sourceName": "contracts/PracticeModule2/DataTypes.sol",
@@ -4048,7 +4455,7 @@
         "DataTypes"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule2\\Module2PracticumIntensive1.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeModule2\\Module2PracticumIntensive1.sol": {
       "lastModificationDate": 1724254339687,
       "contentHash": "a5c286c699d842fa7a39c23c40c32117",
       "sourceName": "contracts/PracticeModule2/Module2PracticumIntensive1.sol",
@@ -4084,7 +4491,7 @@
         "Practicum1Module2Intensiv"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule2\\Module2PracticumIntensive2.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeModule2\\Module2PracticumIntensive2.sol": {
       "lastModificationDate": 1724254364151,
       "contentHash": "0649625a6b0659e46c9af8da8fae557f",
       "sourceName": "contracts/PracticeModule2/Module2PracticumIntensive2.sol",
@@ -4120,7 +4527,7 @@
         "Practicum"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule2\\Module2PracticumIntensive6.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeModule2\\Module2PracticumIntensive6.sol": {
       "lastModificationDate": 1724255769024,
       "contentHash": "c4867d2cbfde1a73f74f3e7a8e521405",
       "sourceName": "contracts/PracticeModule2/Module2PracticumIntensive6.sol",
@@ -4156,7 +4563,7 @@
         "Module2PracticumIntensive6"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule2\\OwnerContract.sol": {
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeModule2\\OwnerContract.sol": {
       "lastModificationDate": 1723732056777,
       "contentHash": "c4acbec5df069a464b627cf5a183adf0",
       "sourceName": "contracts/PracticeModule2/OwnerContract.sol",
@@ -4190,413 +4597,6 @@
       ],
       "artifacts": [
         "OwnerContract"
-      ]
-    },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeGuideDAO\\MusicShop.sol": {
-      "lastModificationDate": 1727957885786,
-      "contentHash": "a1c406aaafe7a141e238492c83c51d10",
-      "sourceName": "contracts/PracticeGuideDAO/MusicShop.sol",
-      "solcConfig": {
-        "version": "0.8.26",
-        "settings": {
-          "evmVersion": "cancun",
-          "optimizer": {
-            "enabled": true,
-            "runs": 2000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "MusicShop"
-      ]
-    },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeMiddle\\Factorial.sol": {
-      "lastModificationDate": 1727544883860,
-      "contentHash": "380ca0f35e3f3123c8c7c6172adbdeb7",
-      "sourceName": "contracts/PracticeMiddle/Factorial.sol",
-      "solcConfig": {
-        "version": "0.8.26",
-        "settings": {
-          "evmVersion": "cancun",
-          "optimizer": {
-            "enabled": true,
-            "runs": 2000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "Facrtorial"
-      ]
-    },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeMiddle\\Power.sol": {
-      "lastModificationDate": 1727544887135,
-      "contentHash": "5c219f5d636db0112b7eb59ecc1dd032",
-      "sourceName": "contracts/PracticeMiddle/Power.sol",
-      "solcConfig": {
-        "version": "0.8.26",
-        "settings": {
-          "evmVersion": "cancun",
-          "optimizer": {
-            "enabled": true,
-            "runs": 2000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "Power"
-      ]
-    },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeMiddle\\UserRegistry.sol": {
-      "lastModificationDate": 1727548029521,
-      "contentHash": "e9d1c4b717bbb7e12ae6753ba1884f6d",
-      "sourceName": "contracts/PracticeMiddle/UserRegistry.sol",
-      "solcConfig": {
-        "version": "0.8.26",
-        "settings": {
-          "evmVersion": "cancun",
-          "optimizer": {
-            "enabled": true,
-            "runs": 2000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "UserRegistry"
-      ]
-    },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeMiddle\\VotingWithDelegation.sol": {
-      "lastModificationDate": 1727971571891,
-      "contentHash": "9ffec0ecd6c247b3576d002790445655",
-      "sourceName": "contracts/PracticeMiddle/VotingWithDelegation.sol",
-      "solcConfig": {
-        "version": "0.8.26",
-        "settings": {
-          "evmVersion": "cancun",
-          "optimizer": {
-            "enabled": true,
-            "runs": 2000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "VotingWithDelegation"
-      ]
-    },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\utils\\SafeERC20.sol": {
-      "lastModificationDate": 1727287100630,
-      "contentHash": "697fd27924863e77c17dace2179018b2",
-      "sourceName": "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol",
-      "solcConfig": {
-        "version": "0.8.26",
-        "settings": {
-          "evmVersion": "cancun",
-          "optimizer": {
-            "enabled": true,
-            "runs": 2000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../IERC20.sol",
-        "../extensions/IERC20Permit.sol",
-        "../../../utils/Address.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.20"
-      ],
-      "artifacts": [
-        "SafeERC20"
-      ]
-    },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\node_modules\\@openzeppelin\\contracts\\utils\\Address.sol": {
-      "lastModificationDate": 1727287099551,
-      "contentHash": "79c699f80eb8a9b168cb34e37816f894",
-      "sourceName": "@openzeppelin/contracts/utils/Address.sol",
-      "solcConfig": {
-        "version": "0.8.26",
-        "settings": {
-          "evmVersion": "cancun",
-          "optimizer": {
-            "enabled": true,
-            "runs": 2000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.20"
-      ],
-      "artifacts": [
-        "Address"
-      ]
-    },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\IERC20Permit.sol": {
-      "lastModificationDate": 1727287100385,
-      "contentHash": "da291753fa4641f2c5837bfc4aa4c01b",
-      "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/IERC20Permit.sol",
-      "solcConfig": {
-        "version": "0.8.26",
-        "settings": {
-          "evmVersion": "cancun",
-          "optimizer": {
-            "enabled": true,
-            "runs": 2000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.20"
-      ],
-      "artifacts": [
-        "IERC20Permit"
-      ]
-    },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule2\\TokenExchange.sol": {
-      "lastModificationDate": 1728060807728,
-      "contentHash": "11a11a40a23b5953efa1711ed3c3f9a6",
-      "sourceName": "contracts/PracticeModule2/TokenExchange.sol",
-      "solcConfig": {
-        "version": "0.8.26",
-        "settings": {
-          "evmVersion": "cancun",
-          "optimizer": {
-            "enabled": true,
-            "runs": 2000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
-        "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.9"
-      ],
-      "artifacts": [
-        "TokenExchange"
-      ]
-    },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule2\\MyTokenB.sol": {
-      "lastModificationDate": 1728062469264,
-      "contentHash": "30a7c98f7fe30fb5071604fe4df2d7a4",
-      "sourceName": "contracts/PracticeModule2/MyTokenB.sol",
-      "solcConfig": {
-        "version": "0.8.26",
-        "settings": {
-          "evmVersion": "cancun",
-          "optimizer": {
-            "enabled": true,
-            "runs": 2000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./MyERC20.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.9"
-      ],
-      "artifacts": [
-        "MyTokenB"
-      ]
-    },
-    "C:\\Users\\Дмитрий\\Web3\\SolidityDeveloper\\MyHardhatProject\\contracts\\PracticeModule2\\MyTokenA.sol": {
-      "lastModificationDate": 1728062457690,
-      "contentHash": "2e1a693fd79719d75314ec08a47187af",
-      "sourceName": "contracts/PracticeModule2/MyTokenA.sol",
-      "solcConfig": {
-        "version": "0.8.26",
-        "settings": {
-          "evmVersion": "cancun",
-          "optimizer": {
-            "enabled": true,
-            "runs": 2000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./MyERC20.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.9"
-      ],
-      "artifacts": [
-        "MyTokenA"
       ]
     }
   }
