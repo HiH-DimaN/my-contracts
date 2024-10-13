@@ -1297,6 +1297,38 @@
         "ENSRegistrar"
       ]
     },
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeGuideDAO\\ERC165.sol": {
+      "lastModificationDate": 1728834670452,
+      "contentHash": "d41d8cd98f00b204e9800998ecf8427e",
+      "sourceName": "contracts/PracticeGuideDAO/ERC165.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [],
+      "artifacts": []
+    },
     "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeGuideDAO\\Factory.sol": {
       "lastModificationDate": 1723227720807,
       "contentHash": "7639bf06ce29cf540eb43ff5c838e374",
@@ -1484,42 +1516,6 @@
         "Strings"
       ]
     },
-    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\node_modules\\@openzeppelin\\contracts\\utils\\math\\SignedMath.sol": {
-      "lastModificationDate": 1727287100641,
-      "contentHash": "b6c6bdc7aaca4fe5b680760a72e09d3e",
-      "sourceName": "@openzeppelin/contracts/utils/math/SignedMath.sol",
-      "solcConfig": {
-        "version": "0.8.26",
-        "settings": {
-          "evmVersion": "cancun",
-          "optimizer": {
-            "enabled": true,
-            "runs": 2000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.20"
-      ],
-      "artifacts": [
-        "SignedMath"
-      ]
-    },
     "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\node_modules\\@openzeppelin\\contracts\\utils\\math\\Math.sol": {
       "lastModificationDate": 1727287100557,
       "contentHash": "718fa8ba0ff269c92e364c1429d9de57",
@@ -1554,6 +1550,42 @@
       ],
       "artifacts": [
         "Math"
+      ]
+    },
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\node_modules\\@openzeppelin\\contracts\\utils\\math\\SignedMath.sol": {
+      "lastModificationDate": 1727287100641,
+      "contentHash": "b6c6bdc7aaca4fe5b680760a72e09d3e",
+      "sourceName": "@openzeppelin/contracts/utils/math/SignedMath.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "SignedMath"
       ]
     },
     "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\MyHardhatProject\\contracts\\PracticeGuideDAO\\MappingDemo.sol": {

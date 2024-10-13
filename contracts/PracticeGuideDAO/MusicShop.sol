@@ -1,7 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-contract MusicShop {
+import "./ERC165.sol";
+
+contract MusicShop is ERC165 {
     enum OrderStatus {
         Paid,
         Delivered
@@ -108,7 +110,5 @@ contract MusicShop {
         return albumsList;
     }
 
-
-
-
+    fallback() external {}
 }
