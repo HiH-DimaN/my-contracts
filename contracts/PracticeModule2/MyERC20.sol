@@ -20,6 +20,7 @@ abstract contract MyERC20 is IERC20, Ownable {
     uint256 private _totalSupply; // Общее количество токенов
 
     mapping(address => uint256) private _balances; // Балансы адресов
+    
     mapping(address => mapping(address => uint256)) private _allowances; // Разрешения на перевод токенов
 
     mapping(address => bool) public isBlacklisted; // Маппинг для хранения черного списка адресов
