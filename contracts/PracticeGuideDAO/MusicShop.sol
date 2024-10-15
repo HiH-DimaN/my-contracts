@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 import "./ERC165.sol";
 
-contract MusicShop is ERC165 {
+abstract contract MusicShop is ERC165 {
     enum OrderStatus {
         Paid,
         Delivered
