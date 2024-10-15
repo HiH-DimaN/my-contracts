@@ -1,4 +1,20 @@
+"use client";
+
+import React, { useState, useEffect, FormEvent } from "react";
+import { ethers } from "ethers";
+import { MusicShop_factory } from "@/typechain";
+import { MusicShop } from "@/typechain";
+import { BrowserProvider } from "ethers";
 import Image from "next/image";
+
+import ConnectWallet from "@/components/ConnectWallet";
+import WaitingFromTransactionMessage from "@/components/WaitingFromTransactionMessaget";
+import TransactionErrorMessage from "@/components/TransactionErrorMessage";
+
+const HARDHAT_NETWORK_ID = "0x539";
+const MUSIC_SHOP_ADDRESS = "0x5fbdb2315678afecb367f032d93f642f64180aa3";
+
+declare let window: any;
 
 export default function Home() {
   return (
