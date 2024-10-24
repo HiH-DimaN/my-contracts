@@ -206,6 +206,22 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.StringRecordFactory__factory>;
     getContractFactory(
+      name: "AuctionDenialOfService",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.AuctionDenialOfService__factory>;
+    getContractFactory(
+      name: "Hack",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.Hack__factory>;
+    getContractFactory(
+      name: "AuctionReentrancy",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.AuctionReentrancy__factory>;
+    getContractFactory(
+      name: "Hack",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.Hack__factory>;
+    getContractFactory(
       name: "SharedWallet",
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.SharedWallet__factory>;
@@ -835,6 +851,26 @@ declare module "hardhat/types/runtime" {
       signer?: ethers.Signer
     ): Promise<Contracts.StringRecordFactory>;
     getContractAt(
+      name: "AuctionDenialOfService",
+      address: string | ethers.Addressable,
+      signer?: ethers.Signer
+    ): Promise<Contracts.AuctionDenialOfService>;
+    getContractAt(
+      name: "Hack",
+      address: string | ethers.Addressable,
+      signer?: ethers.Signer
+    ): Promise<Contracts.Hack>;
+    getContractAt(
+      name: "AuctionReentrancy",
+      address: string | ethers.Addressable,
+      signer?: ethers.Signer
+    ): Promise<Contracts.AuctionReentrancy>;
+    getContractAt(
+      name: "Hack",
+      address: string | ethers.Addressable,
+      signer?: ethers.Signer
+    ): Promise<Contracts.Hack>;
+    getContractAt(
       name: "SharedWallet",
       address: string | ethers.Addressable,
       signer?: ethers.Signer
@@ -1513,6 +1549,22 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | DeployContractOptions
     ): Promise<Contracts.StringRecordFactory>;
     deployContract(
+      name: "AuctionDenialOfService",
+      signerOrOptions?: ethers.Signer | DeployContractOptions
+    ): Promise<Contracts.AuctionDenialOfService>;
+    deployContract(
+      name: "Hack",
+      signerOrOptions?: ethers.Signer | DeployContractOptions
+    ): Promise<Contracts.Hack>;
+    deployContract(
+      name: "AuctionReentrancy",
+      signerOrOptions?: ethers.Signer | DeployContractOptions
+    ): Promise<Contracts.AuctionReentrancy>;
+    deployContract(
+      name: "Hack",
+      signerOrOptions?: ethers.Signer | DeployContractOptions
+    ): Promise<Contracts.Hack>;
+    deployContract(
       name: "SharedWallet",
       signerOrOptions?: ethers.Signer | DeployContractOptions
     ): Promise<Contracts.SharedWallet>;
@@ -2141,6 +2193,26 @@ declare module "hardhat/types/runtime" {
       args: any[],
       signerOrOptions?: ethers.Signer | DeployContractOptions
     ): Promise<Contracts.StringRecordFactory>;
+    deployContract(
+      name: "AuctionDenialOfService",
+      args: any[],
+      signerOrOptions?: ethers.Signer | DeployContractOptions
+    ): Promise<Contracts.AuctionDenialOfService>;
+    deployContract(
+      name: "Hack",
+      args: any[],
+      signerOrOptions?: ethers.Signer | DeployContractOptions
+    ): Promise<Contracts.Hack>;
+    deployContract(
+      name: "AuctionReentrancy",
+      args: any[],
+      signerOrOptions?: ethers.Signer | DeployContractOptions
+    ): Promise<Contracts.AuctionReentrancy>;
+    deployContract(
+      name: "Hack",
+      args: any[],
+      signerOrOptions?: ethers.Signer | DeployContractOptions
+    ): Promise<Contracts.Hack>;
     deployContract(
       name: "SharedWallet",
       args: any[],

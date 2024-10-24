@@ -5,6 +5,7 @@ export * as addressDemoSol from "./AddressDemo.sol";
 export * as libStringDemoSol from "./LibStringDemo.sol";
 export * as recordFactorySol from "./RecordFactory.sol";
 export * as recordFactoryEnsSol from "./RecordFactoryENS.sol";
+export * as security from "./Security";
 export * as сontractsSeveralSol from "./СontractsSeveral.sol";
 export { Album__factory } from "./Album__factory";
 export { AlbumTracker__factory } from "./AlbumTracker__factory";

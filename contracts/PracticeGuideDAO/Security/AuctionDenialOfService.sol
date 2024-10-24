@@ -36,7 +36,7 @@ contract Hack {
     uint constant BID_AMOUNT = 100;
     bool isHackingEnabled = true;
 
-    constructor(address _toHack) {
+    constructor(address _toHack) payable {
         require(msg.value == BID_AMOUNT);
 
         toHack = AuctionDenialOfService(_toHack);

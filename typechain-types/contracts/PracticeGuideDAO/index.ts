@@ -9,6 +9,8 @@ import type * as recordFactorySol from "./RecordFactory.sol";
 export type { recordFactorySol };
 import type * as recordFactoryEnsSol from "./RecordFactoryENS.sol";
 export type { recordFactoryEnsSol };
+import type * as security from "./Security";
+export type { security };
 import type * as сontractsSeveralSol from "./СontractsSeveral.sol";
 export type { сontractsSeveralSol };
 export type { Album } from "./Album";

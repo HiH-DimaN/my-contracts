@@ -92,6 +92,12 @@ export type { RecordsStorage } from "./contracts/PracticeGuideDAO/RecordFactoryE
 export { RecordsStorage__factory } from "./factories/contracts/PracticeGuideDAO/RecordFactoryENS.sol/RecordsStorage__factory";
 export type { StringRecordFactory } from "./contracts/PracticeGuideDAO/RecordFactoryENS.sol/StringRecordFactory";
 export { StringRecordFactory__factory } from "./factories/contracts/PracticeGuideDAO/RecordFactoryENS.sol/StringRecordFactory__factory";
+export type { AuctionDenialOfService } from "./contracts/PracticeGuideDAO/Security/AuctionDenialOfService.sol/AuctionDenialOfService";
+export { AuctionDenialOfService__factory } from "./factories/contracts/PracticeGuideDAO/Security/AuctionDenialOfService.sol/AuctionDenialOfService__factory";
+export type { Hack } from "./contracts/PracticeGuideDAO/Security/AuctionDenialOfService.sol/Hack";
+export { Hack__factory } from "./factories/contracts/PracticeGuideDAO/Security/AuctionDenialOfService.sol/Hack__factory";
+export type { AuctionReentrancy } from "./contracts/PracticeGuideDAO/Security/AuctionReentrancy.sol/AuctionReentrancy";
+export { AuctionReentrancy__factory } from "./factories/contracts/PracticeGuideDAO/Security/AuctionReentrancy.sol/AuctionReentrancy__factory";
 export type { SharedWallet } from "./contracts/PracticeGuideDAO/SharedWallet";
 export { SharedWallet__factory } from "./factories/contracts/PracticeGuideDAO/SharedWallet__factory";
 export type { Voting } from "./contracts/PracticeGuideDAO/Voting";
