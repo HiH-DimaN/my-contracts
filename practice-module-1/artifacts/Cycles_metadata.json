@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "i",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setNumber",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"my-hardhat-project/practice telegram module 1/LessonCycles.sol": "Cycles"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"my-hardhat-project/practice telegram module 1/LessonCycles.sol": {
+			"keccak256": "0x46093855cdf5afbcb380dc260833c73703ed227ff2ed240b22466efab4c2c8da",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://61183042069f4f2e69eb39a896027ff7c5aaf142f7a4914eee1a62a69d7eea5d",
+				"dweb:/ipfs/QmbcKm8mQrcJncdHUBew5Lw294HggHarxxaEEdVZG1m8Qg"
+			]
+		}
+	},
+	"version": 1
+}
