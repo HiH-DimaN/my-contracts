@@ -1,54 +1,63 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
 
+/**
+ * @title Enum
+ * @author HiH_DimaN
+ * @notice Контракт для демонстрации работы с типом данных `enum` в Solidity.
+ */
 contract Enum {
     // Создание enum с опциями для "Доставки"
     enum Status {
-        Pending,
-        Shipped,
-        Accepted,
-        Rejected,
-        Canceled
+        Pending, // Ожидание
+        Shipped, // Отправлено
+        Accepted, // Принято
+        Rejected, // Отклонено
+        Canceled // Отменено
     }
 
     enum Order {
-        Received,
-        Sent,
-        Delivered
+        Received, // Получено
+        Sent, // Отправлено
+        Delivered // Доставлено
     }
 
-    Order public order;
+    Order public order; // Переменная типа Order
 
-    // Значение по умолчанию - первый элемен в enum - Pending
+    // Значение по умолчанию - первый элемент в enum - Pending
 
     // Установка enum в переменную
-    Status public status;
+    Status public status; // Переменная типа Status
 
-    // Возвращает индекс опций
-    // Pending  - 0
-    // Shipped  - 1
-    // Accepted - 2
-    // Rejected - 3
-    // Canceled - 4
-
+    /**
+     * @dev Функция для получения текущего значения переменной `status`.
+     * @return Текущее значение переменной `status`.
+     */
     function get() public view returns (Status) {
         //Получение значения переменной
-        return status;
+        return status; // Возвращаем текущее значение
     }
 
-    // Update status by passing uint into input
+    /**
+     * @dev Функция для установки значения переменной `status`.
+     * @param _status Новое значение для переменной `status`.
+     */
     function set(Status _status) public {
         //Установка опций в переменную
-        status = _status;
+        status = _status; // Устанавливаем новое значение
     }
 
-    // Обновление опции в переменной напрямую
+    /**
+     * @dev Функция для обновления значения переменной `status` на `Canceled`.
+     */
     function cancel() public {
-        status = Status.Canceled;
+        status = Status.Canceled; // Устанавливаем значение `Canceled`
     }
 
-    // Обнуление переменной - установка опции по умолчанию - Pending
+    /**
+     * @dev Функция для сброса значения переменной `status` в значение по умолчанию - `Pending`.
+     */
     function reset() public {
-        delete status;
+        delete status; // Сбрасываем значение переменной
     }
 }
