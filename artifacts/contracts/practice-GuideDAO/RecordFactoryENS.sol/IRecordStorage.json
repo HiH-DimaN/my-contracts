@@ -1,0 +1,24 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "IRecordStorage",
+  "sourceName": "contracts/practice-GuideDAO/RecordFactoryENS.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "contract Record",
+          "name": "_record",
+          "type": "address"
+        }
+      ],
+      "name": "addRecord",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

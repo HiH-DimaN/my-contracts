@@ -11,12 +11,15 @@ import "hardhat/console.sol";
 
 contract ERC721 is ERC165, IERC721, IERC721Metadata {
     using Strings for uint;
+
     string private _name;
     string private _symbol;
+    
     mapping(address => uint) private _balances;
     mapping(uint => address) private _owners;
     mapping(uint => address) private _tokenApprovals;
     mapping(address => mapping(address => bool)) private _operatorApprovals;
+
     modifier _requireMinted(uint tokenId) {
         require(_exists(tokenId), "not minted!");
         _;

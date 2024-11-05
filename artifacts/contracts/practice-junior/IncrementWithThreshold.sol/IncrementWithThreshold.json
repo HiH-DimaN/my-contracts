@@ -1,0 +1,86 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "IncrementWithThreshold",
+  "sourceName": "contracts/practice-junior/IncrementWithThreshold.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_value",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_threshold",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "newValue",
+          "type": "uint256"
+        }
+      ],
+      "name": "ValueIncremented",
+      "type": "event"
+    },
+    {
+      "inputs": [],
+      "name": "getValue",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "increment",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "newThreshold",
+          "type": "uint256"
+        }
+      ],
+      "name": "setNewThreshold",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "threshold",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6080604052348015600e575f80fd5b50604051610256380380610256833981016040819052602b916037565b5f919091556001556058565b5f80604083850312156047575f80fd5b505080516020909101519092909150565b6101f1806100655f395ff3fe608060405234801561000f575f80fd5b506004361061004a575f3560e01c8063209652551461004e57806342cde4e814610063578063d09de08a1461006c578063e077f65614610076575b5f80fd5b5f545b60405190815260200160405180910390f35b61005160015481565b610074610089565b005b610074610084366004610148565b600155565b6001545f54106100f9576040517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152601f60248201527f56616c756520686173207265616368656420746865207468726573686f6c6400604482015260640160405180910390fd5b5f805490806101078361015f565b91905055507fc8a7fc4cfa989096cf36e066e6c623624d76311b81dfc4cb4729dcaa383512de5f5460405161013e91815260200190565b60405180910390a1565b5f60208284031215610158575f80fd5b5035919050565b5f7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff82036101b4577f4e487b71000000000000000000000000000000000000000000000000000000005f52601160045260245ffd5b506001019056fea2646970667358221220344aee9767c38fd69d41f96165f593a0709db90cbcf8b6f9a966ac6b039bc75764736f6c634300081a0033",
+  "deployedBytecode": "0x608060405234801561000f575f80fd5b506004361061004a575f3560e01c8063209652551461004e57806342cde4e814610063578063d09de08a1461006c578063e077f65614610076575b5f80fd5b5f545b60405190815260200160405180910390f35b61005160015481565b610074610089565b005b610074610084366004610148565b600155565b6001545f54106100f9576040517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152601f60248201527f56616c756520686173207265616368656420746865207468726573686f6c6400604482015260640160405180910390fd5b5f805490806101078361015f565b91905055507fc8a7fc4cfa989096cf36e066e6c623624d76311b81dfc4cb4729dcaa383512de5f5460405161013e91815260200190565b60405180910390a1565b5f60208284031215610158575f80fd5b5035919050565b5f7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff82036101b4577f4e487b71000000000000000000000000000000000000000000000000000000005f52601160045260245ffd5b506001019056fea2646970667358221220344aee9767c38fd69d41f96165f593a0709db90cbcf8b6f9a966ac6b039bc75764736f6c634300081a0033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

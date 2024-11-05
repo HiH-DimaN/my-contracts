@@ -1,0 +1,51 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "Overflow",
+  "sourceName": "contracts/practice-GuideDAO/Overflow.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "decrement",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "increment",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "myUint8",
+      "outputs": [
+        {
+          "internalType": "uint8",
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint8",
+          "name": "_newVal",
+          "type": "uint8"
+        }
+      ],
+      "name": "setMyUint",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6080604052348015600e575f80fd5b506101438061001c5f395ff3fe608060405234801561000f575f80fd5b506004361061004a575f3560e01c80632baeceb71461004e578063866515fc14610087578063d09de08a146100aa578063e2a4b2af146100c4575b5f80fd5b5f805460ff19811660ff9182167fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff01909116179055005b005b6100856100953660046100e6565b5f805460ff191660ff92909216919091179055565b6100855f805460ff8082166001011660ff19909116179055565b5f546100d09060ff1681565b60405160ff909116815260200160405180910390f35b5f602082840312156100f6575f80fd5b813560ff81168114610106575f80fd5b939250505056fea2646970667358221220ac54d2b74a8bd912bf8a6eab38da782f7d7e61cb1c02b59151d471eb27ece88664736f6c634300081a0033",
+  "deployedBytecode": "0x608060405234801561000f575f80fd5b506004361061004a575f3560e01c80632baeceb71461004e578063866515fc14610087578063d09de08a146100aa578063e2a4b2af146100c4575b5f80fd5b5f805460ff19811660ff9182167fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff01909116179055005b005b6100856100953660046100e6565b5f805460ff191660ff92909216919091179055565b6100855f805460ff8082166001011660ff19909116179055565b5f546100d09060ff1681565b60405160ff909116815260200160405180910390f35b5f602082840312156100f6575f80fd5b813560ff81168114610106575f80fd5b939250505056fea2646970667358221220ac54d2b74a8bd912bf8a6eab38da782f7d7e61cb1c02b59151d471eb27ece88664736f6c634300081a0033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

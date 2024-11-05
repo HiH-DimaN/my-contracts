@@ -6,3 +6,8 @@ export * as practiceJunior from "./PracticeJunior";
 export * as practiceMiddle from "./PracticeMiddle";
 export * as practiceModule1 from "./PracticeModule1";
 export * as practiceModule2 from "./PracticeModule2";
+export * as practiceGuideDao from "./practice-GuideDAO";
+export * as practiceJunior from "./practice-junior";
+export * as practiceMiddle from "./practice-middle";
+export * as practiceModule1 from "./practice-module-1";
+export * as practiceModule2 from "./practice-module-2";
