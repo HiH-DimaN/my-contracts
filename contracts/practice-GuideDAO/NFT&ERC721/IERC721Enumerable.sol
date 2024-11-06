@@ -1,10 +1,34 @@
-//SPDX-License-Identifier: MIT
+// SPDX-License-Identifier: MIT
 
 pragma solidity ^0.8.20;
 
 import "./IERC721.sol";
+
+/**
+ * @title Интерфейс ERC721Enumerable
+ * @dev Расширяет стандарт ERC721 для добавления функционала перебора всех токенов.
+ * Позволяет получить общее количество токенов и работать с токенами по индексам.
+ */
 interface IERC721Enumerable is IERC721 {
-    function totalSupply() external view returns(uint);
-    function tokenOfOwnerByIndex(address owner, uint index) external view returns(uint);
-    function tokenByIndex(uint index) external view returns(uint);
+
+    /** 
+     * @dev Функция для получения общего количества токенов, существующих в контракте.
+     * @return Общее количество токенов в контракте.
+     */
+    function totalSupply() external view returns(uint); // Получить общее количество токенов
+
+    /** 
+     * @dev Функция для получения идентификатора токена, принадлежащего владельцу, по его индексу.
+     * @param owner Адрес владельца токенов.
+     * @param index Индекс токена в списке токенов владельца.
+     * @return Идентификатор токена, принадлежащего указанному владельцу по указанному индексу.
+     */
+    function tokenOfOwnerByIndex(address owner, uint index) external view returns(uint); // Получить токен владельца по индексу
+
+    /** 
+     * @dev Функция для получения идентификатора токена по его индексу среди всех токенов.
+     * @param index Индекс токена среди всех токенов.
+     * @return Идентификатор токена по указанному индексу.
+     */
+    function tokenByIndex(uint index) external view returns(uint); // Получить токен по индексу среди всех токенов
 }
