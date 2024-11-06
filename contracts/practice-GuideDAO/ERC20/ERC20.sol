@@ -20,22 +20,6 @@ contract ERC20 is IERC20 {
     uint _decimals; // Количество десятичных знаков
 
     /**
-     * @dev Событие для логирования перевода токенов
-     * @param from Адрес отправителя токенов
-     * @param to Адрес получателя токенов
-     * @param amount Количество токенов, переданных между адресами
-     */
-    event Transfer(address indexed from, address indexed to, uint amount); // Объявление события Transfer для перевода токенов
-
-    /**
-     * @dev Событие для логирования утверждения разрешения (approve)
-     * @param owner Адрес владельца токенов, который выдал разрешение
-     * @param spender Адрес, которому разрешено тратить токены
-     * @param amount Количество токенов, разрешенных для использования
-     */
-    event Approve(address indexed owner, address indexed spender, uint amount); // Объявление события Approve для утверждения разрешений
-
-    /**
      * @dev Возвращает имя токена.
      */
     function name() external view returns(string memory) {
