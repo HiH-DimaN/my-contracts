@@ -1,90 +1,74 @@
-// SPDX-License-Identifier: MIT
+// SPDX-License-Identifier: MIT 
 
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.20; // Установка версии компилятора Solidity
 
-import "./ERC165.sol"; // Импорт контракта для поддержки интерфейсов ERC165
-import "./IERC721.sol"; // Интерфейс для стандартных операций с токенами ERC721
-import "./IERC721Metadata.sol"; // Интерфейс для получения метаданных токенов ERC721
-import "./Strings.sol"; // Библиотека для работы с числами как со строками
-import "./IERC721Receiver.sol"; // Интерфейс для обработки безопасных перевоодов
+import "./ERC165.sol"; // Импорт контракта ERC165 для поддержки интерфейсов
+import "./IERC721.sol"; // Импорт интерфейса ERC721 для стандартных операций с токенами
+import "./IERC721Metadata.sol"; // Импорт интерфейса ERC721Metadata для метаданных токенов
+import "./Strings.sol"; // Импорт библиотеки Strings для работы со строками
+import "./IERC721Receiver.sol"; // Импорт интерфейса IERC721Receiver для обработки безопасных переводов токенов
+import "hardhat/console.sol"; // Импорт консоли для отладки (только в среде разработки Hardhat)
 
 /**
- * @title ERC721 Token
- * @dev Реализация стандарта ERC721 с поддержкой метаданных и безопасных переводов
- */
+* @title ERC721 Token
+* @dev Реализация стандарта ERC721 с поддержкой метаданных и безопасных переводов
+* @author HiH_DimaN
+*/
 contract ERC721 is ERC165, IERC721, IERC721Metadata {
-    using Strings for uint; // Подключение библиотеки для работы с числами как со строками
+    using Strings for uint; // Использование библиотеки Strings для преобразования чисел в строки
 
     string private _name; // Имя токенов
     string private _symbol; // Символ токенов
 
-    // Маппинги для хранения данных о токенах и владельцах
-    mapping(address => uint) private _balances; // Баланс каждого владельца
-    mapping(uint => address) private _owners; // Владелец каждого токена
-    mapping(uint => address) private _tokenApprovals; // Разрешенные адреса для передачи токенов
-    mapping(address => mapping(address => bool)) private _operatorApprovals; // Разрешения для операторов
+    mapping(address => uint) private _balances; // Баланс каждого владельца токенов
+    mapping(uint => address) private _owners; // Владелец каждого токена по его ID
+    mapping(uint => address) private _tokenApprovals; // Разрешенные адреса для управления конкретным токеном
+    mapping(address => mapping(address => bool)) private _operatorApprovals; // Разрешения операторов для управления всеми токенами владельца
 
     /**
-     * @dev Эмиттируется при передаче токена от одного адреса к другому.
-     * @param from Адрес, с которого отправляется токен.
-     * @param to Адрес, на который отправляется токен.
-     * @param tokenId Идентификатор передаваемого токена.
-     */
-    event Transfer(address indexed from, address indexed to, uint indexed tokenId);
-
-    /**
-     * @dev Эмиттируется при утверждении другого адреса на управление конкретным токеном.
-     * @param owner Адрес владельца токена.
-     * @param approved Адрес, которому предоставлено разрешение на управление токеном.
-     * @param tokenId Идентификатор токена, для которого было выдано разрешение.
-     */
-    event Approval(address indexed owner, address indexed approved, uint indexed tokenId);
-
-    /**
-     * @dev Эмиттируется при утверждении оператора, который может управлять всеми токенами владельца.
-     * @param owner Адрес владельца всех токенов.
-     * @param operator Адрес оператора, которому предоставлено разрешение на управление всеми токенами владельца.
-     * @param approved Флаг, показывающий, разрешено ли оператору управлять всеми токенами владельца.
-     */
-    event ApprovalForAll(address indexed owner, address indexed operator, bool approved);
-}
-
-    /**
-     * @dev Модификатор, который проверяет, что токен существует.
-     * @param tokenId Идентификатор токена
+     * @dev Модификатор, проверяющий, что токен существует.
+     * @param tokenId Идентификатор токена для проверки
      */
     modifier _requireMinted(uint tokenId) {
-        require(_exists(tokenId), "ERC721: query for nonexistent token"); // Проверка существования токена
-        _;
+        require(_exists(tokenId), "not minted!"); // Проверка существования токена
+        _; // Продолжение выполнения функции
     }
 
     /**
-     * @dev Конструктор для инициализации контракта с именем и символом
+     * @dev Конструктор для инициализации контракта с именем и символом токенов.
      * @param name_ Имя токенов
      * @param symbol_ Символ токенов
      */
     constructor(string memory name_, string memory symbol_) {
-        _name = name_; // Инициализация имени токенов
-        _symbol = symbol_; // Инициализация символа токенов
+        _name = name_; // Установка имени токенов
+        _symbol = symbol_; // Установка символа токенов
     }
 
     /**
-     * @dev Функция для перевода токена от одного владельца к другому.
-     * @param from Адрес отправителя
-     * @param to Адрес получателя
-     * @param tokenId Идентификатор токена
+     * @dev Функция для передачи токена от одного владельца к другому.
+     * @param from Адрес отправителя токена
+     * @param to Адрес получателя токена
+     * @param tokenId Идентификатор передаваемого токена
      */
     function transferFrom(address from, address to, uint tokenId) external {
-        require(_isApprovedOrOwner(msg.sender, tokenId), "ERC721: caller is not owner nor approved"); // Проверка прав на токен
-        _transfer(from, to, tokenId); // Перевод токена
+        require(_isApprovedOrOwner(msg.sender, tokenId), "not approved or owner!"); // Проверка прав на передачу токена
+        _transfer(from, to, tokenId); // Вызов внутренней функции передачи токена
     }
 
+    // function safeTransferFrom(
+    //     address from,
+    //     address to,
+    //     uint tokenId
+    // ) public {
+    //     safeTransferFrom(from, to, tokenId, ""); // Вызов безопасной передачи токена без данных
+    // }
+
     /**
-     * @dev Функция для безопасного перевода токенов с дополнительными данными.
-     * @param from Адрес отправителя
-     * @param to Адрес получателя
-     * @param tokenId Идентификатор токена
-     * @param data Дополнительные данные
+     * @dev Функция для безопасной передачи токена с дополнительными данными.
+     * @param from Адрес отправителя токена
+     * @param to Адрес получателя токена
+     * @param tokenId Идентификатор передаваемого токена
+     * @param data Дополнительные данные, передаваемые вместе с токеном
      */
     function safeTransferFrom(
         address from,
@@ -92,8 +76,8 @@ contract ERC721 is ERC165, IERC721, IERC721Metadata {
         uint tokenId,
         bytes memory data
     ) public {
-        require(_isApprovedOrOwner(msg.sender, tokenId), "ERC721: caller is not owner nor approved"); // Проверка прав на токен
-        _safeTransfer(from, to, tokenId, data); // Безопасный перевод с проверкой
+        require(_isApprovedOrOwner(msg.sender, tokenId), "not owner!"); // Проверка прав на передачу токена
+        _safeTransfer(from, to, tokenId, data); // Вызов внутренней безопасной функции передачи токена
     }
 
     /**
@@ -114,16 +98,16 @@ contract ERC721 is ERC165, IERC721, IERC721Metadata {
 
     /**
      * @dev Функция для получения баланса токенов у владельца.
-     * @param owner Адрес владельца
-     * @return Количество токенов у владельца
+     * @param owner Адрес владельца токенов
+     * @return Количество токенов, принадлежащих владельцу
      */
     function balanceOf(address owner) public view returns(uint) {
-        require(owner != address(0), "ERC721: balance query for the zero address"); // Проверка, что адрес не является нулевым
+        require(owner != address(0), "owner cannot be zero"); // Проверка, что адрес владельца не нулевой
         return _balances[owner]; // Возвращение баланса владельца
     }
 
     /**
-     * @dev Функция для получения владельца токена.
+     * @dev Функция для получения владельца токена по его идентификатору.
      * @param tokenId Идентификатор токена
      * @return Адрес владельца токена
      */
@@ -132,143 +116,191 @@ contract ERC721 is ERC165, IERC721, IERC721Metadata {
     }
 
     /**
-     * @dev Функция для одобрения перевода токена другому адресу.
-     * @param to Адрес получателя
+     * @dev Функция для утверждения другого адреса на управление конкретным токеном.
+     * @param to Адрес, которому предоставляется разрешение
      * @param tokenId Идентификатор токена
      */
     function approve(address to, uint tokenId) public {
-        address owner = ownerOf(tokenId); // Получение владельца токена
-        require(owner == msg.sender || isApprovedForAll(owner, msg.sender), "ERC721: approve caller is not owner nor approved for all"); // Проверка прав на одобрение
-        require(to != owner, "ERC721: approval to current owner"); // Проверка, что адрес получателя не является владельцем
-        _tokenApprovals[tokenId] = to; // Установка разрешения
-        emit Approval(owner, to, tokenId); // Событие об одобрении
+        address _owner = ownerOf(tokenId); // Получение владельца токена
+        require(
+            _owner == msg.sender || isApprovedForAll(_owner, msg.sender),
+            "not an owner!" // Проверка, что вызывающий является владельцем или оператором
+        );
+        require(to != _owner, "cannot approve to self"); // Проверка, что нельзя утверждать себе
+        _tokenApprovals[tokenId] = to; // Установка разрешения для токена
+        emit Approval(_owner, to, tokenId); // Генерация события утверждения
     }
 
     /**
-     * @dev Функция для разрешения оператору управлять всеми токенами владельца.
+     * @dev Функция для установки разрешения оператора на управление всеми токенами владельца.
      * @param operator Адрес оператора
-     * @param approved Разрешение на управление
+     * @param approved Статус утверждения: true для утверждения, false для отмены
      */
     function setApprovalForAll(address operator, bool approved) public {
-        require(msg.sender != operator, "ERC721: approve to caller"); // Проверка, что оператор не является вызывающим
+        require(msg.sender != operator, "cannot approve to self"); // Проверка, что оператор не сам себе
         _operatorApprovals[msg.sender][operator] = approved; // Установка разрешения для оператора
-        emit ApprovalForAll(msg.sender, operator, approved); // Событие об одобрении для оператора
+        emit ApprovalForAll(msg.sender, operator, approved); // Генерация события утверждения оператора
     }
 
     /**
-     * @dev Функция для получения разрешенного адреса для передачи токена.
+     * @dev Функция для получения адреса, утвержденного для управления конкретным токеном.
      * @param tokenId Идентификатор токена
-     * @return Адрес, которому разрешен перевод токена
+     * @return Адрес, утвержденный для управления токеном
      */
     function getApproved(uint tokenId) public view _requireMinted(tokenId) returns(address) {
-        return _tokenApprovals[tokenId]; // Возвращение адреса с разрешением на передачу токена
+        return _tokenApprovals[tokenId]; // Возвращение утвержденного адреса
     }
 
     /**
-     * @dev Функция для проверки разрешений оператора для управления всеми токенами владельца.
-     * @param owner Адрес владельца
+     * @dev Функция для проверки, утвержден ли оператор на управление всеми токенами владельца.
+     * @param owner Адрес владельца токенов
      * @param operator Адрес оператора
-     * @return true, если оператор имеет разрешение
+     * @return true, если оператор утвержден, иначе false
      */
     function isApprovedForAll(address owner, address operator) public view returns(bool) {
-        return _operatorApprovals[owner][operator]; // Проверка разрешений оператора для всех токенов владельца
+        return _operatorApprovals[owner][operator]; // Возвращение статуса утверждения оператора
     }
 
     /**
      * @dev Функция для проверки поддержки интерфейсов.
      * @param interfaceId Идентификатор интерфейса
-     * @return true, если интерфейс поддерживается
+     * @return true, если интерфейс поддерживается, иначе false
      */
     function supportsInterface(bytes4 interfaceId) public view virtual override returns(bool) {
-        return interfaceId == type(IERC721).interfaceId || 
-            interfaceId == type(IERC721Metadata).interfaceId || 
-            super.supportsInterface(interfaceId); // Проверка поддержки интерфейсов
+        return interfaceId == type(IERC721).interfaceId || // Проверка поддержки интерфейса ERC721
+            interfaceId == type(IERC721Metadata).interfaceId || // Проверка поддержки интерфейса ERC721Metadata
+            super.supportsInterface(interfaceId); // Вызов родительской функции для других интерфейсов
     }
 
     /**
-     * @dev Вспомогательная функция для безопасного минтинга токенов.
-     * @param to Адрес владельца
+     * @dev Внутренняя функция для безопасного минтинга токена без дополнительных данных.
+     * @param to Адрес получателя токена
      * @param tokenId Идентификатор токена
      */
     function _safeMint(address to, uint tokenId) internal virtual {
-        _safeMint(to, tokenId, ""); // Безопасный минтинг без дополнительных данных
+        _safeMint(to, tokenId, ""); // Вызов безопасного минтинга с пустыми данными
     }
 
     /**
-     * @dev Вспомогательная функция для безопасного минтинга токенов с дополнительными данными.
-     * @param to Адрес владельца
+     * @dev Внутренняя функция для безопасного минтинга токена с дополнительными данными.
+     * @param to Адрес получателя токена
      * @param tokenId Идентификатор токена
-     * @param data Дополнительные данные
+     * @param data Дополнительные данные для безопасного минтинга
      */
     function _safeMint(address to, uint tokenId, bytes memory data) internal virtual {
-        _mint(to, tokenId); // Минтинг токена
-        require(_checkOnERC721Received(address(0), to, tokenId, data), "ERC721: transfer to non ERC721Receiver implementer"); // Проверка получения токена
+        _mint(to, tokenId); // Вызов внутренней функции минтинга токена
+        require(_checkOnERC721Received(address(0), to, tokenId, data), "non-erc721 receiver"); // Проверка поддержки ERC721 получателем
     }
 
     /**
-     * @dev Вспомогательная функция для минтинга токенов.
-     * @param to Адрес владельца
+     * @dev Внутренняя функция для минтинга токена.
+     * @param to Адрес получателя токена
      * @param tokenId Идентификатор токена
      */
     function _mint(address to, uint tokenId) internal virtual {
-        require(to != address(0), "ERC721: mint to the zero address"); // Проверка на нулевой адрес
-        require(!_exists(tokenId), "ERC721: token already minted"); // Проверка, что токен не существует
-        _beforeTokenTransfer(address(0), to, tokenId); // Хук перед минтингом
-        _balances[to]++; // Увеличение баланса владельца
+        require(to != address(0), "zero address to"); // Проверка, что адрес получателя не нулевой
+        require(!_exists(tokenId), "this token id is already minted"); // Проверка, что токен с таким ID еще не существует
+        _beforeTokenTransfer(address(0), to, tokenId); // Вызов хука перед минтингом токена
         _owners[tokenId] = to; // Установка владельца токена
-        emit Transfer(address(0), to, tokenId); // Событие минтинга
-        _afterTokenTransfer(address(0), to, tokenId); // Хук после минтинга
+        _balances[to]++; // Увеличение баланса получателя
+        emit Transfer(address(0), to, tokenId); // Генерация события минтинга токена
+        _afterTokenTransfer(address(0), to, tokenId); // Вызов хука после минтинга токена
     }
 
     /**
-     * @dev Вспомогательная функция для получения базового URI.
-     * @return Базовый URI
+     * @dev Функция для сжигания токена.
+     * @param tokenId Идентификатор токена для сжигания
      */
-    function _baseURI() internal view virtual returns (string memory) {
-        return ""; // Возвращение базового URI
+    function burn(uint256 tokenId) public virtual {
+        require(_isApprovedOrOwner(msg.sender, tokenId), "not owner!"); // Проверка прав на сжигание токена
+        _burn(tokenId); // Вызов внутренней функции сжигания токена
     }
 
     /**
-     * @dev Вспомогательная функция для проверки существования токена.
+     * @dev Внутренняя функция для сжигания токена.
+     * @param tokenId Идентификатор токена для сжигания
+     */
+    function _burn(uint tokenId) internal virtual {
+        address owner = ownerOf(tokenId); // Получение владельца токена
+        _beforeTokenTransfer(owner, address(0), tokenId); // Вызов хука перед сжиганием токена
+        delete _tokenApprovals[tokenId]; // Удаление разрешения на токен
+        _balances[owner]--; // Уменьшение баланса владельца
+        delete _owners[tokenId]; // Удаление владельца токена
+        emit Transfer(owner, address(0), tokenId); // Генерация события сжигания токена
+        _afterTokenTransfer(owner, address(0), tokenId); // Вызов хука после сжигания токена
+    }
+
+    /**
+     * @dev Внутренняя функция для получения базового URI.
+     * @return Базовый URI для токенов
+     */
+    function _baseURI() internal pure virtual returns(string memory) {
+        return ""; // Возвращение пустого базового URI
+    }
+
+    /**
+     * @dev Функция для получения URI метаданных токена.
      * @param tokenId Идентификатор токена
-     * @return true, если токен существует
+     * @return URI метаданных токена
+     */
+    function tokenURI(uint tokenId) public view virtual _requireMinted(tokenId) returns(string memory) {
+        string memory baseURI = _baseURI(); // Получение базового URI
+        return bytes(baseURI).length > 0 ? // Проверка, задан ли базовый URI
+            string(abi.encodePacked(baseURI, tokenId.toString())) : // Объединение базового URI с идентификатором токена
+            ""; // Возвращение пустой строки, если базовый URI не задан
+    }
+
+    /**
+     * @dev Внутренняя функция для проверки существования токена.
+     * @param tokenId Идентификатор токена
+     * @return true, если токен существует, иначе false
      */
     function _exists(uint tokenId) internal view returns(bool) {
-        return _owners[tokenId] != address(0); // Проверка существования токена
+        return _owners[tokenId] != address(0); // Проверка, что токен имеет владельца
     }
 
     /**
-     * @dev Функция для проверки прав на токен.
-     * @param spender Адрес проверяющего
+     * @dev Внутренняя функция для проверки, является ли адрес утвержденным или владельцем токена.
+     * @param spender Адрес, проверяющий права на токен
      * @param tokenId Идентификатор токена
-     * @return true, если есть право на токен
+     * @return true, если адрес является владельцем или утвержденным оператором, иначе false
      */
     function _isApprovedOrOwner(address spender, uint tokenId) internal view returns(bool) {
         address owner = ownerOf(tokenId); // Получение владельца токена
-        return (spender == owner || 
-            getApproved(tokenId) == spender || 
-            isApprovedForAll(owner, spender)); // Проверка прав на токен
+        return(
+            spender == owner || // Проверка, что адрес является владельцем токена
+            isApprovedForAll(owner, spender) || // Проверка, что адрес утвержден как оператор для всех токенов владельца
+            getApproved(tokenId) == spender // Проверка, что адрес утвержден для управления конкретным токеном
+        ); // Возвращение результата проверки прав
     }
 
     /**
-     * @dev Функция для безопасного перевода токенов с проверкой на поддерживающий интерфейс.
-     * @param from Адрес отправителя
-     * @param to Адрес получателя
+     * @dev Внутренняя функция для безопасной передачи токена с проверкой поддерживающего интерфейса получателя.
+     * @param from Адрес отправителя токена
+     * @param to Адрес получателя токена
      * @param tokenId Идентификатор токена
-     * @param data Дополнительные данные
+     * @param data Дополнительные данные для передачи
      */
-    function _safeTransfer(address from, address to, uint tokenId, bytes memory data) internal {
-        _transfer(from, to, tokenId); // Выполнение перевода
-        require(_checkOnERC721Received(from, to, tokenId, data), "ERC721: transfer to non-erc721 receiver"); // Проверка поддержки интерфейса ERC721
+    function _safeTransfer(
+        address from,
+        address to,
+        uint tokenId,
+        bytes memory data
+    ) internal {
+        _transfer(from, to, tokenId); // Вызов внутренней функции передачи токена
+        require(
+            _checkOnERC721Received(from, to, tokenId, data),
+            "transfer to non-erc721 receiver" // Проверка, что получатель поддерживает интерфейс ERC721
+        ); // Генерация ошибки, если получатель не поддерживает ERC721
     }
-
+    
     /**
-     * @dev Вспомогательная функция для проверки, поддерживает ли получатель интерфейс ERC721.
-     * @param from Адрес отправителя
-     * @param to Адрес получателя
+     * @dev Внутренняя функция для проверки, поддерживает ли получатель интерфейс ERC721.
+     * @param from Адрес отправителя токена
+     * @param to Адрес получателя токена
      * @param tokenId Идентификатор токена
-     * @param data Дополнительные данные
-     * @return true, если получатель поддерживает ERC721
+     * @param data Дополнительные данные для передачи
+     * @return true, если получатель поддерживает ERC721, иначе false
      */
     function _checkOnERC721Received(
         address from,
@@ -276,54 +308,60 @@ contract ERC721 is ERC165, IERC721, IERC721Metadata {
         uint tokenId,
         bytes memory data
     ) private returns(bool) {
-        if(to.code.length > 0) { // Проверка, поддерживает ли получатель код
-            try IERC721Receiver(to).onERC721Received(msg.sender, from, tokenId, data) returns(bytes4 retval) {
-                return retval == IERC721Receiver.onERC721Received.selector; // Проверка результата получения токена
-            } catch(bytes memory reason) { 
-                if(reason.length == 0) {
-                    revert("Transfer to non-erc721 receiver"); // Ошибка перевода
+        if(to.code.length > 0) { // Проверка, что получатель является контрактом
+            try IERC721Receiver(to).onERC721Received(msg.sender, from, tokenId, data) returns(bytes4 retval) { // Попытка вызова функции onERC721Received
+                return retval == IERC721Receiver.onERC721Received.selector; // Проверка соответствия возвращаемого значения селектору
+            } catch(bytes memory reason) { // Обработка исключений при вызове функции
+                if(reason.length == 0) { // Если причина ошибки не предоставлена
+                    revert("Transfer to non-erc721 receiver"); // Генерация ошибки
                 } else {
-                    assembly {
-                        revert(add(32, reason), mload(reason)) // Обработка ошибки
+                    assembly { // Использование ассемблера для возврата причины ошибки
+                        revert(add(32, reason), mload(reason)) // Возврат причины ошибки
                     }
                 }
             }
         } else {
-            return true; // Возвращение true, если получатель не имеет кода
+            return true; // Возвращение true, если получатель не является контрактом
         }
     }
-
+    
     /**
-     * @dev Вспомогательная функция для выполнения перевода.
-     * @param from Адрес отправителя
-     * @param to Адрес получателя
+     * @dev Внутренняя функция для передачи токена.
+     * @param from Адрес отправителя токена
+     * @param to Адрес получателя токена
      * @param tokenId Идентификатор токена
      */
     function _transfer(address from, address to, uint tokenId) internal {
-        require(ownerOf(tokenId) == from, "ERC721: incorrect owner"); // Проверка на правильного владельца
-        require(to != address(0), "ERC721: transfer to the zero address"); // Проверка на нулевой адрес
-        _beforeTokenTransfer(from, to, tokenId); // Хук до перевода
+        require(ownerOf(tokenId) == from, "incorrect owner!"); // Проверка, что адрес отправителя является владельцем токена
+        require(to != address(0), "to address is zero!"); // Проверка, что адрес получателя не является нулевым
+        _beforeTokenTransfer(from, to, tokenId); // Вызов хука перед передачей токена
         delete _tokenApprovals[tokenId]; // Удаление разрешений на токен
         _balances[from]--; // Уменьшение баланса отправителя
         _balances[to]++; // Увеличение баланса получателя
-        _owners[tokenId] = to; // Установка нового владельца
-        emit Transfer(from, to, tokenId); // Событие перевода
-        _afterTokenTransfer(from, to, tokenId); // Хук после перевода
+        _owners[tokenId] = to; // Установка нового владельца токена
+        emit Transfer(from, to, tokenId); // Генерация события передачи токена
+        _afterTokenTransfer(from, to, tokenId); // Вызов хука после передачи токена
     }
 
     /**
-     * @dev Хук, который вызывается до перевода токенов.
-     * @param from Адрес отправителя
-     * @param to Адрес получателя
+     * @dev Внутренняя функция, вызываемая перед каждым переводом токена.
+     * Может быть переопределена в дочерних контрактах для добавления дополнительной логики.
+     * @param from Адрес отправителя токена
+     * @param to Адрес получателя токена
      * @param tokenId Идентификатор токена
      */
-    function _beforeTokenTransfer(address from, address to, uint tokenId) internal virtual {}
+    function _beforeTokenTransfer(
+        address from, address to, uint tokenId
+    ) internal virtual {} // Пустой хук, может быть переопределен
 
     /**
-     * @dev Хук, который вызывается после перевода токенов.
-     * @param from Адрес отправителя
-     * @param to Адрес получателя
+     * @dev Внутренняя функция, вызываемая после каждого перевода токена.
+     * Может быть переопределена в дочерних контрактах для добавления дополнительной логики.
+     * @param from Адрес отправителя токена
+     * @param to Адрес получателя токена
      * @param tokenId Идентификатор токена
      */
-    function _afterTokenTransfer(address from, address to, uint tokenId) internal virtual {}
+    function _afterTokenTransfer(
+        address from, address to, uint tokenId
+    ) internal virtual {} // Пустой хук, может быть переопределен
 }
