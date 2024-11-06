@@ -1,4 +1,5 @@
-// SPDX-License-Identifier: MIT // Лицензия контракта
+// SPDX-License-Identifier: MIT 
+
 pragma solidity ^0.8.0; // Версия компилятора Solidity
 
 import "./IERC20.sol"; // Импорт интерфейса IERC20 для взаимодействия с другими токенами

@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MIT // Указание лицензии для контракта
+// SPDX-License-Identifier: MIT 
 
 pragma solidity ^0.8.20; // Установка версии компилятора Solidity
 
