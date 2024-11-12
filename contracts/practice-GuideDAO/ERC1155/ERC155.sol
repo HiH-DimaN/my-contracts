@@ -1,5 +1,6 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
+
+pragma solidity ^0.8.20;
 
 // Импорт интерфейсов ERC1155, ERC1155MetadataURI и ERC1155Receiver.
 import "./IERC1155.sol"; // Импорт интерфейса IERC1155 для стандартного мульти-токена.
