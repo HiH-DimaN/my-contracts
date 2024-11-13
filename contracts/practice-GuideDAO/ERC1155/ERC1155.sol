@@ -283,7 +283,7 @@ function _doSafeBatchTransferAcceptanceCheck(
  * @dev Вспомогательная функция для создания массива из одного элемента.
  */
 function _asSingletonArray(uint el) private pure returns (uint[] memory result) {
-    result = new uint; // Создание массива длиной 1.
+    result = new uint[](1); // Создание массива длиной 1.
     result[0] = el; // Присвоение элемента массиву.
 }
 
