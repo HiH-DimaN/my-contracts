@@ -2,7 +2,9 @@
 /* tslint:disable */
 /* eslint-disable */
 export * as addressDemoSol from "./AddressDemo.sol";
+export * as erc1155 from "./ERC1155";
 export * as erc20 from "./ERC20";
+export * as erc2612 from "./ERC2612";
 export * as libStringDemoSol from "./LibStringDemo.sol";
 export * as nftErc721 from "./NFT&ERC721";
 export * as recordFactorySol from "./RecordFactory.sol";
@@ -25,5 +27,6 @@ export { MyGuideDAOToken__factory } from "./MyGuideDAOToken__factory";
 export { MyShop__factory } from "./MyShop__factory";
 export { Overflow__factory } from "./Overflow__factory";
 export { SharedWallet__factory } from "./SharedWallet__factory";
+export { TodoList__factory } from "./TodoList__factory";
 export { Voting__factory } from "./Voting__factory";
 export { Wallet__factory } from "./Wallet__factory";

@@ -3,8 +3,12 @@
 /* eslint-disable */
 import type * as addressDemoSol from "./AddressDemo.sol";
 export type { addressDemoSol };
+import type * as erc1155 from "./ERC1155";
+export type { erc1155 };
 import type * as erc20 from "./ERC20";
 export type { erc20 };
+import type * as erc2612 from "./ERC2612";
+export type { erc2612 };
 import type * as libStringDemoSol from "./LibStringDemo.sol";
 export type { libStringDemoSol };
 import type * as nftErc721 from "./NFT&ERC721";
@@ -33,5 +37,6 @@ export type { MyGuideDAOToken } from "./MyGuideDAOToken";
 export type { MyShop } from "./MyShop";
 export type { Overflow } from "./Overflow";
 export type { SharedWallet } from "./SharedWallet";
+export type { TodoList } from "./TodoList";
 export type { Voting } from "./Voting";
 export type { Wallet } from "./Wallet";

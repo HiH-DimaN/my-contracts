@@ -20,7 +20,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -56,7 +57,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -94,7 +96,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -115,7 +118,7 @@
       ]
     },
     "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\my-contracts\\node_modules\\@openzeppelin\\contracts\\access\\Ownable.sol": {
-      "lastModificationDate": 1728925552720,
+      "lastModificationDate": 1731607621204,
       "contentHash": "d3c790edc9ccf808a17c5a6cd13614fd",
       "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
       "solcConfig": {
@@ -133,7 +136,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -153,7 +157,7 @@
       ]
     },
     "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\my-contracts\\node_modules\\@openzeppelin\\contracts\\utils\\Context.sol": {
-      "lastModificationDate": 1728925551995,
+      "lastModificationDate": 1731607620492,
       "contentHash": "67bfbc07588eb8683b3fd8f6f909563e",
       "sourceName": "@openzeppelin/contracts/utils/Context.sol",
       "solcConfig": {
@@ -171,7 +175,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -189,8 +194,8 @@
       ]
     },
     "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\my-contracts\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol": {
-      "lastModificationDate": 1728925552174,
-      "contentHash": "c6375ef25e84c90b3d15f9ec4eef218f",
+      "lastModificationDate": 1731607620684,
+      "contentHash": "38910c3dfa5e3778fac8888b1d714084",
       "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
       "solcConfig": {
         "version": "0.8.26",
@@ -207,7 +212,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -230,8 +236,8 @@
       ]
     },
     "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\my-contracts\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\IERC20.sol": {
-      "lastModificationDate": 1728925552544,
-      "contentHash": "5517c8678c18eb1a8ba58810e7ca39ca",
+      "lastModificationDate": 1731607621076,
+      "contentHash": "8f19f64d2adadf448840908bbaf431c8",
       "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
       "solcConfig": {
         "version": "0.8.26",
@@ -248,7 +254,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -266,8 +273,8 @@
       ]
     },
     "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\my-contracts\\node_modules\\@openzeppelin\\contracts\\interfaces\\draft-IERC6093.sol": {
-      "lastModificationDate": 1728925552031,
-      "contentHash": "4aefc698f77ecbace7f401257dfe182d",
+      "lastModificationDate": 1731607620528,
+      "contentHash": "267d92fe4de67b1bdb3302c08f387dbf",
       "sourceName": "@openzeppelin/contracts/interfaces/draft-IERC6093.sol",
       "solcConfig": {
         "version": "0.8.26",
@@ -284,7 +291,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -304,8 +312,8 @@
       ]
     },
     "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\my-contracts\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\IERC20Metadata.sol": {
-      "lastModificationDate": 1728925552556,
-      "contentHash": "4c02fa6f7ae7b6c289cef80424f0c875",
+      "lastModificationDate": 1731607621084,
+      "contentHash": "794db3115001aa372c79326fcfd44b1f",
       "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol",
       "solcConfig": {
         "version": "0.8.26",
@@ -322,7 +330,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -342,8 +351,8 @@
       ]
     },
     "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\my-contracts\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\utils\\SafeERC20.sol": {
-      "lastModificationDate": 1728925552752,
-      "contentHash": "697fd27924863e77c17dace2179018b2",
+      "lastModificationDate": 1731607621252,
+      "contentHash": "effe88dd27f56305c4513f7aa9970ec9",
       "sourceName": "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol",
       "solcConfig": {
         "version": "0.8.26",
@@ -360,7 +369,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -371,7 +381,7 @@
       },
       "imports": [
         "../IERC20.sol",
-        "../extensions/IERC20Permit.sol",
+        "../../../interfaces/IERC1363.sol",
         "../../../utils/Address.sol"
       ],
       "versionPragmas": [
@@ -382,8 +392,8 @@
       ]
     },
     "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\my-contracts\\node_modules\\@openzeppelin\\contracts\\utils\\Address.sol": {
-      "lastModificationDate": 1728925551871,
-      "contentHash": "79c699f80eb8a9b168cb34e37816f894",
+      "lastModificationDate": 1731607620407,
+      "contentHash": "553fc9ae17d9c00fd1c301b760781e26",
       "sourceName": "@openzeppelin/contracts/utils/Address.sol",
       "solcConfig": {
         "version": "0.8.26",
@@ -400,7 +410,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -409,7 +420,9 @@
           }
         }
       },
-      "imports": [],
+      "imports": [
+        "./Errors.sol"
+      ],
       "versionPragmas": [
         "^0.8.20"
       ],
@@ -472,7 +485,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -511,7 +525,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -551,7 +566,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -589,7 +605,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -627,7 +644,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -666,7 +684,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -705,7 +724,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -725,7 +745,7 @@
       ]
     },
     "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\my-contracts\\node_modules\\@openzeppelin\\contracts\\access\\AccessControl.sol": {
-      "lastModificationDate": 1728925551758,
+      "lastModificationDate": 1731607620358,
       "contentHash": "4c80b7fdf559a9a348e832a57d072a0b",
       "sourceName": "@openzeppelin/contracts/access/AccessControl.sol",
       "solcConfig": {
@@ -743,7 +763,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -765,8 +786,8 @@
       ]
     },
     "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\my-contracts\\node_modules\\@openzeppelin\\contracts\\access\\IAccessControl.sol": {
-      "lastModificationDate": 1728925552410,
-      "contentHash": "e3a14b0714caaaa82d58fa0bc3756079",
+      "lastModificationDate": 1731607620961,
+      "contentHash": "6f7fac9fa0df6004375e18b7ff7edf4e",
       "sourceName": "@openzeppelin/contracts/access/IAccessControl.sol",
       "solcConfig": {
         "version": "0.8.26",
@@ -783,7 +804,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -801,8 +823,8 @@
       ]
     },
     "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\my-contracts\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\ERC165.sol": {
-      "lastModificationDate": 1728925552134,
-      "contentHash": "6a55c353946e471d9792965d06208295",
+      "lastModificationDate": 1731607620659,
+      "contentHash": "7c03c1e37c3dc24eafb76dc2b8a5c3a6",
       "sourceName": "@openzeppelin/contracts/utils/introspection/ERC165.sol",
       "solcConfig": {
         "version": "0.8.26",
@@ -819,7 +841,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -839,8 +862,8 @@
       ]
     },
     "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\my-contracts\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\IERC165.sol": {
-      "lastModificationDate": 1728925552522,
-      "contentHash": "de0163561b417b800d01749cbbe2147e",
+      "lastModificationDate": 1731607621057,
+      "contentHash": "bf0119eb2a570f219729ff38b6cd1df8",
       "sourceName": "@openzeppelin/contracts/utils/introspection/IERC165.sol",
       "solcConfig": {
         "version": "0.8.26",
@@ -857,7 +880,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -893,7 +917,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -931,7 +956,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -969,7 +995,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -1007,7 +1034,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -1045,7 +1073,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -1085,7 +1114,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -1124,7 +1154,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -1162,7 +1193,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -1200,7 +1232,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -1248,7 +1281,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -1284,7 +1318,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -1320,7 +1355,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -1356,7 +1392,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -1392,7 +1429,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -1430,7 +1468,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -1466,7 +1505,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -1504,7 +1544,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -1540,7 +1581,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -1576,7 +1618,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -1596,8 +1639,8 @@
       ]
     },
     "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\my-contracts\\node_modules\\@openzeppelin\\contracts\\utils\\Strings.sol": {
-      "lastModificationDate": 1728925552768,
-      "contentHash": "ba57ff4ddf1d9cae9d2009792795b7f6",
+      "lastModificationDate": 1731607621270,
+      "contentHash": "f4cc092958a3ddec1f4ed4103bfc54dd",
       "sourceName": "@openzeppelin/contracts/utils/Strings.sol",
       "solcConfig": {
         "version": "0.8.26",
@@ -1614,7 +1657,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -1635,8 +1679,8 @@
       ]
     },
     "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\my-contracts\\node_modules\\@openzeppelin\\contracts\\utils\\math\\Math.sol": {
-      "lastModificationDate": 1728925552696,
-      "contentHash": "718fa8ba0ff269c92e364c1429d9de57",
+      "lastModificationDate": 1731607621183,
+      "contentHash": "2b2665ae9bdb1af440658741a77fe213",
       "sourceName": "@openzeppelin/contracts/utils/math/Math.sol",
       "solcConfig": {
         "version": "0.8.26",
@@ -1653,7 +1697,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -1662,7 +1707,10 @@
           }
         }
       },
-      "imports": [],
+      "imports": [
+        "../Panic.sol",
+        "./SafeCast.sol"
+      ],
       "versionPragmas": [
         "^0.8.20"
       ],
@@ -1671,8 +1719,8 @@
       ]
     },
     "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\my-contracts\\node_modules\\@openzeppelin\\contracts\\utils\\math\\SignedMath.sol": {
-      "lastModificationDate": 1728925552762,
-      "contentHash": "b6c6bdc7aaca4fe5b680760a72e09d3e",
+      "lastModificationDate": 1731607621261,
+      "contentHash": "ae3528afb8bdb0a7dcfba5b115ee8074",
       "sourceName": "@openzeppelin/contracts/utils/math/SignedMath.sol",
       "solcConfig": {
         "version": "0.8.26",
@@ -1689,7 +1737,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -1698,7 +1747,9 @@
           }
         }
       },
-      "imports": [],
+      "imports": [
+        "./SafeCast.sol"
+      ],
       "versionPragmas": [
         "^0.8.20"
       ],
@@ -1725,7 +1776,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -1761,7 +1813,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -1797,7 +1850,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -1833,7 +1887,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -1871,7 +1926,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -1907,7 +1963,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -1950,7 +2007,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -1986,7 +2044,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -2024,7 +2083,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -2060,7 +2120,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -2078,7 +2139,7 @@
       ]
     },
     "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\my-contracts\\node_modules\\hardhat\\console.sol": {
-      "lastModificationDate": 1729801888848,
+      "lastModificationDate": 1731607621822,
       "contentHash": "681c532e816169606d13a5fe8b475074",
       "sourceName": "hardhat/console.sol",
       "solcConfig": {
@@ -2096,7 +2157,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -2132,7 +2194,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -2172,7 +2235,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -2211,7 +2275,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -2249,7 +2314,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -2287,7 +2353,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -2323,7 +2390,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -2362,7 +2430,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -2399,7 +2468,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -2436,7 +2506,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -2473,7 +2544,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -2512,7 +2584,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -2548,7 +2621,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -2586,7 +2660,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -2622,7 +2697,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -2658,7 +2734,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -2694,7 +2771,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -2730,7 +2808,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -2766,7 +2845,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -2802,7 +2882,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -2838,7 +2919,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -2874,7 +2956,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -2910,7 +2993,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -2946,7 +3030,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -2982,7 +3067,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -3018,7 +3104,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -3054,7 +3141,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -3090,7 +3178,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -3126,7 +3215,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -3162,7 +3252,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -3198,7 +3289,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -3234,7 +3326,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -3270,7 +3363,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -3306,7 +3400,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -3342,7 +3437,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -3378,7 +3474,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -3414,7 +3511,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -3450,7 +3548,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -3486,7 +3585,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -3522,7 +3622,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -3558,7 +3659,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -3594,7 +3696,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -3630,7 +3733,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -3666,7 +3770,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -3704,7 +3809,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -3740,7 +3846,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -3776,7 +3883,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -3812,7 +3920,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -3848,7 +3957,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -3884,7 +3994,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -3920,7 +4031,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -3956,7 +4068,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -3992,7 +4105,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -4028,7 +4142,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -4064,7 +4179,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -4100,7 +4216,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -4136,7 +4253,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -4172,7 +4290,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -4210,7 +4329,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -4248,7 +4368,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -4284,7 +4405,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -4320,7 +4442,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -4356,7 +4479,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -4392,7 +4516,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -4428,7 +4553,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -4466,7 +4592,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -4502,7 +4629,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -4538,7 +4666,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -4574,7 +4703,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -4610,7 +4740,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -4646,7 +4777,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -4685,7 +4817,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -4721,7 +4854,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -4757,7 +4891,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -4794,7 +4929,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -4830,7 +4966,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -4866,7 +5003,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -4902,7 +5040,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -4938,7 +5077,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -4974,7 +5114,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -5010,7 +5151,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -5046,7 +5188,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -5082,7 +5225,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -5118,7 +5262,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -5156,7 +5301,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -5192,7 +5338,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -5228,7 +5375,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -5264,7 +5412,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -5300,7 +5449,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -5336,7 +5486,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -5351,6 +5502,1040 @@
       ],
       "artifacts": [
         "OwnerContract"
+      ]
+    },
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\my-contracts\\node_modules\\@openzeppelin\\contracts\\interfaces\\IERC20.sol": {
+      "lastModificationDate": 1731607621072,
+      "contentHash": "79af12d64eacc7d77b9ee2ac4b4d51ee",
+      "sourceName": "@openzeppelin/contracts/interfaces/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../token/ERC20/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": []
+    },
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\my-contracts\\node_modules\\@openzeppelin\\contracts\\interfaces\\IERC1363.sol": {
+      "lastModificationDate": 1731607621042,
+      "contentHash": "6b7c5ee7a59c981072a804c99ab0fac9",
+      "sourceName": "@openzeppelin/contracts/interfaces/IERC1363.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20.sol",
+        "./IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "IERC1363"
+      ]
+    },
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\my-contracts\\node_modules\\@openzeppelin\\contracts\\interfaces\\IERC165.sol": {
+      "lastModificationDate": 1731607621054,
+      "contentHash": "f808b485ee0cdc6768ee8385ae5f9a2a",
+      "sourceName": "@openzeppelin/contracts/interfaces/IERC165.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/introspection/IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": []
+    },
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\my-contracts\\node_modules\\@openzeppelin\\contracts\\utils\\Errors.sol": {
+      "lastModificationDate": 1731607620854,
+      "contentHash": "6b5eac2b85500c3012977849cfd633d8",
+      "sourceName": "@openzeppelin/contracts/utils/Errors.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "Errors"
+      ]
+    },
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\my-contracts\\contracts\\practice-GuideDAO\\ERC1155\\ERC1155.sol": {
+      "lastModificationDate": 1731512723709,
+      "contentHash": "4da62eb59fb9804e4cb21792ec5c0153",
+      "sourceName": "contracts/practice-GuideDAO/ERC1155/ERC1155.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC1155.sol",
+        "./IERC1155MetadataURI.sol",
+        "./IERC1155Receiver.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "ERC1155"
+      ]
+    },
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\my-contracts\\contracts\\practice-GuideDAO\\ERC1155\\IERC1155.sol": {
+      "lastModificationDate": 1731512520888,
+      "contentHash": "f52ad29c7d5f1d33faf11f3f9cfb36a3",
+      "sourceName": "contracts/practice-GuideDAO/ERC1155/IERC1155.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "IERC1155"
+      ]
+    },
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\my-contracts\\contracts\\practice-GuideDAO\\ERC1155\\IERC1155MetadataURI.sol": {
+      "lastModificationDate": 1731512477332,
+      "contentHash": "c6e89db475a9c421e08e66ca5ab0f747",
+      "sourceName": "contracts/practice-GuideDAO/ERC1155/IERC1155MetadataURI.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC1155.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "IERC1155MetadataURI"
+      ]
+    },
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\my-contracts\\contracts\\practice-GuideDAO\\ERC1155\\IERC1155Receiver.sol": {
+      "lastModificationDate": 1731512468592,
+      "contentHash": "ab3c7045c114a0eb4fce12a700d413f9",
+      "sourceName": "contracts/practice-GuideDAO/ERC1155/IERC1155Receiver.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "IERC1155Receiver"
+      ]
+    },
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\my-contracts\\contracts\\practice-GuideDAO\\ERC2612\\crypto\\ECDSA.sol": {
+      "lastModificationDate": 1731408595282,
+      "contentHash": "59eefc67216c784db9ea33d9fe19d622",
+      "sourceName": "contracts/practice-GuideDAO/ERC2612/crypto/ECDSA.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/Strings.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "ECDSA"
+      ]
+    },
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\my-contracts\\contracts\\practice-GuideDAO\\ERC2612\\utils\\Strings.sol": {
+      "lastModificationDate": 1731409952763,
+      "contentHash": "b50d6d9d5dcb408e1f4f7f208b61b117",
+      "sourceName": "contracts/practice-GuideDAO/ERC2612/utils/Strings.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Math.sol",
+        "./SignedMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "Strings"
+      ]
+    },
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\my-contracts\\contracts\\practice-GuideDAO\\ERC2612\\utils\\Math.sol": {
+      "lastModificationDate": 1731408875159,
+      "contentHash": "8539088466c6e682690214caae42a27d",
+      "sourceName": "contracts/practice-GuideDAO/ERC2612/utils/Math.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "Math"
+      ]
+    },
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\my-contracts\\contracts\\practice-GuideDAO\\ERC2612\\utils\\SignedMath.sol": {
+      "lastModificationDate": 1731409333301,
+      "contentHash": "3f9f32ada144690b9ea090c84086dfae",
+      "sourceName": "contracts/practice-GuideDAO/ERC2612/utils/SignedMath.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "SignedMath"
+      ]
+    },
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\my-contracts\\contracts\\practice-GuideDAO\\ERC2612\\ERC20Permit.sol": {
+      "lastModificationDate": 1731417061479,
+      "contentHash": "17c49de0c8e6f1a49f5f962e59744ba7",
+      "sourceName": "contracts/practice-GuideDAO/ERC2612/ERC20Permit.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20Permit.sol",
+        "./ERC20.sol",
+        "./utils/Counters.sol",
+        "./crypto/ECDSA.sol",
+        "./crypto/EIP712.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "ERC20Permit"
+      ]
+    },
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\my-contracts\\contracts\\practice-GuideDAO\\ERC2612\\IERC20Permit.sol": {
+      "lastModificationDate": 1731417034045,
+      "contentHash": "d37176800847eb77a70a2403fb8df363",
+      "sourceName": "contracts/practice-GuideDAO/ERC2612/IERC20Permit.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "IERC20Permit"
+      ]
+    },
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\my-contracts\\contracts\\practice-GuideDAO\\ERC2612\\utils\\Counters.sol": {
+      "lastModificationDate": 1731408721331,
+      "contentHash": "a5942b29aae458e249729d4aeddbf3f4",
+      "sourceName": "contracts/practice-GuideDAO/ERC2612/utils/Counters.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "Counters"
+      ]
+    },
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\my-contracts\\contracts\\practice-GuideDAO\\ERC2612\\ERC20.sol": {
+      "lastModificationDate": 1731417078945,
+      "contentHash": "593ac545904bcb9bf9d7f603cc3c1144",
+      "sourceName": "contracts/practice-GuideDAO/ERC2612/ERC20.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20Metadata.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\my-contracts\\contracts\\practice-GuideDAO\\ERC2612\\crypto\\EIP712.sol": {
+      "lastModificationDate": 1731408588060,
+      "contentHash": "80025417f17e7e2acbad409f6fa96082",
+      "sourceName": "contracts/practice-GuideDAO/ERC2612/crypto/EIP712.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ECDSA.sol",
+        "../utils/ShortStrings.sol",
+        "../IERC5267.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "EIP712"
+      ]
+    },
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\my-contracts\\contracts\\practice-GuideDAO\\ERC2612\\IERC20Metadata.sol": {
+      "lastModificationDate": 1731417044153,
+      "contentHash": "6588561a5987b4006d1847ca83a3d863",
+      "sourceName": "contracts/practice-GuideDAO/ERC2612/IERC20Metadata.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "IERC20Metadata"
+      ]
+    },
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\my-contracts\\contracts\\practice-GuideDAO\\ERC2612\\IERC20.sol": {
+      "lastModificationDate": 1731417052255,
+      "contentHash": "fdd31efa52c932031327b347b06d59de",
+      "sourceName": "contracts/practice-GuideDAO/ERC2612/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\my-contracts\\contracts\\practice-GuideDAO\\ERC2612\\IERC5267.sol": {
+      "lastModificationDate": 1731421987855,
+      "contentHash": "e30e67a0d1da871d3cc4dc2a8c245954",
+      "sourceName": "contracts/practice-GuideDAO/ERC2612/IERC5267.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC5267"
+      ]
+    },
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\my-contracts\\contracts\\practice-GuideDAO\\ERC2612\\utils\\ShortStrings.sol": {
+      "lastModificationDate": 1731408957044,
+      "contentHash": "c72db4b15afea3c739de24e015d41d0c",
+      "sourceName": "contracts/practice-GuideDAO/ERC2612/utils/ShortStrings.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./StorageSlot.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "ShortStrings"
+      ]
+    },
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\my-contracts\\contracts\\practice-GuideDAO\\ERC2612\\utils\\StorageSlot.sol": {
+      "lastModificationDate": 1731409842898,
+      "contentHash": "c32dad6ed697874975b59935dbd8f427",
+      "sourceName": "contracts/practice-GuideDAO/ERC2612/utils/StorageSlot.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "StorageSlot"
+      ]
+    },
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\my-contracts\\contracts\\practice-GuideDAO\\ERC2612\\MyToken.sol": {
+      "lastModificationDate": 1731422319982,
+      "contentHash": "3de4f72d9ee4a51869ad555f0506e246",
+      "sourceName": "contracts/practice-GuideDAO/ERC2612/MyToken.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ERC20.sol",
+        "./ERC20Permit.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "MyToken"
+      ]
+    },
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\my-contracts\\contracts\\practice-GuideDAO\\ERC2612\\Proxy.sol": {
+      "lastModificationDate": 1731422349450,
+      "contentHash": "c76c614f9a3f2cbcc4f228cd8b5f7870",
+      "sourceName": "contracts/practice-GuideDAO/ERC2612/Proxy.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./MyToken.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "Proxy"
+      ]
+    },
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\my-contracts\\node_modules\\@openzeppelin\\contracts\\utils\\math\\SafeCast.sol": {
+      "lastModificationDate": 1731607621249,
+      "contentHash": "2adca1150f58fc6f3d1f0a0f22ee7cca",
+      "sourceName": "@openzeppelin/contracts/utils/math/SafeCast.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "SafeCast"
+      ]
+    },
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\my-contracts\\node_modules\\@openzeppelin\\contracts\\utils\\Panic.sol": {
+      "lastModificationDate": 1731607621222,
+      "contentHash": "2133dc13536b4a6a98131e431fac59e1",
+      "sourceName": "@openzeppelin/contracts/utils/Panic.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "Panic"
+      ]
+    },
+    "C:\\Users\\Дмитрий\\Web3\\Solidity Developer\\my-contracts\\contracts\\practice-GuideDAO\\TodoList.sol": {
+      "lastModificationDate": 1731518329049,
+      "contentHash": "ab2d7b7085ce93b51ff3cb2b376f5a5b",
+      "sourceName": "contracts/practice-GuideDAO/TodoList.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "evmVersion": "cancun",
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "TodoList"
       ]
     }
   }
