@@ -12,6 +12,7 @@
 		"@biomejs/biome": "^1.9.2",
 		"@chainlink/contracts": "^1.0.0",
 		"@nomicfoundation/hardhat-toolbox": "^5.0.0",
+		"@openzeppelin/hardhat-upgrades": "^1.19.1",
 		"@openzeppelin/contracts": "^5.0.2",
 		"dotenv": "^16.0.3",
 		"hardhat": "^2.22.15",
