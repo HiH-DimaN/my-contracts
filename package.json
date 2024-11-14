@@ -10,16 +10,22 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.2",
-		"@chainlink/contracts": "^1.0.0",
+		"@chainlink/contracts": "^0.8.0",
 		"@nomicfoundation/hardhat-toolbox": "^5.0.0",
-		"@openzeppelin/hardhat-upgrades": "^1.19.1",
+		"@nomiclabs/hardhat-ethers": "^2.2.3",
+		"@openzeppelin/hardhat-upgrades": "^1.28.0",
+		"@eth-optimism/contracts": "^0.5.40",
+		"@typechain/hardhat": "^8.1.1",
+		"hardhat-gas-reporter": "^1.0.9",
+		"solidity-coverage": "^0.8.2",
 		"dotenv": "^16.0.3",
 		"hardhat": "^2.22.15",
 		"hardhat-deploy": "^0.14.0"
 	},
 	"dependencies": {
 		"@openzeppelin/contracts": "^5.0.2",
-		"@openzeppelin/contracts-upgradeable": "^4.7.2"
+		"@openzeppelin/contracts-upgradeable": "^4.9.6",
+		"ethers": "^5.7.2"
 	},
 	"engines": {
 		"node": ">=18"
