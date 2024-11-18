@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.20;
 
 import {IERC6909TokenSupply} from "./IERC6909TokenSupply.sol";
 import {ERC6909} from "./ERC6909.sol";
