@@ -119,7 +119,7 @@
 				"inputs": [
 					{
 						"internalType": "bytes32",
-						"name": "uid",
+						"name": "",
 						"type": "bytes32"
 					}
 				],
@@ -163,7 +163,7 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "candidateAddress",
+						"name": "",
 						"type": "address"
 					}
 				],
@@ -195,7 +195,7 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "voter",
+						"name": "",
 						"type": "address"
 					}
 				],
@@ -203,7 +203,7 @@
 				"outputs": [
 					{
 						"internalType": "bytes32",
-						"name": "candidateUid",
+						"name": "",
 						"type": "bytes32"
 					}
 				],
@@ -224,7 +224,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Solidity/Hardhat/my-hardhat-project/contracts/Voting.sol": "Voting"
+			"Voting.sol": "Voting"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -238,12 +238,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Solidity/Hardhat/my-hardhat-project/contracts/Voting.sol": {
-			"keccak256": "0xa212ba2fdadb5494325e268928a13f5d50c8ac967fa7ab25745a8a6a291bc1e4",
+		"Voting.sol": {
+			"keccak256": "0x03345c683a2c64f7980cf9736a2ae279f0c209e73c8348a078305a2f9709dddb",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://afea6716c2c951ddcf14f2b6e9fa761636435cf6c9ab995c85ff5ce6e2baf7db",
-				"dweb:/ipfs/QmPggem7tHRS3vrzHatJxiAXZSpMDqS3mRTqjKTCjcdZjB"
+				"bzz-raw://2f0de75deaf54c9fd19ec76c40391c6cfcb1b236f8272bf5ba42f34223615870",
+				"dweb:/ipfs/QmTx5Acf5QfvTCsU5d3Xo7BzcLYJrZW4WsqCgqTSUpM6wR"
 			]
 		}
 	},

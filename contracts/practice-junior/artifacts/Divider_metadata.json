@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.22+commit.4fc1097e"
+		"version": "0.8.20+commit.a1b79de6"
 	},
 	"language": "Solidity",
 	"output": {
@@ -43,7 +43,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Divider.sol": "Divider"
+			"contracts/practice-junior/Divider.sol": "Divider"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -57,7 +57,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"Divider.sol": {
+		"contracts/practice-junior/Divider.sol": {
 			"keccak256": "0xf2acd4352f726b2d1625b575d79d41713875abe22fcb8ea500d89cd655893b6b",
 			"license": "MIT",
 			"urls": [

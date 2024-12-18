@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.22+commit.4fc1097e"
+		"version": "0.8.20+commit.a1b79de6"
 	},
 	"language": "Solidity",
 	"output": {
@@ -43,7 +43,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Subtracter.sol": "Subtracter"
+			"contracts/practice-junior/Subtracter.sol": "Subtracter"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -57,7 +57,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"Subtracter.sol": {
+		"contracts/practice-junior/Subtracter.sol": {
 			"keccak256": "0x6c0c81f1d2672c268dea4654d47c91220d691bdd7b66ac347918c3a0bff8e0d5",
 			"license": "MIT",
 			"urls": [
