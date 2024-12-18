@@ -23,7 +23,7 @@ contract GameCommitRevaal {
      * @param _hashedSecretNumber Хэш секретного числа.
      */
     constructor(bytes32 _hashedSecretNumber) {
-        hashedSecretNumber = _hashedSecretNumber; // Устанавливаем хэш секретного числа
+        hashedSecretNumber = _hashedSecretNumber; // Устанавливаем хэш секретного числа 
     }
 
     /**
