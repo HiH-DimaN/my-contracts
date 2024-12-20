@@ -195,96 +195,96 @@ contract ERC1155 is IERC1155, IERC1155MetadataURI {
     }
 
     /**
- * @dev Внутренняя функция для установки разрешения оператора.
- */
-function _setApprovalForAll(
-    address owner, // Адрес владельца токенов.
-    address operator, // Адрес оператора, которому выдается или снимается разрешение.
-    bool approved // Статус разрешения (true для установки, false для снятия).
-) internal {
-    require(owner != operator, "Setting approval status for self"); // Проверка, что владелец и оператор не совпадают.
-    _operatorApprovals[owner][operator] = approved; // Установка статуса разрешения для оператора.
-    emit ApprovalForAll(owner, operator, approved); // Генерация события о изменении разрешения.
-}
+    * @dev Внутренняя функция для установки разрешения оператора.
+    */
+    function _setApprovalForAll(
+        address owner, // Адрес владельца токенов.
+        address operator, // Адрес оператора, которому выдается или снимается разрешение.
+        bool approved // Статус разрешения (true для установки, false для снятия).
+    ) internal {
+        require(owner != operator, "Setting approval status for self"); // Проверка, что владелец и оператор не совпадают.
+        _operatorApprovals[owner][operator] = approved; // Установка статуса разрешения для оператора.
+        emit ApprovalForAll(owner, operator, approved); // Генерация события о изменении разрешения.
+    }
 
-/**
- * @dev Внутренний хук, вызываемый перед передачей токенов.
- */
-function _beforeTokenTransfer(
-    address operator, // Адрес оператора, инициирующего передачу.
-    address from, // Адрес отправителя токенов.
-    address to, // Адрес получателя токенов.
-    uint[] memory ids, // Массив идентификаторов токенов.
-    uint[] memory amounts, // Массив количеств токенов.
-    bytes memory data // Дополнительные данные.
-) internal virtual {} // Пустая функция-хук, может быть переопределена в дочерних контрактах.
+    /**
+    * @dev Внутренний хук, вызываемый перед передачей токенов.
+    */
+    function _beforeTokenTransfer(
+        address operator, // Адрес оператора, инициирующего передачу.
+        address from, // Адрес отправителя токенов.
+        address to, // Адрес получателя токенов.
+        uint[] memory ids, // Массив идентификаторов токенов.
+        uint[] memory amounts, // Массив количеств токенов.
+        bytes memory data // Дополнительные данные.
+    ) internal virtual {} // Пустая функция-хук, может быть переопределена в дочерних контрактах.
 
-/**
- * @dev Внутренний хук, вызываемый после передачи токенов.
- */
-function _afterTokenTransfer(
-    address operator, // Адрес оператора, инициирующего передачу.
-    address from, // Адрес отправителя токенов.
-    address to, // Адрес получателя токенов.
-    uint[] memory ids, // Массив идентификаторов токенов.
-    uint[] memory amounts, // Массив количеств токенов.
-    bytes memory data // Дополнительные данные.
-) internal virtual {} // Пустая функция-хук, может быть переопределена в дочерних контрактах.
+    /**
+    * @dev Внутренний хук, вызываемый после передачи токенов.
+    */
+    function _afterTokenTransfer(
+        address operator, // Адрес оператора, инициирующего передачу.
+        address from, // Адрес отправителя токенов.
+        address to, // Адрес получателя токенов.
+        uint[] memory ids, // Массив идентификаторов токенов.
+        uint[] memory amounts, // Массив количеств токенов.
+        bytes memory data // Дополнительные данные.
+    ) internal virtual {} // Пустая функция-хук, может быть переопределена в дочерних контрактах.
 
-/**
- * @dev Проверяет принятие токенов контрактом-получателем.
- */
-function _doSafeTransferAcceptanceCheck(
-    address operator, // Адрес оператора, инициирующего передачу.
-    address from, // Адрес отправителя токенов.
-    address to, // Адрес получателя токенов.
-    uint id, // Идентификатор токена.
-    uint amount, // Количество токенов.
-    bytes calldata data // Дополнительные данные.
-) private {
-    if (to.code.length > 0) { // Проверка, что адрес получателя является контрактом.
-        try IERC1155Receiver(to).onERC1155Received(operator, from, id, amount, data) returns (bytes4 resp) {
-            if (resp != IERC1155Receiver.onERC1155Received.selector) { // Проверка, что контракт возвращает правильный селектор.
-                revert("Rejected tokens"); // Отклонение, если селектор не совпадает.
+    /**
+    * @dev Проверяет принятие токенов контрактом-получателем.
+    */
+    function _doSafeTransferAcceptanceCheck(
+        address operator, // Адрес оператора, инициирующего передачу.
+        address from, // Адрес отправителя токенов.
+        address to, // Адрес получателя токенов.
+        uint id, // Идентификатор токена.
+        uint amount, // Количество токенов.
+        bytes calldata data // Дополнительные данные.
+    ) private {
+        if (to.code.length > 0) { // Проверка, что адрес получателя является контрактом.
+            try IERC1155Receiver(to).onERC1155Received(operator, from, id, amount, data) returns (bytes4 resp) {
+                if (resp != IERC1155Receiver.onERC1155Received.selector) { // Проверка, что контракт возвращает правильный селектор.
+                    revert("Rejected tokens"); // Отклонение, если селектор не совпадает.
+                }
+            } catch Error(string memory reason) {
+                revert(reason); // Перехват ошибки с сообщением и откат транзакции.
+            } catch {
+                revert("Non-ERC1155 receiver"); // Откат транзакции, если вызов не удался.
             }
-        } catch Error(string memory reason) {
-            revert(reason); // Перехват ошибки с сообщением и откат транзакции.
-        } catch {
-            revert("Non-ERC1155 receiver"); // Откат транзакции, если вызов не удался.
         }
     }
-}
 
-/**
- * @dev Проверяет принятие пакетного перевода токенов контрактом-получателем.
- */
-function _doSafeBatchTransferAcceptanceCheck(
-    address operator, // Адрес оператора, инициирующего передачу.
-    address from, // Адрес отправителя токенов.
-    address to, // Адрес получателя токенов.
-    uint[] memory ids, // Массив идентификаторов токенов.
-    uint[] memory amounts, // Массив количеств токенов.
-    bytes calldata data // Дополнительные данные.
-) private {
-    if (to.code.length > 0) { // Проверка, что адрес получателя является контрактом.
-        try IERC1155Receiver(to).onERC1155BatchReceived(operator, from, ids, amounts, data) returns (bytes4 resp) {
-            if (resp != IERC1155Receiver.onERC1155BatchReceived.selector) { // Проверка, что контракт возвращает правильный селектор для пакетной передачи.
-                revert("Rejected tokens"); // Отклонение, если селектор не совпадает.
+    /**
+    * @dev Проверяет принятие пакетного перевода токенов контрактом-получателем.
+    */
+    function _doSafeBatchTransferAcceptanceCheck(
+        address operator, // Адрес оператора, инициирующего передачу.
+        address from, // Адрес отправителя токенов.
+        address to, // Адрес получателя токенов.
+        uint[] memory ids, // Массив идентификаторов токенов.
+        uint[] memory amounts, // Массив количеств токенов.
+        bytes calldata data // Дополнительные данные.
+    ) private {
+        if (to.code.length > 0) { // Проверка, что адрес получателя является контрактом.
+            try IERC1155Receiver(to).onERC1155BatchReceived(operator, from, ids, amounts, data) returns (bytes4 resp) {
+                if (resp != IERC1155Receiver.onERC1155BatchReceived.selector) { // Проверка, что контракт возвращает правильный селектор для пакетной передачи.
+                    revert("Rejected tokens"); // Отклонение, если селектор не совпадает.
+                }
+            } catch Error(string memory reason) {
+                revert(reason); // Перехват ошибки с сообщением и откат транзакции.
+            } catch {
+                revert("Non-ERC1155 receiver"); // Откат транзакции, если вызов не удался.
             }
-        } catch Error(string memory reason) {
-            revert(reason); // Перехват ошибки с сообщением и откат транзакции.
-        } catch {
-            revert("Non-ERC1155 receiver"); // Откат транзакции, если вызов не удался.
         }
     }
-}
 
-/**
- * @dev Вспомогательная функция для создания массива из одного элемента.
- */
-function _asSingletonArray(uint el) private pure returns (uint[] memory result) {
-    result = new uint[](1); // Создание массива длиной 1.
-    result[0] = el; // Присвоение элемента массиву.
-}
+    /**
+    * @dev Вспомогательная функция для создания массива из одного элемента.
+    */
+    function _asSingletonArray(uint el) private pure returns (uint[] memory result) {
+        result = new uint[](1); // Создание массива длиной 1.
+        result[0] = el; // Присвоение элемента массиву.
+    }
 
 }
