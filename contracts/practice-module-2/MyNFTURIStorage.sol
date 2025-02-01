@@ -27,4 +27,14 @@ contract MyNFT is ERC721URIStorage, Ownable {
         _setTokenURI(_nextTokenId, tokenURI); // Устанавливаем URI метаданных
         _nextTokenId++; // Увеличиваем tokenId
     }
+
+    /**
+     * @notice Получает URI метаданных для конкретного токена
+     * @dev Возвращает URI, привязанный к tokenId
+     * @param tokenId Уникальный идентификатор токена
+     * @return string URI, связанный с tokenId
+     */
+    function getTokenURI(uint256 tokenId) external view returns (string memory) {
+        return tokenURI(tokenId); // Возвращает URI метаданных токена
+    }
 }
