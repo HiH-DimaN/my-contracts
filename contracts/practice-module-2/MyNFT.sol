@@ -1,39 +1,53 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.20;
+pragma solidity ^0.8.0;
 
-import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
-import "@openzeppelin/contracts/access/Ownable.sol";
+// Импортируем необходимые контракты из OpenZeppelin
+import "@openzeppelin/contracts/token/ERC721/ERC721.sol"; // Импортируем базовый контракт ERC721
+import "@openzeppelin/contracts/utils/Counters.sol"; // Импортируем библиотеку Counters для управления ID токенов
 
 /**
  * @title MyNFT
- * @dev Контракт ERC721 с расширением Enumerable, автоматически минтящий 10 токенов при развертывании
+ * @dev Контракт для создания NFT с использованием стандарта ERC721.
+ * Поддерживает минтинг токенов и хранение их URI.
  */
-contract MyNFT is ERC721Enumerable, Ownable {
-    uint256 private _nextTokenId; // Переменная для отслеживания следующего доступного tokenId
+contract MyNFT is ERC721 {
+    using Counters for Counters.Counter; // Используем библиотеку Counters для управления ID токенов
+    Counters.Counter private _tokenIds; // Счетчик для генерации уникальных ID токенов
 
     /**
-     * @dev Конструктор, устанавливающий имя и символ токена, а также вызывающий функцию начального минтинга
+     * @dev Конструктор контракта.
+     * Задает имя и символ токена.
      */
-    constructor() ERC721("MyNFT", "MNFT") {
-        _mintInitialTokens(); // Минтит первые 10 NFT при деплое контракта
+    constructor() ERC721("MyNFT", "MNFT") {} // Инициализируем контракт с именем "MyNFT" и символом "MNFT"
+
+    /**
+     * @dev Функция для минтинга нового токена.
+     * @param to Адрес получателя токена.
+     * @return newTokenId ID нового токена.
+     */
+    function mint(address to) public returns (uint256) {
+        _tokenIds.increment(); // Увеличиваем счетчик токенов на 1
+        uint256 newTokenId = _tokenIds.current(); // Получаем текущее значение счетчика (ID нового токена)
+        _mint(to, newTokenId); // Минтим токен и назначаем его адресу `to`
+        return newTokenId; // Возвращаем ID нового токена
     }
 
     /**
-     * @dev Функция для начального минтинга 10 токенов владельцу контракта
+     * @dev Функция для минтинга первых 10 токенов.
+     * @param to Адрес получателя токенов.
      */
-    function _mintInitialTokens() internal {
-        for (uint256 i = 0; i < 10; i++) {
-            _safeMint(msg.sender, _nextTokenId); // Безопасный минт токена текущему владельцу
-            _nextTokenId++; // Увеличиваем счетчик tokenId
+    function mintFirst10Tokens(address to) public {
+        require(_tokenIds.current() == 0, "First 10 tokens already minted"); // Проверяем, что токены еще не были заминтины
+        for (uint256 i = 0; i < 10; i++) { // Цикл для минтинга 10 токенов
+            mint(to); // Минтим токен и назначаем его адресу `to`
         }
     }
 
     /**
-     * @notice Минт нового NFT только владельцем контракта
-     * @dev Минтится один токен и отправляется владельцу контракта
+     * @dev Функция для получения общего количества токенов.
+     * @return Общее количество заминтинных токенов.
      */
-    function mint() external onlyOwner {
-        _safeMint(msg.sender, _nextTokenId); // Минтим новый NFT
-        _nextTokenId++; // Увеличиваем счетчик tokenId
+    function totalSupply() public view returns (uint256) {
+        return _tokenIds.current(); // Возвращаем текущее значение счетчика токенов
     }
 }
